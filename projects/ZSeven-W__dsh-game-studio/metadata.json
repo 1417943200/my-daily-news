@@ -17,20 +17,20 @@
   ],
   "license": "MIT",
   "category": "AI 应用",
-  "classify_reason": "关键词命中",
+  "classify_reason": "通过一句话生成小游戏的 AI studio，终端应用",
   "one_liner": "Describe a small game in one sentence, play it in the DeepSeek Harness sidebar, swap in AI art, and publish to GitHub Pages or Cloudflare in one click.",
   "why_worth_it": "",
   "tags": [],
   "confidence": "medium",
   "info_gaps": [],
   "quality_flags": [],
-  "stars_total": 564,
+  "stars_total": 569,
   "created_at": "2026-11-05",
   "pushed_at": "2026-11-09",
   "latest_release": null,
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-16",
-  "streak_days": 8,
+  "last_seen": "2026-11-17",
+  "streak_days": 9,
   "analysis_updated_at": null,
   "appearances": [
     {
@@ -86,6 +86,13 @@
       "date": "2026-11-16",
       "reason": "lightweight",
       "stars_total": 564,
+      "stars_gained": 0,
+      "release": null
+    },
+    {
+      "date": "2026-11-17",
+      "reason": "lightweight",
+      "stars_total": 569,
       "stars_gained": 0,
       "release": null
     }

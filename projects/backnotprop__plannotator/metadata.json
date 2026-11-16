@@ -1,0 +1,53 @@
+{
+  "full_name": "backnotprop/plannotator",
+  "url": "https://github.com/backnotprop/plannotator",
+  "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click. ",
+  "language": "TypeScript",
+  "topics": [
+    "agents",
+    "claude-code",
+    "code-review",
+    "codex",
+    "obsidian",
+    "opencode",
+    "pi-mono",
+    "plan-mode",
+    "skills"
+  ],
+  "license": "Apache-2.0",
+  "category": "AI 应用",
+  "classify_reason": "面向团队与 agent 协作的工作台，终端 AI 工具",
+  "one_liner": "本地优先的 Agent 审查与反馈界面，连 Claude Code、Codex 等。",
+  "why_worth_it": "给多 agent 工作流补统一审查层：注释决策/计划/diff 后一键回给 agent，本地运行。",
+  "tags": [
+    "Agent 工具",
+    "本地优先",
+    "代码审查",
+    "多智能体"
+  ],
+  "confidence": "high",
+  "info_gaps": [
+    "README 未披露内部存储、数据库、渲染框架等实现细节",
+    "未说明除安装脚本外是否需要 Node.js 或其他运行时依赖",
+    "无 benchmark/性能数据，也未与同类工具做量化对比",
+    "大文件、多线程、多 agent 并发场景下的资源占用未给出参考"
+  ],
+  "quality_flags": [],
+  "stars_total": 12489,
+  "created_at": "2025-12-28",
+  "pushed_at": "2026-11-16",
+  "latest_release": "v0.28.66",
+  "first_seen": "2026-11-17",
+  "last_seen": "2026-11-17",
+  "streak_days": 1,
+  "analysis_updated_at": "2026-11-17T05:59:15+0800",
+  "appearances": [
+    {
+      "date": "2026-11-17",
+      "reason": "new",
+      "stars_total": 12489,
+      "stars_gained": 1719,
+      "release": "v0.28.66"
+    }
+  ]
+}

@@ -1,46 +1,41 @@
 ## 它是什么
-/last30days 是一个AI代理驱动的搜索引擎，专注于从Reddit、X（Twitter）、YouTube、Hacker News、Polymarket等15+社交与信息平台中抓取最近30天内容，根据真实用户互动（赞、踩、评论、资金）进行评分，并由AI合成一个简洁的综合性摘要。它打破平台间的数据孤岛，以社区偏好而非编辑或SEO决定相关性。
+`/last30days` 是一个 AI agent 技能（skill），让 AI 助手能并行搜索 Reddit、X、YouTube、Hacker News、Polymarket、GitHub 等 50+ 平台的最近 30 天内容，按点赞、转发、观看、真实资金等参与度信号评分，并由 AI “法官” 综合成一份简报。它作为一个可安装的技能包运行在 Claude Code、Codex、Cursor、Copilot、Gemini CLI 等 50+ 个 agent 宿主上，安装后零配置即可使用 Reddit、HN、Polymarket、GitHub，运行一次向导可解锁更多源。
 
 ## 为什么火
-- **解决痛点**：Google无法穿透社交内容，各平台API互不联通。本项目利用用户自己的密钥或浏览器会话，同时搜索多平台，组合出单一答案。
-- **独特评分**：评分标准不是网页权重，而是Reddit upvotes、X likes、YouTube观看、Polymarket赔率等真实参与度，反映“人”的意见。
-- **快速上手**：零配置即可使用Reddit/HN/Polymarket等免费来源，一键安装向导可启用X、YouTube、TikTok等需认证的源。
-- **社区驱动**：54k+星标，170+社区PR，50+贡献者，已支持Claude Code、Codex、Cursor等50+平台，迭代迅速。
+该项目在 GitHub 上获得 68070 star，曾登上 Trending 第一。它切中的痛点是：Google 聚合的是编辑和 SEO 内容，ChatGPT 有 Reddit 协议但搜不到 X/TikTok，Gemini 有 YouTube 但缺 Reddit，每个平台都是数据孤岛。`/last30days` 把这些孤岛桥接起来，让 agent 能跨平台搜索并对比，用数百万用户每天的点赞和钱包投票作为排序信号，提供的是“人”在关注什么，而不是编辑在写什么。
 
 ## 技术栈
 - 语言：Python
-- 分发：通过Claude Code插件市场和npm技能包（`npx skills add`）提供，兼容50+ Agent Skills主机。
-- 数据源接入：Reddit（免费，RSS/shreddit抓取）、Hacker News、Polymarket、GitHub；X、YouTube、TikTok等需用户提供API密钥或浏览器cookies/会话。
-- AI合成：由“AI agent judge”执行（推测为宿主客户端的LLM，如Claude），README未限定模型。
-- 架构细节未披露，但应为一个本地命令行工具，调用各平台接口并本地运行分析。
+- 分发：作为 agent skill，通过 Claude Code 插件市场或 `npx skills add` 安装
+- 核心规范：`skills/last30days/SKILL.md` 是运行时真相来源
+- 扩展工具：部分数据源依赖本地 CLI（如 `arxiv-pp-cli`、`techmeme-pp-cli`），首次运行向导会安装
+- 零配置源：Reddit、HN、Polymarket、GitHub 直接可用；其他需 API keys 或浏览器会话
 
 ## 核心能力
-- 并行多源搜索，一次查询覆盖Reddit、X、YouTube、HN、Polymarket等，按30天窗口筛选。
-- 收集顶帖、评论、点赞、观看量、预测市场赔率等指标，聚合为相关性得分。
-- AI合成带引用来源的简报，包括关键观点、社区情绪和最佳评论（Best Takes）。
-- 专用模式：`--hiring-signals`分析招聘信号，`--search xhs`访问小红书，支持对比模式（如“OpenClaw vs Hermes”）。
-- 发现模式：扫描平台首页/排行榜找出新兴话题并提供跟进查询。
+- 多源并行搜索：覆盖社交（Reddit/X/YouTube/TikTok/Instagram/LinkedIn/Bluesky 等）、技术（GitHub/HN/arXiv/Techmeme）、金融（Polymarket/Yahoo Finance/StockTwits）、商业信号（Meta Ads/Trustpilot/Amazon）等
+- 参与度评分：用 upvotes、likes、views、odds 等真实互动排序，而非 SEO
+- AI 综合：agent 对结果进行筛选和总结，输出简明的 `grounded summary`
+- 专题模式：人物调研、公司招聘信号、专利分析、产品对比、趋势发现（`--hiring-signals`、`? what's exploding in AI agents?`）
+- 可扩展性：50+ 宿主，提供插件机制，可新增源
 
 ## 适用场景
-- 会面准备：输入人名，了解近期动态、社区声誉、项目活跃度。
-- 趋势捕捉：发现AI/产品圈新兴话题，分析热度。
-- 事件追踪：名人争议、地缘事件、产品发布，多角度实况。
-- 工具/企业调研：对比开源项目、公司招聘信号、技术栈变化。
-- 出行研究：查游乐设施排队时间、景区近况等。
+- 会议/销售前快速调研一个人或公司的近期动态
+- 发现爆发中的话题（AI 领域变化快）
+- 对比工具、产品或竞品
+- 追踪热点事件（如名人、地缘政治）
+- 分析公司的招聘和专利作为前瞻信号
 
 ## 同类对比
-- **传统搜索引擎（Google/Bing）**：内容过时、不抓取社交深度内容，基于SEO排名。
-- **单一平台搜索**：只能看一个源，无法交叉比分。
-- **Perplexity/You.com**：可以联网，但偏向网页语料，缺乏对社交参与度的量化加权和跨平台聚合。
-- **本项目的独特价值**：以平台原生互动数为信噪比过滤器，AI代理担任协调者，在本地组装结果，不受单一公司API协议限制。
+- vs Google 搜索：Google 基于编辑和 SEO 索引，缺少社交评论和实时热度；`/last30days` 直接以用户参与度排序
+- vs ChatGPT 搜索：ChatGPT 有 Reddit 合作但无法搜索 X、TikTok 等；本技能可同时接入多个平台
+- vs Gemini：拥有 YouTube 但缺乏 Reddit 原生数据；本技能桥接多个孤岛
+- vs Perplexity：Perplexity 提供 AI 搜索，但本技能将其作为一个来源之一，并叠加了金融、社交等信号
 
 ## 版本动态
-- 当前v3.18.3（2026-07-25），半年内从v3.3迭代15个版本，合并175个PR，多数来自社区。
-- 近期重点：Reddit计分修复、YouTube转录备份、评论排序优化、计划校验、多源过滤等。
-- 新增Xiaohongshu、Bluesky、Threads、Digg、Techmeme等支持，持续扩展新平台。
+最新版本 v4.2.1（2026-11-16）主要是一轮修复：修正 YouTube 评论开关、Reddit 评论树读取、JSON 提取拒绝非对象、GitHub issue 评论按 reactions 排序、保存后缀清理等。多位新贡献者参与。项目迭代频繁，持续维护，反映了社区活跃度。
 ---
 
 ## ℹ️ 置信度与信息盲区
 
 - 置信度：**high**
-- 信息盲区：未明确默认的AI模型及是否可配置；缺乏查询耗时和并发性能数据
+- 信息盲区：README 未详细说明 Python 依赖清单和内部模块结构；未提供搜索质量评估或 benchmark 数据（docs/search-quality-eval.md 存在但未在 README 展示）；未说明各平台 API 调用的频率限制、重试和成本控制机制；未说明用户 API keys 的存储位置和安全处理方式；某些数据源的接入细节（如 Telegram、Truth Social、Amazon）需要查阅 CONFIGURATION.md，README 只做了概述

@@ -15,30 +15,31 @@
   ],
   "license": "Apache-2.0",
   "category": "AI 应用",
-  "classify_reason": "Chrome DevTools adapted for AI coding agents",
-  "one_liner": "将Chrome DevTools封装为MCP服务，赋予AI代理浏览器调试与性能分析能力。",
-  "why_worth_it": "Chrome DevTools团队官方出品，性能追踪、堆内存分析等专业能力直连AI代理，深度超越纯页面自动化工具。",
+  "classify_reason": "为 coding agent 提供 Chrome DevTools 的 MCP 工具",
+  "one_liner": "官方 MCP 让编码代理直接操控、调试并分析实时 Chrome。",
+  "why_worth_it": "提供编码代理可靠的浏览器自动化、调试与性能分析；官方出品，比直接用 Puppeteer 更贴合 MCP 生态。",
   "tags": [
     "MCP",
     "浏览器自动化",
     "性能分析",
-    "Chrome DevTools"
+    "Puppeteer"
   ],
   "confidence": "high",
   "info_gaps": [
-    "未提供与其他浏览器MCP工具的性能对比基准数据",
-    "未明确说明支持的具体Chrome最低版本或Edge等Chromium浏览器的兼容性细节",
-    "未描述在多浏览标签页或多浏览器实例并发场景下的稳定性与资源开销"
+    "未提供完整工具清单，需查阅 docs/tool-reference.md 和 slim-tool-reference.md",
+    "无 benchmark 数据或稳定性/性能对比实验",
+    "Android 调试、持久化用户目录、并发会话等高级用法细节在 README 中仅提及，需读 docs/advanced-usage.md",
+    "使用统计具体字段未在 README 全部列出，仅说明包含成功率、延迟、环境信息"
   ],
   "quality_flags": [],
-  "stars_total": 46361,
+  "stars_total": 57636,
   "created_at": "2025-09-11",
-  "pushed_at": "2026-07-08",
-  "latest_release": "chrome-devtools-mcp-v1.5.0",
+  "pushed_at": "2026-11-16",
+  "latest_release": "chrome-devtools-mcp-v1.13.0",
   "first_seen": "2026-07-03",
-  "last_seen": "2026-07-09",
-  "streak_days": 6,
-  "analysis_updated_at": "2026-07-04T01:12:38+0800",
+  "last_seen": "2026-11-17",
+  "streak_days": 7,
+  "analysis_updated_at": "2026-11-17T06:03:38+0800",
   "appearances": [
     {
       "date": "2026-07-03",
@@ -81,6 +82,13 @@
       "stars_total": 46361,
       "stars_gained": 1480,
       "release": "chrome-devtools-mcp-v1.5.0"
+    },
+    {
+      "date": "2026-11-17",
+      "reason": "release_update",
+      "stars_total": 57636,
+      "stars_gained": 837,
+      "release": "chrome-devtools-mcp-v1.13.0"
     }
   ]
 }

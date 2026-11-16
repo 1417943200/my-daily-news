@@ -1,0 +1,61 @@
+{
+  "full_name": "google/elephant-goldfish-model",
+  "url": "https://github.com/google/elephant-goldfish-model",
+  "description": "Open-source plugin for designing and reviewing software with agents",
+  "language": "Python",
+  "topics": [
+    "agent-skills",
+    "ai-agents",
+    "antigravity",
+    "claude-code",
+    "claude-code-plugin",
+    "claude-skills",
+    "codex",
+    "codex-plugin",
+    "coding-agents",
+    "context-engineering",
+    "developer-tools",
+    "gemini",
+    "llm",
+    "multi-agent",
+    "prompt-engineering",
+    "spec-driven-development"
+  ],
+  "license": "Apache-2.0",
+  "category": "AI 应用",
+  "classify_reason": "使用 agent 进行软件设计与评审的插件，终端工具",
+  "one_liner": "开源 AI 插件：大象管上下文，金鱼用新视角审查设计。",
+  "why_worth_it": "解决 AI 编码助手设计评审时自说自话的问题，用 fresh subagent 暴露盲点，适合搞 spec-driven dev 的团队。",
+  "tags": [
+    "Agent框架",
+    "规范驱动开发",
+    "多智能体",
+    "开发者工具"
+  ],
+  "confidence": "medium",
+  "info_gaps": [
+    "无 benchmark 数据或效果评估指标",
+    "未说明 Python 代码具体作用（插件打包/验证脚本？）",
+    "端到端发布 ZIP 验证仍在 open（issue #60）",
+    "未提供支持的具体模型列表或 API 要求",
+    "未说明金鱼 reviewer 的具体提示词实现细节"
+  ],
+  "quality_flags": [],
+  "stars_total": 20325,
+  "created_at": "2026-09-13",
+  "pushed_at": "2026-11-16",
+  "latest_release": "v0.1.1",
+  "first_seen": "2026-11-17",
+  "last_seen": "2026-11-17",
+  "streak_days": 1,
+  "analysis_updated_at": "2026-11-17T05:58:43+0800",
+  "appearances": [
+    {
+      "date": "2026-11-17",
+      "reason": "new",
+      "stars_total": 20325,
+      "stars_gained": 5060,
+      "release": "v0.1.1"
+    }
+  ]
+}

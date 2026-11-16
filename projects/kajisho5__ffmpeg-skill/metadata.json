@@ -1,0 +1,64 @@
+{
+  "full_name": "kajisho5/ffmpeg-skill",
+  "url": "https://github.com/kajisho5/ffmpeg-skill",
+  "description": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
+  "language": "Python",
+  "topics": [
+    "agent-skills",
+    "ai-agents",
+    "audio-processing",
+    "captions",
+    "claude-code",
+    "codex",
+    "coding-agent",
+    "cursor",
+    "ffmpeg",
+    "gemini-cli-extension",
+    "loudness-normalization",
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "python",
+    "subtitles",
+    "transcoding",
+    "video",
+    "video-editing",
+    "whisper"
+  ],
+  "license": "MIT",
+  "category": "AI 应用",
+  "classify_reason": "面向 coding agent 的视频编辑工具集",
+  "one_liner": "本地视频编辑器 for 编程代理：42 个 FFmpeg 工具 + MCP 契约，无云无密钥",
+  "why_worth_it": "解决代理直接写 FFmpeg 爱瞎猜、不验证的问题；先探针、再无损编辑、后检查输出。本地离线，适合敏感素材。",
+  "tags": [
+    "Agent技能",
+    "本地优先",
+    "MCP",
+    "FFmpeg"
+  ],
+  "confidence": "high",
+  "info_gaps": [
+    "README 截断至 12000 字，未见完整 Install 表（Windows/macOS 细节）及 FAQ/Development 后半部分",
+    "未提供量化性能基准（转码速度、内存/CPU 占用）",
+    "MCP server 的传输、认证、生命周期细节未在截断内容中展开",
+    "与生态外同类工具（如云视频 API、其他 agent video skill）无直接对比数据"
+  ],
+  "quality_flags": [],
+  "stars_total": 6587,
+  "created_at": "2026-09-03",
+  "pushed_at": "2026-11-16",
+  "latest_release": "v3.10.1",
+  "first_seen": "2026-11-17",
+  "last_seen": "2026-11-17",
+  "streak_days": 1,
+  "analysis_updated_at": "2026-11-17T06:00:19+0800",
+  "appearances": [
+    {
+      "date": "2026-11-17",
+      "reason": "new",
+      "stars_total": 6587,
+      "stars_gained": 475,
+      "release": "v3.10.1"
+    }
+  ]
+}

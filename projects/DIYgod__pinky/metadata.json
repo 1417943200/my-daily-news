@@ -15,21 +15,31 @@
   ],
   "license": "Apache-2.0",
   "category": "AI 应用",
-  "classify_reason": "关键词命中",
-  "one_liner": "Let AI use your iPhone or Android phone, with you in the loop: any MCP agent from macOS, Windows or Linux, or Pinky itself, right on the phone.",
-  "why_worth_it": "",
-  "tags": [],
-  "confidence": "medium",
-  "info_gaps": [],
+  "classify_reason": "让 AI 控制手机，MCP 自动化工具",
+  "one_liner": "让AI代理操作真实手机，人在环审批，支持Android/iOS与MCP",
+  "why_worth_it": "用审批网关和隐藏第二屏把手机交给AI，跨平台、可回放、可本地模型，适合想安全试验的极客。",
+  "tags": [
+    "手机自动化",
+    "MCP",
+    "人机协同",
+    "安全审批"
+  ],
+  "confidence": "high",
+  "info_gaps": [
+    "无 benchmark 或性能量化数据（如读屏延迟、审批按钮识别准确率）",
+    "未说明各 Android 品牌/OEM 的兼容差异覆盖是否完整（README 只列品牌，但未提供验证矩阵）",
+    "未提供与同类项目的直接对比或差异数据",
+    "docs/mcp.md 等文档未展开，具体 MCP 工具接口细节未在 README 中覆盖"
+  ],
   "quality_flags": [],
-  "stars_total": 2241,
+  "stars_total": 2287,
   "created_at": "2026-11-06",
   "pushed_at": "2026-11-16",
-  "latest_release": "v2026.1116.4",
+  "latest_release": "v2026.1117.1",
   "first_seen": "2026-11-14",
-  "last_seen": "2026-11-16",
-  "streak_days": 4,
-  "analysis_updated_at": null,
+  "last_seen": "2026-11-17",
+  "streak_days": 5,
+  "analysis_updated_at": "2026-11-17T06:07:07+0800",
   "appearances": [
     {
       "date": "2026-11-14",
@@ -58,6 +68,13 @@
       "stars_total": 2241,
       "stars_gained": 0,
       "release": "v2026.1116.4"
+    },
+    {
+      "date": "2026-11-17",
+      "reason": "release_update",
+      "stars_total": 2287,
+      "stars_gained": 0,
+      "release": "v2026.1117.1"
     }
   ]
 }

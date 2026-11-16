@@ -15,20 +15,20 @@
   ],
   "license": "Apache-2.0",
   "category": "AI 应用",
-  "classify_reason": "关键词命中",
+  "classify_reason": "从 AI 视频进行动作捕捉的工具",
   "one_liner": "Motion capture for any creature from one AI video: two cameras in one frame, a DINOv2 joint reader, the rig fitted in both views, a GLB out.",
   "why_worth_it": "",
   "tags": [],
   "confidence": "medium",
   "info_gaps": [],
   "quality_flags": [],
-  "stars_total": 601,
+  "stars_total": 609,
   "created_at": "2026-10-27",
   "pushed_at": "2026-11-13",
   "latest_release": "examples-v1",
   "first_seen": "2026-10-29",
-  "last_seen": "2026-11-16",
-  "streak_days": 20,
+  "last_seen": "2026-11-17",
+  "streak_days": 21,
   "analysis_updated_at": null,
   "appearances": [
     {
@@ -168,6 +168,13 @@
       "date": "2026-11-16",
       "reason": "lightweight",
       "stars_total": 601,
+      "stars_gained": 0,
+      "release": "examples-v1"
+    },
+    {
+      "date": "2026-11-17",
+      "reason": "lightweight",
+      "stars_total": 609,
       "stars_gained": 0,
       "release": "examples-v1"
     }

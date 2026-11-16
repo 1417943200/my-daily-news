@@ -2,3 +2,4 @@
 - 2026-11-15 | release_update | ⭐2135(+0) | release=v2026.1115.1
 - 2026-11-16 | release_update | ⭐2204(+0) | release=v2026.1115.11
 - 2026-11-16 | lightweight | ⭐2241(+0) | release=v2026.1116.4
+- 2026-11-17 | release_update | ⭐2287(+0) | release=v2026.1117.1

@@ -1,0 +1,64 @@
+{
+  "full_name": "hitkeeen/blender-ai-mcp-addon",
+  "url": "https://github.com/hitkeeen/blender-ai-mcp-addon",
+  "description": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
+  "language": null,
+  "topics": [
+    "ai-agents",
+    "ai-assistant",
+    "blender",
+    "blender-addon",
+    "blender-ai",
+    "blender-automation",
+    "blender-mcp",
+    "blender-plugin",
+    "blender-scripting",
+    "bpy",
+    "chatgpt",
+    "claude",
+    "gemini",
+    "llm",
+    "mcp",
+    "mcp-for-blender",
+    "mcp-server",
+    "model-context-protocol",
+    "ollama",
+    "opencode"
+  ],
+  "license": "MIT",
+  "category": "AI 应用",
+  "classify_reason": "Blender AI 助手与 MCP server，用于 3D 创作",
+  "one_liner": "Blender 的 AI/MCP 插件：可视化聊天、21 个场景工具、多代理编排。",
+  "why_worth_it": "让 Blender 场景自动化从单次脚本升级为可审批、多代理、可接任意 MCP 客户端的本地工作流。",
+  "tags": [
+    "Blender MCP",
+    "多代理编排",
+    "本地 MCP 服务"
+  ],
+  "confidence": "high",
+  "info_gaps": [
+    "未提供 benchmark、性能或测试覆盖率数据",
+    "多代理 Team chain 的失败重试、审查返回格式等实现细节较概括",
+    "21 个场景工具的具体参数/JSON schema 未在 README 完整列出",
+    "MCP 服务器的认证机制和安全边界细节需查阅 docs/CONNECTIONS.md",
+    "仅声明 Windows x64 + Blender 4.2+，未说明 macOS/Linux 支持计划或兼容性"
+  ],
+  "quality_flags": [],
+  "stars_total": 2146,
+  "created_at": "2026-11-12",
+  "pushed_at": "2026-11-12",
+  "latest_release": "v1.0.0",
+  "first_seen": "2026-11-17",
+  "last_seen": "2026-11-17",
+  "streak_days": 1,
+  "analysis_updated_at": "2026-11-17T06:01:29+0800",
+  "appearances": [
+    {
+      "date": "2026-11-17",
+      "reason": "new",
+      "stars_total": 2146,
+      "stars_gained": 0,
+      "release": "v1.0.0"
+    }
+  ]
+}

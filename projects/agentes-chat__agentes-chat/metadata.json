@@ -27,21 +27,32 @@
   ],
   "license": "AGPL-3.0",
   "category": "AI 应用",
-  "classify_reason": "关键词命中",
-  "one_liner": "Open-source, self-hosted Slack alternative where your team and AI agents work together in channels and DMs. Agents run on Claude, ChatGPT/Codex, Gemini or Grok, with MCP tools, their own computer and browser, routines, memory and approvals. Web, desktop and phone apps. Docker Compose + Postgres. AGPL-3.0.",
-  "why_worth_it": "",
-  "tags": [],
-  "confidence": "medium",
-  "info_gaps": [],
+  "classify_reason": "团队与 AI agent 协作的自托管聊天平台",
+  "one_liner": "自托管 Slack 替代，代理作为成员带电脑/浏览器和审批协作。",
+  "why_worth_it": "让 AI 代理成为团队频道的一等成员，自托管免费，带预算、审批和可接管的电脑/浏览器，胜过侧边栏机器人。",
+  "tags": [
+    "AI Agent",
+    "自托管",
+    "Slack 替代",
+    "MCP"
+  ],
+  "confidence": "high",
+  "info_gaps": [
+    "未提供基准测试数据（性能、吞吐量、资源占用）",
+    "部署资源推荐仅提及 8GB 内存以下有限制，未给不同规模建议",
+    "MCP 连接器具体授权流程细节未完全说明",
+    "桌面应用 Beta 在 macOS 未公证、Windows 未签名，手机应用商店分发状态未说明",
+    "导入功能支持的具体应用版本兼容性未说明"
+  ],
   "quality_flags": [],
-  "stars_total": 1558,
+  "stars_total": 1618,
   "created_at": "2026-11-09",
   "pushed_at": "2026-11-16",
-  "latest_release": "desktop-v0.8.10",
+  "latest_release": "desktop-v0.8.11",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-16",
-  "streak_days": 5,
-  "analysis_updated_at": null,
+  "last_seen": "2026-11-17",
+  "streak_days": 6,
+  "analysis_updated_at": "2026-11-17T06:06:20+0800",
   "appearances": [
     {
       "date": "2026-11-13",
@@ -77,6 +88,13 @@
       "stars_total": 1558,
       "stars_gained": 0,
       "release": "desktop-v0.8.10"
+    },
+    {
+      "date": "2026-11-17",
+      "reason": "release_update",
+      "stars_total": 1618,
+      "stars_gained": 0,
+      "release": "desktop-v0.8.11"
     }
   ]
 }

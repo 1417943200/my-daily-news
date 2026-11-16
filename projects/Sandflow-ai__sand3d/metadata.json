@@ -14,20 +14,20 @@
   ],
   "license": "Apache-2.0",
   "category": "AI 应用",
-  "classify_reason": "关键词命中",
+  "classify_reason": "面向 LLM 的 Python 3D 建模工具",
   "one_liner": "3D modeling in Python, built for LLMs.",
   "why_worth_it": "",
   "tags": [],
   "confidence": "medium",
   "info_gaps": [],
   "quality_flags": [],
-  "stars_total": 2054,
+  "stars_total": 2080,
   "created_at": "2026-11-03",
-  "pushed_at": "2026-11-14",
+  "pushed_at": "2026-11-16",
   "latest_release": "v1.6.3",
   "first_seen": "2026-11-07",
-  "last_seen": "2026-11-16",
-  "streak_days": 11,
+  "last_seen": "2026-11-17",
+  "streak_days": 12,
   "analysis_updated_at": null,
   "appearances": [
     {
@@ -104,6 +104,13 @@
       "date": "2026-11-16",
       "reason": "lightweight",
       "stars_total": 2054,
+      "stars_gained": 0,
+      "release": "v1.6.3"
+    },
+    {
+      "date": "2026-11-17",
+      "reason": "lightweight",
+      "stars_total": 2080,
       "stars_gained": 0,
       "release": "v1.6.3"
     }

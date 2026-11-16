@@ -16,21 +16,32 @@
   ],
   "license": "AGPL-3.0",
   "category": "AI 应用",
-  "classify_reason": "关键词命中",
-  "one_liner": "鲸鲸 · 让 DeepSeek 用你的微信账号陪聊（Windows 桌面端 + WPF 启动器）。WeChat chat bot powered by DeepSeek/Qwen.",
-  "why_worth_it": "",
-  "tags": [],
-  "confidence": "medium",
-  "info_gaps": [],
+  "classify_reason": "DeepSeek/Qwen 驱动的微信聊天机器人桌面端",
+  "one_liner": "Windows 本地优先微信陪聊机器人，DeepSeek/Qwen 驱动，单面板控制",
+  "why_worth_it": "解决用真实微信跑本地 AI 群友的需求，UIA 不注入、数据本地；适合 Windows 极客。",
+  "tags": [
+    "本地优先",
+    "微信机器人",
+    "UIAutomation",
+    "DeepSeek"
+  ],
+  "confidence": "high",
+  "info_gaps": [
+    "主页链接 https://github.com/Banan1cee/whale_gril 与仓库名 whale_girl 疑似拼写错误，未验证",
+    "README 未提供 benchmark 或回复延迟/资源占用数据",
+    "未说明 UIA 自动化的具体兼容微信 4.x 子版本边界",
+    "插件市场第三方插件安全声明明确无法保证无恶意，但未提供扫描执行细节",
+    "未说明安装器未签名可能被 SmartScreen 拦截的具体表现"
+  ],
   "quality_flags": [],
-  "stars_total": 652,
+  "stars_total": 679,
   "created_at": "2026-10-26",
   "pushed_at": "2026-11-16",
-  "latest_release": "v4.1.6",
+  "latest_release": "v4.1.7",
   "first_seen": "2026-11-08",
-  "last_seen": "2026-11-16",
-  "streak_days": 10,
-  "analysis_updated_at": null,
+  "last_seen": "2026-11-17",
+  "streak_days": 11,
+  "analysis_updated_at": "2026-11-17T06:07:41+0800",
   "appearances": [
     {
       "date": "2026-11-08",
@@ -101,6 +112,13 @@
       "stars_total": 652,
       "stars_gained": 0,
       "release": "v4.1.6"
+    },
+    {
+      "date": "2026-11-17",
+      "reason": "release_update",
+      "stars_total": 679,
+      "stars_gained": 0,
+      "release": "v4.1.7"
     }
   ]
 }

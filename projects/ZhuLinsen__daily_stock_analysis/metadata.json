@@ -14,31 +14,32 @@
   ],
   "license": "MIT",
   "category": "AI 应用",
-  "classify_reason": "关键词命中",
-  "one_liner": "LLM驱动的多市场股票日报与策略问答，零成本定时推送。",
-  "why_worth_it": "为散户/量化爱好者省去数据聚合与推送脚本的繁琐，开箱即用。",
+  "classify_reason": "LLM 驱动的多市场股票智能分析系统",
+  "one_liner": "LLM驱动多市场股票分析，自动生成决策报告推送主流IM",
+  "why_worth_it": "解决手动盯盘与信息过载，零成本聚合多市场行情/新闻，自动推送决策报告；开箱即用，多推送渠道。",
   "tags": [
     "AI Agent",
     "量化分析",
-    "多市场",
-    "自托管"
+    "自托管",
+    "多市场"
   ],
-  "confidence": "high",
+  "confidence": "medium",
   "info_gaps": [
-    "未提供不同模型生成报告质量的量化对比或基准测试",
-    "未说明大规模自选股（如数百只）时的分析耗时和API成本",
-    "数据源可靠性（尤其是免费源）在不同市场下的稳定性未量化",
-    "回测功能的详细策略、绩效指标和局限未在README展开"
+    "未提供回测/策略验证的准确率或 benchmark 数据。",
+    "Web 工作台认证机制细节在 README 截断部分未展开，需查阅 full-guide。",
+    "数据库/存储方案未在截断部分说明，不确定是否持久化历史报告。",
+    "免费数据源具体限流与稳定性表现未量化。",
+    "与竞品（如 vnpy/backtrader/同花顺问财等）的直接功能对比未提供。"
   ],
   "quality_flags": [],
-  "stars_total": 72601,
+  "stars_total": 72786,
   "created_at": "2026-01-10",
-  "pushed_at": "2026-11-15",
-  "latest_release": "v3.34.0",
+  "pushed_at": "2026-11-16",
+  "latest_release": "v3.35.0",
   "first_seen": "2026-06-21",
-  "last_seen": "2026-11-16",
-  "streak_days": 21,
-  "analysis_updated_at": "2026-07-05T17:51:38+0800",
+  "last_seen": "2026-11-17",
+  "streak_days": 22,
+  "analysis_updated_at": "2026-11-17T06:02:09+0800",
   "appearances": [
     {
       "date": "2026-06-21",
@@ -186,6 +187,13 @@
       "stars_total": 72601,
       "stars_gained": 4548,
       "release": "v3.34.0"
+    },
+    {
+      "date": "2026-11-17",
+      "reason": "release_update",
+      "stars_total": 72786,
+      "stars_gained": 4548,
+      "release": "v3.35.0"
     }
   ]
 }
