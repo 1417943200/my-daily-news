@@ -11,9 +11,9 @@
     "dir": "projects/addyosmani__agent-skills",
     "first_seen": "2026-06-19",
     "last_seen": "2026-11-16",
-    "streak_days": 43,
+    "streak_days": 44,
     "last_release_seen": "0.6.16",
-    "last_stars_total": 117855
+    "last_stars_total": 118037
   },
   "Panniantong/Agent-Reach": {
     "dir": "projects/Panniantong__Agent-Reach",
@@ -315,9 +315,9 @@
     "dir": "projects/ZhuLinsen__daily_stock_analysis",
     "first_seen": "2026-06-21",
     "last_seen": "2026-11-16",
-    "streak_days": 20,
+    "streak_days": 21,
     "last_release_seen": "v3.34.0",
-    "last_stars_total": 72451
+    "last_stars_total": 72601
   },
   "bytedance/deer-flow": {
     "dir": "projects/bytedance__deer-flow",
@@ -1147,9 +1147,9 @@
     "dir": "projects/google-labs-code__stitch-skills",
     "first_seen": "2026-07-11",
     "last_seen": "2026-11-16",
-    "streak_days": 6,
+    "streak_days": 7,
     "last_release_seen": "v1.0",
-    "last_stars_total": 9184
+    "last_stars_total": 9454
   },
   "DayuanJiang/next-ai-draw-io": {
     "dir": "projects/DayuanJiang__next-ai-draw-io",
@@ -1643,9 +1643,9 @@
     "dir": "projects/alibaba__open-code-review",
     "first_seen": "2026-07-24",
     "last_seen": "2026-11-16",
-    "streak_days": 30,
+    "streak_days": 31,
     "last_release_seen": "v1.13.10",
-    "last_stars_total": 51897
+    "last_stars_total": 52371
   },
   "0xsline/OpenChatCut": {
     "dir": "projects/0xsline__OpenChatCut",
@@ -2363,9 +2363,9 @@
     "dir": "projects/anthropics__skills",
     "first_seen": "2026-08-12",
     "last_seen": "2026-11-16",
-    "streak_days": 25,
+    "streak_days": 26,
     "last_release_seen": null,
-    "last_stars_total": 195246
+    "last_stars_total": 195500
   },
   "ShawnPana/phone-harness": {
     "dir": "projects/ShawnPana__phone-harness",
@@ -4059,9 +4059,9 @@
     "dir": "projects/dream-num__univer",
     "first_seen": "2026-09-23",
     "last_seen": "2026-11-16",
-    "streak_days": 12,
+    "streak_days": 13,
     "last_release_seen": "v1.5.0",
-    "last_stars_total": 25447
+    "last_stars_total": 26564
   },
   "superdesigndev/treg": {
     "dir": "projects/superdesigndev__treg",
@@ -5307,9 +5307,9 @@
     "dir": "projects/rddmwmddr__android-ad-cleaner",
     "first_seen": "2026-10-26",
     "last_seen": "2026-11-16",
-    "streak_days": 22,
+    "streak_days": 23,
     "last_release_seen": "v0.4.4",
-    "last_stars_total": 8126
+    "last_stars_total": 8170
   },
   "AgriciDaniel/claude-seo": {
     "dir": "projects/AgriciDaniel__claude-seo",
@@ -5363,7 +5363,7 @@
     "dir": "projects/hevnsnt__CVEngine",
     "first_seen": "2026-10-27",
     "last_seen": "2026-11-16",
-    "streak_days": 21,
+    "streak_days": 22,
     "last_release_seen": "v1.4.1",
     "last_stars_total": 738
   },
@@ -5379,9 +5379,9 @@
     "dir": "projects/huaxialucaicaizi__ai-startup-skills",
     "first_seen": "2026-10-28",
     "last_seen": "2026-11-16",
-    "streak_days": 20,
+    "streak_days": 21,
     "last_release_seen": null,
-    "last_stars_total": 927
+    "last_stars_total": 928
   },
   "AienTech/dossier": {
     "dir": "projects/AienTech__dossier",
@@ -5395,9 +5395,9 @@
     "dir": "projects/kukemc__bili-cli",
     "first_seen": "2026-10-28",
     "last_seen": "2026-11-16",
-    "streak_days": 20,
+    "streak_days": 21,
     "last_release_seen": "v1.4.0",
-    "last_stars_total": 395
+    "last_stars_total": 398
   },
   "dagoSte/squadra": {
     "dir": "projects/dagoSte__squadra",
@@ -5443,17 +5443,17 @@
     "dir": "projects/patch-gg__anymove",
     "first_seen": "2026-10-29",
     "last_seen": "2026-11-16",
-    "streak_days": 19,
+    "streak_days": 20,
     "last_release_seen": "examples-v1",
-    "last_stars_total": 598
+    "last_stars_total": 601
   },
   "JunWan666/astrbot-for-android": {
     "dir": "projects/JunWan666__astrbot-for-android",
     "first_seen": "2026-10-29",
     "last_seen": "2026-11-16",
-    "streak_days": 19,
+    "streak_days": 20,
     "last_release_seen": "v1.4.1",
-    "last_stars_total": 395
+    "last_stars_total": 400
   },
   "Donchitos/Claude-Code-Game-Studios": {
     "dir": "projects/Donchitos__Claude-Code-Game-Studios",
@@ -5491,9 +5491,9 @@
     "dir": "projects/langchain-ai__design-agent",
     "first_seen": "2026-10-30",
     "last_seen": "2026-11-16",
-    "streak_days": 18,
+    "streak_days": 19,
     "last_release_seen": null,
-    "last_stars_total": 619
+    "last_stars_total": 622
   },
   "lightpanda-io/browser": {
     "dir": "projects/lightpanda-io__browser",
@@ -5507,17 +5507,17 @@
     "dir": "projects/wangzan101__Mika",
     "first_seen": "2026-10-31",
     "last_seen": "2026-11-16",
-    "streak_days": 17,
-    "last_release_seen": "v0.1.43",
-    "last_stars_total": 8707
+    "streak_days": 18,
+    "last_release_seen": "v0.1.44",
+    "last_stars_total": 8764
   },
   "ccch1mneyyy/dsh-Go": {
     "dir": "projects/ccch1mneyyy__dsh-Go",
     "first_seen": "2026-10-31",
     "last_seen": "2026-11-16",
-    "streak_days": 17,
+    "streak_days": 18,
     "last_release_seen": "v1.1.0",
-    "last_stars_total": 23673
+    "last_stars_total": 24070
   },
   "jackwener/DeepseekHarness-Android": {
     "dir": "projects/jackwener__DeepseekHarness-Android",
@@ -5531,9 +5531,9 @@
     "dir": "projects/SAOS-3624__dsh-video-storyboard",
     "first_seen": "2026-10-31",
     "last_seen": "2026-11-16",
-    "streak_days": 17,
+    "streak_days": 18,
     "last_release_seen": "v0.7.5",
-    "last_stars_total": 550
+    "last_stars_total": 552
   },
   "Orkas-AI/Orkas": {
     "dir": "projects/Orkas-AI__Orkas",
@@ -5555,9 +5555,9 @@
     "dir": "projects/jackwener__DSH-Android",
     "first_seen": "2026-11-01",
     "last_seen": "2026-11-16",
-    "streak_days": 16,
+    "streak_days": 17,
     "last_release_seen": "v0.3.11",
-    "last_stars_total": 967
+    "last_stars_total": 979
   },
   "Balanov/baiagent-director": {
     "dir": "projects/Balanov__baiagent-director",
@@ -5595,7 +5595,7 @@
     "dir": "projects/sleepy-zone__ai-ref-library-cn",
     "first_seen": "2026-11-02",
     "last_seen": "2026-11-16",
-    "streak_days": 15,
+    "streak_days": 16,
     "last_release_seen": null,
     "last_stars_total": 770
   },
@@ -5627,33 +5627,33 @@
     "dir": "projects/modelflare-ai__AnyModelBot",
     "first_seen": "2026-11-03",
     "last_seen": "2026-11-16",
-    "streak_days": 14,
-    "last_release_seen": "v0.1.38",
-    "last_stars_total": 4047
+    "streak_days": 15,
+    "last_release_seen": "v0.1.40",
+    "last_stars_total": 4150
   },
   "N1nEmAn/sapper-v2": {
     "dir": "projects/N1nEmAn__sapper-v2",
     "first_seen": "2026-11-03",
     "last_seen": "2026-11-16",
-    "streak_days": 14,
+    "streak_days": 15,
     "last_release_seen": "v18-champion",
-    "last_stars_total": 2108
+    "last_stars_total": 2120
   },
   "looplj/reveric": {
     "dir": "projects/looplj__reveric",
     "first_seen": "2026-11-03",
     "last_seen": "2026-11-16",
-    "streak_days": 14,
-    "last_release_seen": "v0.9.0",
-    "last_stars_total": 864
+    "streak_days": 15,
+    "last_release_seen": "v0.10.0",
+    "last_stars_total": 871
   },
   "sahenjp/RustXNG": {
     "dir": "projects/sahenjp__RustXNG",
     "first_seen": "2026-11-03",
     "last_seen": "2026-11-16",
-    "streak_days": 14,
+    "streak_days": 15,
     "last_release_seen": "v0.31.2",
-    "last_stars_total": 975
+    "last_stars_total": 977
   },
   "JustVugg/colibri": {
     "dir": "projects/JustVugg__colibri",
@@ -5675,9 +5675,9 @@
     "dir": "projects/Balanov__uncut",
     "first_seen": "2026-11-04",
     "last_seen": "2026-11-16",
-    "streak_days": 5,
+    "streak_days": 6,
     "last_release_seen": "v0.2.1",
-    "last_stars_total": 267
+    "last_stars_total": 269
   },
   "spotify/portal-ai-plugins": {
     "dir": "projects/spotify__portal-ai-plugins",
@@ -5691,7 +5691,7 @@
     "dir": "projects/Xpropel__Pi-Remote",
     "first_seen": "2026-11-04",
     "last_seen": "2026-11-16",
-    "streak_days": 13,
+    "streak_days": 14,
     "last_release_seen": "v2.1.26",
     "last_stars_total": 331
   },
@@ -5731,25 +5731,25 @@
     "dir": "projects/SAOS-3624__dsh-see-now",
     "first_seen": "2026-11-05",
     "last_seen": "2026-11-16",
-    "streak_days": 12,
+    "streak_days": 13,
     "last_release_seen": "v0.2.3",
-    "last_stars_total": 659
+    "last_stars_total": 665
   },
   "vercel-labs/agent-browser": {
     "dir": "projects/vercel-labs__agent-browser",
     "first_seen": "2026-11-06",
     "last_seen": "2026-11-16",
-    "streak_days": 10,
+    "streak_days": 11,
     "last_release_seen": "v0.43.0",
-    "last_stars_total": 51530
+    "last_stars_total": 51738
   },
   "divagr18/qwenputer": {
     "dir": "projects/divagr18__qwenputer",
     "first_seen": "2026-11-06",
     "last_seen": "2026-11-16",
-    "streak_days": 11,
+    "streak_days": 12,
     "last_release_seen": null,
-    "last_stars_total": 814
+    "last_stars_total": 818
   },
   "zgsfsec/Full-Chain-Sentinel-System": {
     "dir": "projects/zgsfsec__Full-Chain-Sentinel-System",
@@ -5763,9 +5763,9 @@
     "dir": "projects/aureth-labs__dsh-aurabot-qq",
     "first_seen": "2026-11-06",
     "last_seen": "2026-11-16",
-    "streak_days": 11,
+    "streak_days": 12,
     "last_release_seen": "v1.2.0",
-    "last_stars_total": 645
+    "last_stars_total": 654
   },
   "amitshekhariitbhu/forward-deployed-engineer-roadmap": {
     "dir": "projects/amitshekhariitbhu__forward-deployed-engineer-roadmap",
@@ -5779,15 +5779,15 @@
     "dir": "projects/Sandflow-ai__sand3d",
     "first_seen": "2026-11-07",
     "last_seen": "2026-11-16",
-    "streak_days": 10,
+    "streak_days": 11,
     "last_release_seen": "v1.6.3",
-    "last_stars_total": 2031
+    "last_stars_total": 2054
   },
   "MemTensor/MemT-1.0": {
     "dir": "projects/MemTensor__MemT-1.0",
     "first_seen": "2026-11-07",
     "last_seen": "2026-11-16",
-    "streak_days": 10,
+    "streak_days": 11,
     "last_release_seen": null,
     "last_stars_total": 539
   },
@@ -5819,9 +5819,9 @@
     "dir": "projects/meta__astryx",
     "first_seen": "2026-11-08",
     "last_seen": "2026-11-16",
-    "streak_days": 8,
+    "streak_days": 9,
     "last_release_seen": "v0.7.16",
-    "last_stars_total": 28718
+    "last_stars_total": 29093
   },
   "dsx-ai-factory/nvke": {
     "dir": "projects/dsx-ai-factory__nvke",
@@ -5843,9 +5843,9 @@
     "dir": "projects/Banan1cee__whale_girl",
     "first_seen": "2026-11-08",
     "last_seen": "2026-11-16",
-    "streak_days": 9,
+    "streak_days": 10,
     "last_release_seen": "v4.1.6",
-    "last_stars_total": 643
+    "last_stars_total": 652
   },
   "eliasbiondo/antirion": {
     "dir": "projects/eliasbiondo__antirion",
@@ -5875,9 +5875,9 @@
     "dir": "projects/alexsergivan__kwant",
     "first_seen": "2026-11-09",
     "last_seen": "2026-11-16",
-    "streak_days": 8,
-    "last_release_seen": "mac-v0.9.14",
-    "last_stars_total": 593
+    "streak_days": 9,
+    "last_release_seen": "mac-v0.9.16",
+    "last_stars_total": 633
   },
   "enmerasoftware/ai-design-check": {
     "dir": "projects/enmerasoftware__ai-design-check",
@@ -5915,9 +5915,9 @@
     "dir": "projects/ZSeven-W__dsh-game-studio",
     "first_seen": "2026-11-10",
     "last_seen": "2026-11-16",
-    "streak_days": 7,
+    "streak_days": 8,
     "last_release_seen": null,
-    "last_stars_total": 561
+    "last_stars_total": 564
   },
   "homeassistant-ai/ha-mcp": {
     "dir": "projects/homeassistant-ai__ha-mcp",
@@ -5939,7 +5939,7 @@
     "dir": "projects/RunanywhereAI__trnrt",
     "first_seen": "2026-11-11",
     "last_seen": "2026-11-16",
-    "streak_days": 6,
+    "streak_days": 7,
     "last_release_seen": "v0.1.0",
     "last_stars_total": 1583
   },
@@ -5947,17 +5947,17 @@
     "dir": "projects/Zleap-AI__SAG-Wiki",
     "first_seen": "2026-11-11",
     "last_seen": "2026-11-16",
-    "streak_days": 6,
-    "last_release_seen": "v0.3.0",
-    "last_stars_total": 1208
+    "streak_days": 7,
+    "last_release_seen": "v0.3.3",
+    "last_stars_total": 1235
   },
   "zaxiu88888/issue-rag": {
     "dir": "projects/zaxiu88888__issue-rag",
     "first_seen": "2026-11-11",
     "last_seen": "2026-11-16",
-    "streak_days": 6,
+    "streak_days": 7,
     "last_release_seen": null,
-    "last_stars_total": 450
+    "last_stars_total": 452
   },
   "0xCoach/TaoSheng": {
     "dir": "projects/0xCoach__TaoSheng",
@@ -5987,7 +5987,7 @@
     "dir": "projects/aa1143__NamiDSH",
     "first_seen": "2026-11-12",
     "last_seen": "2026-11-16",
-    "streak_days": 5,
+    "streak_days": 6,
     "last_release_seen": null,
     "last_stars_total": 222
   },
@@ -6011,7 +6011,7 @@
     "dir": "projects/GUYI-AI__gugu",
     "first_seen": "2026-11-12",
     "last_seen": "2026-11-16",
-    "streak_days": 5,
+    "streak_days": 6,
     "last_release_seen": null,
     "last_stars_total": 340
   },
@@ -6019,9 +6019,9 @@
     "dir": "projects/GoogleChrome__modern-web-guidance-src",
     "first_seen": "2026-11-13",
     "last_seen": "2026-11-16",
-    "streak_days": 4,
+    "streak_days": 5,
     "last_release_seen": null,
-    "last_stars_total": 6955
+    "last_stars_total": 7437
   },
   "ggml-org/llama.cpp": {
     "dir": "projects/ggml-org__llama.cpp",
@@ -6035,9 +6035,9 @@
     "dir": "projects/agentes-chat__agentes-chat",
     "first_seen": "2026-11-13",
     "last_seen": "2026-11-16",
-    "streak_days": 4,
+    "streak_days": 5,
     "last_release_seen": "desktop-v0.8.10",
-    "last_stars_total": 1484
+    "last_stars_total": 1558
   },
   "QwenLM/qwen-code": {
     "dir": "projects/QwenLM__qwen-code",
@@ -6051,17 +6051,17 @@
     "dir": "projects/DandanLLab__SnowCatQQ",
     "first_seen": "2026-11-13",
     "last_seen": "2026-11-16",
-    "streak_days": 4,
+    "streak_days": 5,
     "last_release_seen": "v6.0.0",
-    "last_stars_total": 332
+    "last_stars_total": 341
   },
   "DIYgod/pinky": {
     "dir": "projects/DIYgod__pinky",
     "first_seen": "2026-11-14",
     "last_seen": "2026-11-16",
-    "streak_days": 3,
-    "last_release_seen": "v2026.1115.11",
-    "last_stars_total": 2204
+    "streak_days": 4,
+    "last_release_seen": "v2026.1116.4",
+    "last_stars_total": 2241
   },
   "Likely7/Veyra-NRVideo": {
     "dir": "projects/Likely7__Veyra-NRVideo",
@@ -6075,25 +6075,25 @@
     "dir": "projects/vercel-labs__ui",
     "first_seen": "2026-11-14",
     "last_seen": "2026-11-16",
-    "streak_days": 3,
+    "streak_days": 4,
     "last_release_seen": null,
-    "last_stars_total": 4852
+    "last_stars_total": 5047
   },
   "hyperionaidev/smolmaxxing": {
     "dir": "projects/hyperionaidev__smolmaxxing",
     "first_seen": "2026-11-14",
     "last_seen": "2026-11-16",
-    "streak_days": 3,
+    "streak_days": 4,
     "last_release_seen": null,
-    "last_stars_total": 735
+    "last_stars_total": 752
   },
   "tradermonty/claude-trading-skills": {
     "dir": "projects/tradermonty__claude-trading-skills",
     "first_seen": "2026-11-14",
     "last_seen": "2026-11-16",
-    "streak_days": 3,
+    "streak_days": 4,
     "last_release_seen": null,
-    "last_stars_total": 5363
+    "last_stars_total": 5771
   },
   "armsworminterface/ai--manus": {
     "dir": "projects/armsworminterface__ai--manus",
@@ -6139,40 +6139,80 @@
     "dir": "projects/Tencent__LoopForge",
     "first_seen": "2026-11-16",
     "last_seen": "2026-11-16",
-    "streak_days": 1,
+    "streak_days": 2,
     "last_release_seen": "v0.3.8",
-    "last_stars_total": 1348
+    "last_stars_total": 1813
   },
   "weightcashiercupola/Gemini-Config-Checker-": {
     "dir": "projects/weightcashiercupola__Gemini-Config-Checker-",
     "first_seen": "2026-11-16",
     "last_seen": "2026-11-16",
-    "streak_days": 1,
+    "streak_days": 2,
     "last_release_seen": null,
-    "last_stars_total": 475
+    "last_stars_total": 473
   },
   "WinnerSpecialist/Gemini-Config-Checker-": {
     "dir": "projects/WinnerSpecialist__Gemini-Config-Checker-",
     "first_seen": "2026-11-16",
     "last_seen": "2026-11-16",
-    "streak_days": 1,
+    "streak_days": 2,
     "last_release_seen": null,
-    "last_stars_total": 475
+    "last_stars_total": 473
   },
   "TypeTyrantScheme/Gemini-Config-Checker-": {
     "dir": "projects/TypeTyrantScheme__Gemini-Config-Checker-",
     "first_seen": "2026-11-16",
     "last_seen": "2026-11-16",
-    "streak_days": 1,
+    "streak_days": 2,
     "last_release_seen": null,
-    "last_stars_total": 475
+    "last_stars_total": 473
   },
   "WingDataVacuum/Gemini-Config-Checker-": {
     "dir": "projects/WingDataVacuum__Gemini-Config-Checker-",
     "first_seen": "2026-11-16",
     "last_seen": "2026-11-16",
+    "streak_days": 2,
+    "last_release_seen": null,
+    "last_stars_total": 473
+  },
+  "YellowLaborerMarket/Gemini-Config-Checker-": {
+    "dir": "projects/YellowLaborerMarket__Gemini-Config-Checker-",
+    "first_seen": "2026-11-16",
+    "last_seen": "2026-11-16",
     "streak_days": 1,
     "last_release_seen": null,
-    "last_stars_total": 475
+    "last_stars_total": 474
+  },
+  "weldbladesmithwharf/Gemini-Config-Checker-": {
+    "dir": "projects/weldbladesmithwharf__Gemini-Config-Checker-",
+    "first_seen": "2026-11-16",
+    "last_seen": "2026-11-16",
+    "streak_days": 1,
+    "last_release_seen": null,
+    "last_stars_total": 473
+  },
+  "Visionbeyondtrack/Gemini-Config-Checker-": {
+    "dir": "projects/Visionbeyondtrack__Gemini-Config-Checker-",
+    "first_seen": "2026-11-16",
+    "last_seen": "2026-11-16",
+    "streak_days": 1,
+    "last_release_seen": null,
+    "last_stars_total": 473
+  },
+  "WestLocksmithSpout/Gemini-Config-Checker-": {
+    "dir": "projects/WestLocksmithSpout__Gemini-Config-Checker-",
+    "first_seen": "2026-11-16",
+    "last_seen": "2026-11-16",
+    "streak_days": 1,
+    "last_release_seen": null,
+    "last_stars_total": 473
+  },
+  "VisionWormStudio/Gemini-Config-Checker-": {
+    "dir": "projects/VisionWormStudio__Gemini-Config-Checker-",
+    "first_seen": "2026-11-16",
+    "last_seen": "2026-11-16",
+    "streak_days": 1,
+    "last_release_seen": null,
+    "last_stars_total": 473
   }
 }
