@@ -1,35 +1,46 @@
 ## 安装
 
 macOS / Linux / WSL：
-```bash
+```
 curl -fsSL https://plannotator.ai/install.sh | bash
 ```
 
 Windows PowerShell：
-```powershell
+```
 irm https://plannotator.ai/install.ps1 | iex
 ```
 
-只想装二进制，不要任何 agent 配置：
-```bash
+安装器会下载二进制并自动检测已安装的 agent，配置 hooks、slash commands 和 skills。只想装二进制可用：
+```
 curl -fsSL https://plannotator.ai/install.sh | bash -s -- --minimal
 ```
 
 ## 最小可用示例
 
-```bash
-plannotator inbox                               # 打开统一 Inbox
-/plannotator-annotate README.md                 # 标注 markdown 文件
-/plannotator-review                             # 审查未提交改动
-plannotator review --patch-file reading.diff    # 审查静态 diff
-plannotator sessions                            # 列出活动会话
+1. 启动收件箱：
+```
+plannotator inbox
 ```
 
-Codex 用户把 slash command 换成 `!plannotator …`（如 `!plannotator review`）。
+2. 在 Claude Code 中注释本地文档：
+```
+/plannotator-annotate README.md
+```
+
+3. 审查未提交改动：
+```
+/plannotator-review
+```
+
+4. 查看或重开会话：
+```
+plannotator sessions
+plannotator sessions --open 1
+```
 
 ## 依赖前提
 
-- 需要至少一个受支持的 agent：Claude Code、Codex、Copilot CLI、Gemini CLI、OpenCode、Kiro、Droid、Amp、DeepSeek Harness、Pi 等。
-- Claude Code 安装后需额外执行 `/plugin marketplace add backnotprop/plannotator` 并安装插件，然后重启。
-- Amp 需手动复制 `plannotator.ts` 到 `~/.config/amp/plugins/` 并 reload。
-- README 未明确说明最低 OS 版本或是否需要额外安装 Node.js/Python 等运行时；以安装脚本实际输出为准。
+- 至少安装一个受支持的编码 agent：Claude Code、Codex、Gemini CLI、OpenCode、Copilot CLI、Amp、Droid、Kiro、Pi 等
+- 系统：macOS、Linux、WSL 或 Windows PowerShell
+- 代码审查依赖本地 Git 仓库；远端 PR/MR 需要 GitHub/GitLab；GitButler/Perforce/jj 用户需装对应工具
+- 完整安装会访问 GitHub Releases，可能联系 GitHub API 与 npm；介意网络边界可先走 --minimal

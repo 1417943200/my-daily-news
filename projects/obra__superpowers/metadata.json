@@ -15,31 +15,31 @@
   ],
   "license": "MIT",
   "category": "AI 应用",
-  "classify_reason": "Agentic skills framework for software development.",
-  "one_liner": "为AI编码代理提供TDD+子代理驱动的结构化开发方法论与技能框架",
-  "why_worth_it": "让编码代理从无章法的跳跃写代码，变为遵循设计-计划-审查的全自动流程，适合希望代理长时间自主编程的极客团队。",
+  "classify_reason": "Agentic skills 框架，用于软件工程",
+  "one_liner": "让编码代理先问为什么、再计划、再TDD、再子代理执行的强制方法论",
+  "why_worth_it": "解决代理直接乱写代码、无计划无测试的痛点，用自动触发的技能把需求先变成可批准的设计；适合想让AI自主可靠干几小时的人",
   "tags": [
-    "子代理驱动",
+    "Agent框架",
+    "SDLC",
     "TDD",
-    "编码代理方法",
-    "跨平台适配"
+    "多Harness"
   ],
   "confidence": "high",
   "info_gaps": [
-    "未提供与其他工作流框架（Aider、Sweep）的效果对比基准",
-    "Windows 支持细节未在 README 中展开（仅有 docs/windows 目录）",
-    "未给出插件在各大代理平台上的兼容性测试覆盖率数据",
-    "未说明对大型仓库（monorepo）的性能影响"
+    "README 未提供与 Aider/OpenHands 等第三方代理框架的量化对比",
+    "未说明各 harness 插件的具体版本兼容范围和安装失败排障步骤",
+    "盲测数据来自项目自述，未见独立可复现的公开基准",
+    "未列出所有技能文件的完整清单和触发条件细节"
   ],
   "quality_flags": [],
-  "stars_total": 261106,
+  "stars_total": 319218,
   "created_at": "2025-10-09",
-  "pushed_at": "2026-07-24",
-  "latest_release": "v6.2.0",
+  "pushed_at": "2026-11-03",
+  "latest_release": "v7.0.2",
   "first_seen": "2026-06-19",
-  "last_seen": "2026-07-26",
-  "streak_days": 9,
-  "analysis_updated_at": "2026-07-26T09:18:21+0800",
+  "last_seen": "2026-11-18",
+  "streak_days": 10,
+  "analysis_updated_at": "2026-11-18T04:55:21+0800",
   "appearances": [
     {
       "date": "2026-06-19",
@@ -103,6 +103,13 @@
       "stars_total": 261106,
       "stars_gained": 479,
       "release": "v6.2.0"
+    },
+    {
+      "date": "2026-11-18",
+      "reason": "release_update",
+      "stars_total": 319218,
+      "stars_gained": 598,
+      "release": "v7.0.2"
     }
   ]
 }

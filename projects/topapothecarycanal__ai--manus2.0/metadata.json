@@ -1,0 +1,65 @@
+{
+  "full_name": "topapothecarycanal/ai--manus2.0",
+  "url": "https://github.com/topapothecarycanal/ai--manus2.0",
+  "description": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
+  "language": null,
+  "topics": [
+    "ai",
+    "ai-agents",
+    "ai-sdk",
+    "anthropic",
+    "chatbot",
+    "function-calling",
+    "gemeni",
+    "generative-ai",
+    "llm",
+    "multimodal",
+    "openai",
+    "react",
+    "solidjs",
+    "streaming",
+    "svelte",
+    "tanstack",
+    "tool-calling",
+    "typescript",
+    "typescript-sdk",
+    "vue"
+  ],
+  "license": "Apache-2.0",
+  "category": "AI 应用",
+  "classify_reason": "通用 AI Agent 系统",
+  "one_liner": "宣传自主代码执行和浏览器控制的 AI Agent，但 README 无技术细节。",
+  "why_worth_it": "宣传代码和浏览器自动化，但无技术文档、无源码，下载链接为 Dropbox RAR，不值得深入。",
+  "tags": [
+    "AI Agent",
+    "浏览器自动化",
+    "自主任务",
+    "信息不足"
+  ],
+  "confidence": "low",
+  "info_gaps": [
+    "无代码仓库实际内容，只有营销文案",
+    "未提供安装方法、依赖、API 文档",
+    "未说明模型提供商、是否本地运行、API 密钥等",
+    "下载链接为 Dropbox RAR，未提供源码或校验，可能存在安全风险",
+    "未提供 benchmark 或性能数据"
+  ],
+  "quality_flags": [],
+  "stars_total": 380,
+  "created_at": "2026-11-14",
+  "pushed_at": "2026-11-15",
+  "latest_release": null,
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "streak_days": 1,
+  "analysis_updated_at": "2026-11-18T04:52:02+0800",
+  "appearances": [
+    {
+      "date": "2026-11-18",
+      "reason": "new",
+      "stars_total": 380,
+      "stars_gained": 0,
+      "release": null
+    }
+  ]
+}

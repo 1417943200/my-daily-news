@@ -16,7 +16,7 @@
   ],
   "license": "AGPL-3.0",
   "category": "AI 应用",
-  "classify_reason": "DeepSeek/Qwen 驱动的微信聊天机器人桌面端",
+  "classify_reason": "微信 DeepSeek 聊天机器人",
   "one_liner": "Windows 本地优先微信陪聊机器人，DeepSeek/Qwen 驱动，单面板控制",
   "why_worth_it": "解决用真实微信跑本地 AI 群友的需求，UIA 不注入、数据本地；适合 Windows 极客。",
   "tags": [
@@ -34,13 +34,13 @@
     "未说明安装器未签名可能被 SmartScreen 拦截的具体表现"
   ],
   "quality_flags": [],
-  "stars_total": 679,
+  "stars_total": 719,
   "created_at": "2026-10-26",
-  "pushed_at": "2026-11-16",
+  "pushed_at": "2026-11-17",
   "latest_release": "v4.1.7",
   "first_seen": "2026-11-08",
-  "last_seen": "2026-11-17",
-  "streak_days": 11,
+  "last_seen": "2026-11-18",
+  "streak_days": 12,
   "analysis_updated_at": "2026-11-17T06:07:41+0800",
   "appearances": [
     {
@@ -117,6 +117,13 @@
       "date": "2026-11-17",
       "reason": "release_update",
       "stars_total": 679,
+      "stars_gained": 0,
+      "release": "v4.1.7"
+    },
+    {
+      "date": "2026-11-18",
+      "reason": "lightweight",
+      "stars_total": 719,
       "stars_gained": 0,
       "release": "v4.1.7"
     }

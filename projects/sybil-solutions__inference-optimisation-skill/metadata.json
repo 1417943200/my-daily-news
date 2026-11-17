@@ -1,0 +1,50 @@
+{
+  "full_name": "sybil-solutions/inference-optimisation-skill",
+  "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
+  "description": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
+  "language": "Python",
+  "topics": [
+    "agent-skill",
+    "benchmarking",
+    "claude-code",
+    "inference",
+    "llm",
+    "speculative-decoding"
+  ],
+  "license": "MIT",
+  "category": "AI 应用",
+  "classify_reason": "本地 LLM 推理优化技能",
+  "one_liner": "本地LLM推理爬山调优技能，实测覆盖解码/预填充/KV/启动",
+  "why_worth_it": "为本地推理调优提供可复现流程与实测数据，避免噪声和井底之蛙，适合自托管和硬件极客。",
+  "tags": [
+    "本地推理优化",
+    "Agent技能",
+    "基准测试",
+    "Speculative Decoding"
+  ],
+  "confidence": "high",
+  "info_gaps": [
+    "主页未设置，仓库元数据中主页为 None",
+    "创建时间与最近推送均为 2026-11-16（未来日期），真实性待核实",
+    "README 未说明 Python 具体版本要求，仅说标准库",
+    "结果来源链接指向 PR 和外部仓库，本 README 未完全展开原始数据"
+  ],
+  "quality_flags": [],
+  "stars_total": 854,
+  "created_at": "2026-11-16",
+  "pushed_at": "2026-11-16",
+  "latest_release": null,
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "streak_days": 1,
+  "analysis_updated_at": "2026-11-18T04:51:33+0800",
+  "appearances": [
+    {
+      "date": "2026-11-18",
+      "reason": "new",
+      "stars_total": 854,
+      "stars_gained": 0,
+      "release": null
+    }
+  ]
+}

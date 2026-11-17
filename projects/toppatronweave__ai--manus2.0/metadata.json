@@ -1,0 +1,64 @@
+{
+  "full_name": "toppatronweave/ai--manus2.0",
+  "url": "https://github.com/toppatronweave/ai--manus2.0",
+  "description": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
+  "language": null,
+  "topics": [
+    "ai",
+    "ai-agents",
+    "ai-sdk",
+    "anthropic",
+    "chatbot",
+    "function-calling",
+    "gemeni",
+    "generative-ai",
+    "llm",
+    "multimodal",
+    "openai",
+    "react",
+    "solidjs",
+    "streaming",
+    "svelte",
+    "tanstack",
+    "tool-calling",
+    "typescript",
+    "typescript-sdk",
+    "vue"
+  ],
+  "license": "Apache-2.0",
+  "category": "AI 应用",
+  "classify_reason": "通用 AI Agent 系统",
+  "one_liner": "自称能自主执行代码与浏览器控制的通用 AI Agent 系统",
+  "why_worth_it": "对想验证自主 Agent 的极客：功能宣称诱人，但 README 无实质，下载可疑，需谨慎。",
+  "tags": [
+    "AI Agent",
+    "Autonomous",
+    "Sandbox"
+  ],
+  "confidence": "low",
+  "info_gaps": [
+    "未提供任何源码或可验证的实现细节",
+    "未说明技术栈和架构",
+    "未提供安装、运行命令或 API 文档",
+    "下载链接指向 Dropbox 压缩包，且文件名 ManusStudio2.0.rar，非标准开源分发方式",
+    "未提供 benchmark 或与同类工具的对比数据"
+  ],
+  "quality_flags": [],
+  "stars_total": 378,
+  "created_at": "2026-11-14",
+  "pushed_at": "2026-11-15",
+  "latest_release": null,
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "streak_days": 1,
+  "analysis_updated_at": "2026-11-18T04:52:24+0800",
+  "appearances": [
+    {
+      "date": "2026-11-18",
+      "reason": "new",
+      "stars_total": 378,
+      "stars_gained": 0,
+      "release": null
+    }
+  ]
+}

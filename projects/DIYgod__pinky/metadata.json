@@ -15,31 +15,32 @@
   ],
   "license": "Apache-2.0",
   "category": "AI 应用",
-  "classify_reason": "让 AI 控制手机，MCP 自动化工具",
-  "one_liner": "让AI代理操作真实手机，人在环审批，支持Android/iOS与MCP",
-  "why_worth_it": "用审批网关和隐藏第二屏把手机交给AI，跨平台、可回放、可本地模型，适合想安全试验的极客。",
+  "classify_reason": "AI 手机自动化",
+  "one_liner": "让 Claude 等 MCP 代理在监督下操控真实 iPhone/Android 手机",
+  "why_worth_it": "解决 AI 代理操作真实手机的安全审批问题，内置默认禁区与留痕，跨 iOS/Android，本地原生开源，适合自动化测试和受控设备管理。",
   "tags": [
+    "MCP工具",
     "手机自动化",
-    "MCP",
-    "人机协同",
-    "安全审批"
+    "本地优先",
+    "人机协同"
   ],
   "confidence": "high",
   "info_gaps": [
-    "无 benchmark 或性能量化数据（如读屏延迟、审批按钮识别准确率）",
-    "未说明各 Android 品牌/OEM 的兼容差异覆盖是否完整（README 只列品牌，但未提供验证矩阵）",
-    "未提供与同类项目的直接对比或差异数据",
-    "docs/mcp.md 等文档未展开，具体 MCP 工具接口细节未在 README 中覆盖"
+    "README 未提供延迟、吞吐量或资源占用的基准数据（仅提到内存约 70 MB/0% CPU）",
+    "Telemetry 的具体采集范围和关闭方式需要查看 docs/TELEMETRY.md，README 未展开",
+    "HTTP MCP 接入的认证/加密细节未在 README 中说明",
+    "iOS 17.4–26 侧载依赖 Xcode 和 Apple 开发者签名，README 未说明是否需要付费开发者账号",
+    "项目当前为 pre-alpha，部分功能（解锁、后台工作、Wi-Fi 配对、文件等）尚待用户实测，稳定性和兼容性数据有限"
   ],
   "quality_flags": [],
-  "stars_total": 2287,
+  "stars_total": 2371,
   "created_at": "2026-11-06",
-  "pushed_at": "2026-11-16",
-  "latest_release": "v2026.1117.1",
+  "pushed_at": "2026-11-17",
+  "latest_release": "v2026.1117.4",
   "first_seen": "2026-11-14",
-  "last_seen": "2026-11-17",
-  "streak_days": 5,
-  "analysis_updated_at": "2026-11-17T06:07:07+0800",
+  "last_seen": "2026-11-18",
+  "streak_days": 6,
+  "analysis_updated_at": "2026-11-18T04:56:51+0800",
   "appearances": [
     {
       "date": "2026-11-14",
@@ -75,6 +76,13 @@
       "stars_total": 2287,
       "stars_gained": 0,
       "release": "v2026.1117.1"
+    },
+    {
+      "date": "2026-11-18",
+      "reason": "release_update",
+      "stars_total": 2371,
+      "stars_gained": 0,
+      "release": "v2026.1117.4"
     }
   ]
 }

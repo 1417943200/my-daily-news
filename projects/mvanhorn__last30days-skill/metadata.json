@@ -27,32 +27,32 @@
   ],
   "license": "MIT",
   "category": "AI 应用",
-  "classify_reason": "AI agent 研究技能，输出综合总结，终端用例",
-  "one_liner": "聚合 Reddit/X/YouTube/HN/Polymarket 等平台，用真实参与度评分并 AI 合成简报。",
-  "why_worth_it": "解决跨平台实时信号聚合问题，适合会议前调研与趋势追踪，用真人投票替代 SEO 排序。",
+  "classify_reason": "AI agent 研究技能，综合多源信息",
+  "one_liner": "AI代理聚合20+社交平台，按真实参与度评分搜索",
+  "why_worth_it": "解决单一AI无法覆盖所有社交平台的问题，适合会议前调研和趋势发现，用真实用户信号而非SEO",
   "tags": [
-    "AI Agent",
-    "社交搜索",
+    "Agent Skills",
     "多源聚合",
-    "研究工具"
+    "社交搜索",
+    "趋势发现"
   ],
   "confidence": "high",
   "info_gaps": [
-    "README 未详细说明 Python 依赖清单和内部模块结构",
-    "未提供搜索质量评估或 benchmark 数据（docs/search-quality-eval.md 存在但未在 README 展示）",
-    "未说明各平台 API 调用的频率限制、重试和成本控制机制",
-    "未说明用户 API keys 的存储位置和安全处理方式",
-    "某些数据源的接入细节（如 Telegram、Truth Social、Amazon）需要查阅 CONFIGURATION.md，README 只做了概述"
+    "具体实现架构（如agent调用方式、Python库依赖）未在README截断部分展示。",
+    "X、YouTube、TikTok等源的具体认证配置细节不完全明确。",
+    "性能、可靠性、响应时间等未提及。",
+    "未提供与传统搜索对比的量化benchmark数据。",
+    "本地语料库、Amazon等源的具体使用方法可能需查阅CONFIGURATION.md或SKILL.md。"
   ],
   "quality_flags": [],
-  "stars_total": 68070,
+  "stars_total": 68905,
   "created_at": "2026-01-23",
-  "pushed_at": "2026-11-16",
-  "latest_release": "v4.2.1",
+  "pushed_at": "2026-11-17",
+  "latest_release": "v4.3.2",
   "first_seen": "2026-07-09",
-  "last_seen": "2026-11-17",
-  "streak_days": 7,
-  "analysis_updated_at": "2026-11-17T06:05:16+0800",
+  "last_seen": "2026-11-18",
+  "streak_days": 8,
+  "analysis_updated_at": "2026-11-18T04:54:55+0800",
   "appearances": [
     {
       "date": "2026-07-09",
@@ -102,6 +102,13 @@
       "stars_total": 68070,
       "stars_gained": 122,
       "release": "v4.2.1"
+    },
+    {
+      "date": "2026-11-18",
+      "reason": "release_update",
+      "stars_total": 68905,
+      "stars_gained": 772,
+      "release": "v4.3.2"
     }
   ]
 }

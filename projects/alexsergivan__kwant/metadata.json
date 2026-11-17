@@ -27,32 +27,32 @@
   ],
   "license": "AGPL-3.0",
   "category": "AI 应用",
-  "classify_reason": "自托管多模型 AI 机器人团队，终端应用",
-  "one_liner": "自托管多AI bot团队，审批、交接、验证，开源替代商业方案",
-  "why_worth_it": "解决多AI编排的自托管与验证痛点；适合掌控数据的极客，比商业产品透明可控。",
+  "classify_reason": "自托管 AI bots 团队",
+  "one_liner": "自托管多智能体AI团队，@交接、审批、二次校验单二进制",
+  "why_worth_it": "解决云端Bot数据不可控、协作无验证问题，Rust单二进制易部署，适合自托管自动化。",
   "tags": [
-    "AI Agent",
+    "多智能体",
     "自托管",
-    "多代理",
-    "Rust"
+    "Rust",
+    "自动化"
   ],
   "confidence": "medium",
   "info_gaps": [
-    "桌面应用具体技术栈未说明（是否 Tauri/Electron 不明）",
-    "未提供支持的 AI API 格式和模型提供者完整列表（仅提到 Claude/Codex/Grok CLI/自有 API key）",
-    "未提供性能数据或资源占用基准",
-    "多用户权限模型和团队规模限制未说明（可能面向个人）",
-    "未提供测试覆盖率或代码质量指标"
+    "完整配置流程（添加 AI 账户/API key 具体步骤）未在 README 截断部分展示，需查官方 docs/quickstart",
+    "未列出所有支持的 AI 模型/提供商完整清单",
+    "未见性能基准、内存/CPU 占用数据",
+    "bot 执行代码或文件操作的安全沙盒/隔离机制未详细说明",
+    "手机端“添加到主屏幕”的 PWA 功能边界未展开"
   ],
   "quality_flags": [],
-  "stars_total": 640,
+  "stars_total": 691,
   "created_at": "2026-10-22",
-  "pushed_at": "2026-11-16",
-  "latest_release": "mac-v0.9.19",
+  "pushed_at": "2026-11-17",
+  "latest_release": "mac-v0.9.21",
   "first_seen": "2026-11-09",
-  "last_seen": "2026-11-17",
-  "streak_days": 10,
-  "analysis_updated_at": "2026-11-17T06:09:53+0800",
+  "last_seen": "2026-11-18",
+  "streak_days": 11,
+  "analysis_updated_at": "2026-11-18T04:57:52+0800",
   "appearances": [
     {
       "date": "2026-11-09",
@@ -123,6 +123,13 @@
       "stars_total": 640,
       "stars_gained": 0,
       "release": "mac-v0.9.19"
+    },
+    {
+      "date": "2026-11-18",
+      "reason": "release_update",
+      "stars_total": 691,
+      "stars_gained": 0,
+      "release": "mac-v0.9.21"
     }
   ]
 }

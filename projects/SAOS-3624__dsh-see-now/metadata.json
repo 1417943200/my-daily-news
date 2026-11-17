@@ -16,7 +16,7 @@
   ],
   "license": "Apache-2.0",
   "category": "AI 应用",
-  "classify_reason": "让 AI 实时看屏幕的插件，终端 agent 工具",
+  "classify_reason": "AI 屏幕视觉插件",
   "one_liner": "让AI实时看见屏幕：按变化量筛帧，多帧拼图，静止几乎不花token",
   "why_worth_it": "解决定时截屏token烧穿或漏帧死结，用变化量筛选和宫格拼图降低视觉上下文成本，适合AI陪看/视频理解。",
   "tags": [
@@ -32,13 +32,13 @@
     "文档示例中的 2026 年时间点无法核实；平台细节主要来自 README 自述，未独立验证"
   ],
   "quality_flags": [],
-  "stars_total": 673,
+  "stars_total": 685,
   "created_at": "2026-11-01",
   "pushed_at": "2026-11-16",
   "latest_release": "v0.2.4",
   "first_seen": "2026-11-05",
-  "last_seen": "2026-11-17",
-  "streak_days": 14,
+  "last_seen": "2026-11-18",
+  "streak_days": 15,
   "analysis_updated_at": "2026-11-17T06:08:50+0800",
   "appearances": [
     {
@@ -136,6 +136,13 @@
       "date": "2026-11-17",
       "reason": "release_update",
       "stars_total": 673,
+      "stars_gained": 0,
+      "release": "v0.2.4"
+    },
+    {
+      "date": "2026-11-18",
+      "reason": "lightweight",
+      "stars_total": 685,
       "stars_gained": 0,
       "release": "v0.2.4"
     }

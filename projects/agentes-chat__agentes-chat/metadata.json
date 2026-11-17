@@ -27,7 +27,7 @@
   ],
   "license": "AGPL-3.0",
   "category": "AI 应用",
-  "classify_reason": "团队与 AI agent 协作的自托管聊天平台",
+  "classify_reason": "团队与 AI agents 协作平台",
   "one_liner": "自托管 Slack 替代，代理作为成员带电脑/浏览器和审批协作。",
   "why_worth_it": "让 AI 代理成为团队频道的一等成员，自托管免费，带预算、审批和可接管的电脑/浏览器，胜过侧边栏机器人。",
   "tags": [
@@ -45,13 +45,13 @@
     "导入功能支持的具体应用版本兼容性未说明"
   ],
   "quality_flags": [],
-  "stars_total": 1618,
+  "stars_total": 1677,
   "created_at": "2026-11-09",
-  "pushed_at": "2026-11-16",
+  "pushed_at": "2026-11-17",
   "latest_release": "desktop-v0.8.11",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-17",
-  "streak_days": 6,
+  "last_seen": "2026-11-18",
+  "streak_days": 7,
   "analysis_updated_at": "2026-11-17T06:06:20+0800",
   "appearances": [
     {
@@ -93,6 +93,13 @@
       "date": "2026-11-17",
       "reason": "release_update",
       "stars_total": 1618,
+      "stars_gained": 0,
+      "release": "desktop-v0.8.11"
+    },
+    {
+      "date": "2026-11-18",
+      "reason": "lightweight",
+      "stars_total": 1677,
       "stars_gained": 0,
       "release": "desktop-v0.8.11"
     }

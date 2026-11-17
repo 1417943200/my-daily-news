@@ -16,31 +16,32 @@
   ],
   "license": "Apache-2.0",
   "category": "AI 应用",
-  "classify_reason": "面向团队与 agent 协作的工作台，终端 AI 工具",
-  "one_liner": "本地优先的 Agent 审查与反馈界面，连 Claude Code、Codex 等。",
-  "why_worth_it": "给多 agent 工作流补统一审查层：注释决策/计划/diff 后一键回给 agent，本地运行。",
+  "classify_reason": "Agent 协作工作台，面向终端用户",
+  "one_liner": "AI 编码代理的本地审查面板：注释文档、审 diff、回传反馈",
+  "why_worth_it": "给多 AI coding agent 用户补本地审查与异步收件：不锁某 agent、不阻塞会话，反馈直达下一轮",
   "tags": [
     "Agent 工具",
     "本地优先",
     "代码审查",
-    "多智能体"
+    "TypeScript"
   ],
   "confidence": "high",
   "info_gaps": [
-    "README 未披露内部存储、数据库、渲染框架等实现细节",
-    "未说明除安装脚本外是否需要 Node.js 或其他运行时依赖",
-    "无 benchmark/性能数据，也未与同类工具做量化对比",
-    "大文件、多线程、多 agent 并发场景下的资源占用未给出参考"
+    "README 未给出前端框架、本地服务端口、运行时依赖等实现细节",
+    "未提供性能、资源占用或 benchmark 数据",
+    "分享加密上传的具体服务端点与安全细节未说明",
+    "没有与同类工具的直接对比数据",
+    "README 被截断，可能缺少高级配置或自托管部署说明"
   ],
   "quality_flags": [],
-  "stars_total": 12489,
+  "stars_total": 13011,
   "created_at": "2025-12-28",
-  "pushed_at": "2026-11-16",
-  "latest_release": "v0.28.66",
+  "pushed_at": "2026-11-17",
+  "latest_release": "v0.28.67",
   "first_seen": "2026-11-17",
-  "last_seen": "2026-11-17",
-  "streak_days": 1,
-  "analysis_updated_at": "2026-11-17T05:59:15+0800",
+  "last_seen": "2026-11-18",
+  "streak_days": 2,
+  "analysis_updated_at": "2026-11-18T04:54:32+0800",
   "appearances": [
     {
       "date": "2026-11-17",
@@ -48,6 +49,13 @@
       "stars_total": 12489,
       "stars_gained": 1719,
       "release": "v0.28.66"
+    },
+    {
+      "date": "2026-11-18",
+      "reason": "release_update",
+      "stars_total": 13011,
+      "stars_gained": 2325,
+      "release": "v0.28.67"
     }
   ]
 }

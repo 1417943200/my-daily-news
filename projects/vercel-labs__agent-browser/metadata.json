@@ -6,20 +6,20 @@
   "topics": [],
   "license": "Apache-2.0",
   "category": "AI 应用",
-  "classify_reason": "浏览器自动化 CLI，面向 AI agent 的工具",
+  "classify_reason": "AI agent 浏览器自动化 CLI",
   "one_liner": "Browser automation CLI for AI agents",
   "why_worth_it": "",
   "tags": [],
   "confidence": "medium",
   "info_gaps": [],
   "quality_flags": [],
-  "stars_total": 51983,
+  "stars_total": 52332,
   "created_at": "2026-01-11",
-  "pushed_at": "2026-11-16",
+  "pushed_at": "2026-11-17",
   "latest_release": "v0.43.0",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-17",
-  "streak_days": 12,
+  "last_seen": "2026-11-18",
+  "streak_days": 13,
   "analysis_updated_at": null,
   "appearances": [
     {
@@ -104,6 +104,13 @@
       "reason": "lightweight",
       "stars_total": 51983,
       "stars_gained": 4217,
+      "release": "v0.43.0"
+    },
+    {
+      "date": "2026-11-18",
+      "reason": "lightweight",
+      "stars_total": 52332,
+      "stars_gained": 3760,
       "release": "v0.43.0"
     }
   ]

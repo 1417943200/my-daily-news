@@ -1,6 +1,1881 @@
 {
   "editions": [
     {
+      "date": "2026-11-18",
+      "count": 13,
+      "projects": [
+        {
+          "id": "google-research__paper-orchestra",
+          "fullName": "google-research/paper-orchestra",
+          "owner": "google-research",
+          "name": "paper-orchestra",
+          "url": "https://github.com/google-research/paper-orchestra",
+          "oneLiner": "把实验记录和想法自动写成 LaTeX 论文的多智能体框架",
+          "description": "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
+          "language": "Python",
+          "category": "AI 应用",
+          "license": "Apache-2.0",
+          "starsTotal": 2818,
+          "starsGained": 1175,
+          "streakDays": 1,
+          "isNew": true,
+          "createdAt": "2026-05-01",
+          "pushedAt": "2026-11-15",
+          "latestRelease": "",
+          "firstSeen": "2026-11-18",
+          "topics": [
+            "ai-research-assistant",
+            "multi-agent-systems"
+          ],
+          "appearances": [
+            {
+              "date": "2026-11-18",
+              "reason": "new",
+              "starsTotal": 2818,
+              "starsGained": 1175,
+              "release": ""
+            }
+          ],
+          "analysis": [
+            {
+              "heading": "它是什么",
+              "body": "PaperOrchestra 是 Google Cloud AI Research 推出的多智能体框架，目标是把未整理的写作前材料（想法、实验日志）转成投稿级 LaTeX 手稿。它编排多个专用智能体完成大纲、文献综述、分节写作、内容润色和图表生成。注意：README 声明它不是 Google 官方支持产品。"
+            },
+            {
+              "heading": "为什么火",
+              "body": "仓库 Star 2818，创建于 2026-05-01，最近推送 2026-11-15，约半年时间获得关注。主要吸引力在于：瞄准科研写作的高成本环节，提供从原始材料到 LaTeX 的自动化流水线，并且来自 Google Cloud AI Research 团队。但 README 没有给出生成质量或评估数据，是否真能投稿仍需人工验证。"
+            },
+            {
+              "heading": "技术栈",
+              "bullets": [
+                "Python 3.11 + Conda 环境",
+                "支持 Gemini（Vertex AI 或 API Key）和 OpenAI 模型",
+                "Semantic Scholar API 用于文献检索",
+                "LaTeX 模板（如 cvpr2025）",
+                "Streamlit 交互式 demo",
+                "可选 SMTP 邮件通知",
+                "具体依赖未在 README 展示，需查看 requirements.txt"
+              ]
+            },
+            {
+              "heading": "核心能力",
+              "bullets": [
+                "多智能体流水线：Outline、Literature Review、Section Writing、Content Refinement、Plotting 五类智能体协作",
+                "文献综合：自动搜索、排序并整合文献",
+                "图表生成：可生成 plot 和支持概念图",
+                "LaTeX 自动化：生成符合会议模板的投稿级手稿",
+                "自定义模板：可在 templates/ 下添加新的会议模板"
+              ]
+            },
+            {
+              "heading": "适用场景",
+              "body": "适合已有实验日志和初步想法、希望快速得到论文初稿的研究者；适合需要统一会议 LaTeX 模板的投稿准备；适合想减少文献综述和配图工作量的场景。不适合没有原始材料、或需要严格事实核查与创新性论证的正式投稿——生成结果必须人工审校。"
+            },
+            {
+              "heading": "同类对比",
+              "body": "README 未与同类工具做直接对比，也未提供 benchmark。从功能定位看，它接近自动论文写作/科研助手类工具，但多智能体编排和 LaTeX 模板自动化是主要差异点。由于缺少对比数据，无法判断是否优于其他方案。"
+            },
+            {
+              "heading": "版本动态",
+              "body": "创建于 2026-05-01，最近推送 2026-11-15，近半年有活跃迹象。但 README 未提供 release/changelog。关键限制：数据集尚未发布，将稍后单独发布；这会影响复现和评估。 ---"
+            },
+            {
+              "heading": "ℹ️ 置信度与信息盲区",
+              "bullets": [
+                "置信度：medium",
+                "信息盲区：数据集未发布，无法复现或评估生成质量；README 未提供 benchmark、生成质量或人工评估结果；未列出 requirements.txt 的具体依赖；未说明是否依赖本地 LaTeX 编译环境；未提供与同类工具的直接对比"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sybil-solutions__inference-optimisation-skill",
+          "fullName": "sybil-solutions/inference-optimisation-skill",
+          "owner": "sybil-solutions",
+          "name": "inference-optimisation-skill",
+          "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
+          "oneLiner": "本地LLM推理爬山调优技能，实测覆盖解码/预填充/KV/启动",
+          "description": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
+          "language": "Python",
+          "category": "AI 应用",
+          "license": "MIT",
+          "starsTotal": 854,
+          "starsGained": 0,
+          "streakDays": 1,
+          "isNew": true,
+          "createdAt": "2026-11-16",
+          "pushedAt": "2026-11-16",
+          "latestRelease": "",
+          "firstSeen": "2026-11-18",
+          "topics": [
+            "agent-skill",
+            "benchmarking",
+            "claude-code",
+            "inference",
+            "llm",
+            "speculative-decoding"
+          ],
+          "appearances": [
+            {
+              "date": "2026-11-18",
+              "reason": "new",
+              "starsTotal": 854,
+              "starsGained": 0,
+              "release": ""
+            }
+          ],
+          "analysis": [
+            {
+              "heading": "它是什么",
+              "body": "Sybil Solutions 开源的 Agent skill，用于爬山法优化本地 LLM 推理服务速度。核心是 SKILL.md 工作流：先计算理论上限，再单变量修改，与对照测量，记录失败，以长上下文检索为门禁，最终发布 pinned clean build。覆盖 decode、speculative decoding、prefill、KV cache、startup 和 TTFT 等指标。"
+            },
+            {
+              "heading": "为什么火",
+              "body": "该技能提炼自真实优化过程，附带大量实测数据（Intel Arc B390、RTX 3090、H200 等），展示从 43.6 到 53 tok/s、prefill 2.1x 等提升。它解决“本地推理还能快多少”的工程问题，强调统计严谨（中位数、对照、噪声范围）和物理学天花板，适合想系统调优的极客。"
+            },
+            {
+              "heading": "技术栈",
+              "body": "Python + bash 脚本，bench.py 使用标准库，兼容 OpenAI-compatible server；服务引擎不限定，已对接 vLLM、SGLang、ExLlama、llama.cpp；面向 Claude Code 和其他支持 SKILL.md 的 agent。"
+            },
+            {
+              "heading": "核心能力",
+              "bullets": [
+                "理论天花板计算：脚本根据带宽、FLOPs 和组件大小估算 decode/prefill/TTFT/startup/KV 最大值。",
+                "基准测试：启动、TTFT、单用户/并发 decode、冷 prefill、长上下文 needle、峰值内存控制，结果写 ledger.jsonl。",
+                "串行队列：queue.sh 实现对照-候选-对照，AC-only，内存看门狗，≥6 样本，中位数比较。",
+                "稳定性门禁：结果必须通过 full-context needle 和 concurrent full-KV soak，防止“伪优化”。"
+              ]
+            },
+            {
+              "heading": "适用场景",
+              "bullets": [
+                "自托管 LLM 服务，追求最大 tok/s 的个人和团队。",
+                "不同量化/引擎/硬件（Intel、NVIDIA、Apple、AMD）对比调优。",
+                "需要可复现评估 speculative decoding 效果的研究者。"
+              ]
+            },
+            {
+              "heading": "同类对比",
+              "body": "与 vLLM/SGLang 官方 benchmark 或 llama.cpp 性能测试相比，本仓库不提供推理引擎，而是方法论和可执行 harness，强调先算上限、单变量变化和长期稳定性验证。优点是可跨引擎、跨硬件，结果更可靠；缺点是需要自行准备服务，上手门槛稍高。"
+            },
+            {
+              "heading": "版本动态",
+              "body": "仓库创建于 2026-11-16，最近推送同日，Star 854，MIT 许可，无主页。尚无正式 release 或稳定版本号，但已包含 examples 和结果来源链接，更新较为活跃。 ---"
+            },
+            {
+              "heading": "ℹ️ 置信度与信息盲区",
+              "bullets": [
+                "置信度：high",
+                "信息盲区：主页未设置，仓库元数据中主页为 None；创建时间与最近推送均为 2026-11-16（未来日期），真实性待核实；README 未说明 Python 具体版本要求，仅说标准库；结果来源链接指向 PR 和外部仓库，本 README 未完全展开原始数据"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "topapothecarycanal__ai--manus2.0",
+          "fullName": "topapothecarycanal/ai--manus2.0",
+          "owner": "topapothecarycanal",
+          "name": "ai--manus2.0",
+          "url": "https://github.com/topapothecarycanal/ai--manus2.0",
+          "oneLiner": "宣传自主代码执行和浏览器控制的 AI Agent，但 README 无技术细节。",
+          "description": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
+          "language": "",
+          "category": "AI 应用",
+          "license": "Apache-2.0",
+          "starsTotal": 380,
+          "starsGained": 0,
+          "streakDays": 1,
+          "isNew": true,
+          "createdAt": "2026-11-14",
+          "pushedAt": "2026-11-15",
+          "latestRelease": "",
+          "firstSeen": "2026-11-18",
+          "topics": [
+            "ai",
+            "ai-agents",
+            "ai-sdk",
+            "anthropic",
+            "chatbot",
+            "function-calling",
+            "gemeni",
+            "generative-ai",
+            "llm",
+            "multimodal",
+            "openai",
+            "react",
+            "solidjs",
+            "streaming",
+            "svelte",
+            "tanstack",
+            "tool-calling",
+            "typescript",
+            "typescript-sdk",
+            "vue"
+          ],
+          "appearances": [
+            {
+              "date": "2026-11-18",
+              "reason": "new",
+              "starsTotal": 380,
+              "starsGained": 0,
+              "release": ""
+            }
+          ],
+          "analysis": [
+            {
+              "heading": "它是什么",
+              "body": "Manus 自称是一款自主 AI 代理，能够自动执行代码、控制浏览器、完成多步骤任务，定位为个人助理，面向家庭、学习、轻量办公等非专业场景。但 README 通篇为营销文案，未提供任何可验证的技术实现细节、源码链接或架构说明。"
+            },
+            {
+              "heading": "为什么火",
+              "body": "仓库名 ai--manus2.0 明显蹭知名 AI 代理 Manus 的热度，Star 数 380 但创建日期为 2026-11-14（未来日期），最近推送仅在一天后，时间线可疑。下载按钮指向 Dropbox 的 ManusStudio2.0.rar，并非开源代码仓库的常规发布方式，存在分发恶意软件或盗版的风险。"
+            },
+            {
+              "heading": "技术栈",
+              "body": "README 未提及任何具体技术栈、模型、依赖或运行环境。仓库主题标签虽包含 TypeScript、React、Vue、OpenAI、Anthropic 等，但 README 中无一字对应，语言字段也为 None，无法确认实际技术实现。"
+            },
+            {
+              "heading": "核心能力",
+              "body": "宣传的核心能力包括：自主代码执行、浏览器控制、任务自动化、跨会话一致性、后台安静运行。但所有描述均为产品宣传语，没有 API 文档、示例代码、配置文件或沙箱环境说明，缺乏可验证性。"
+            },
+            {
+              "heading": "适用场景",
+              "body": "README 列举学习研究、家庭项目、轻办公、开发测试、支持排查等，但均基于宣传，无实际案例或用户反馈。对于真实用户，无法判断其是否能完成这些任务。"
+            },
+            {
+              "heading": "同类对比",
+              "body": "与真正的开源自主代理（如 AutoGPT、Open Interpreter、MetaGPT）相比，此仓库没有代码、没有安装说明、没有依赖清单，不具备可比性。与同名商业产品 Manus 相比，该仓库无官方背书，下载方式可疑，极可能为仿冒或恶意推广。"
+            },
+            {
+              "heading": "版本动态",
+              "body": "仓库创建于 2026-11-14，最近推送 2026-11-15，Star 380。README 无版本号、更新日志或路线图。下载链接包含 PROMO2026 字样，暗示为促销版，但无任何发布说明。 ---"
+            },
+            {
+              "heading": "ℹ️ 置信度与信息盲区",
+              "bullets": [
+                "置信度：low",
+                "信息盲区：无代码仓库实际内容，只有营销文案；未提供安装方法、依赖、API 文档；未说明模型提供商、是否本地运行、API 密钥等；下载链接为 Dropbox RAR，未提供源码或校验，可能存在安全风险；未提供 benchmark 或性能数据"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "toppatronweave__ai--manus2.0",
+          "fullName": "toppatronweave/ai--manus2.0",
+          "owner": "toppatronweave",
+          "name": "ai--manus2.0",
+          "url": "https://github.com/toppatronweave/ai--manus2.0",
+          "oneLiner": "自称能自主执行代码与浏览器控制的通用 AI Agent 系统",
+          "description": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
+          "language": "",
+          "category": "AI 应用",
+          "license": "Apache-2.0",
+          "starsTotal": 378,
+          "starsGained": 0,
+          "streakDays": 1,
+          "isNew": true,
+          "createdAt": "2026-11-14",
+          "pushedAt": "2026-11-15",
+          "latestRelease": "",
+          "firstSeen": "2026-11-18",
+          "topics": [
+            "ai",
+            "ai-agents",
+            "ai-sdk",
+            "anthropic",
+            "chatbot",
+            "function-calling",
+            "gemeni",
+            "generative-ai",
+            "llm",
+            "multimodal",
+            "openai",
+            "react",
+            "solidjs",
+            "streaming",
+            "svelte",
+            "tanstack",
+            "tool-calling",
+            "typescript",
+            "typescript-sdk",
+            "vue"
+          ],
+          "appearances": [
+            {
+              "date": "2026-11-18",
+              "reason": "new",
+              "starsTotal": 378,
+              "starsGained": 0,
+              "release": ""
+            }
+          ],
+          "analysis": [
+            {
+              "heading": "它是什么",
+              "body": "README 宣称 Manus 是一个自主 AI agent，能够运行代码、控制浏览器、执行多步任务。仓库描述则称其为通用 AI Agent 系统，支持在沙盒环境运行工具和操作。两者略有出入，且未提供任何源码或架构细节。"
+            },
+            {
+              "heading": "为什么火",
+              "body": "Star 数 378，创建仅一天，但 README 内容疑似 AI 生成的营销文案，重复大量关键词，并包含 Dropbox 下载链接与 “PROMO2026” 字样，有推广或钓鱼嫌疑。真正关注点在于其宣称的自主执行能力，但缺乏可验证信息。"
+            },
+            {
+              "heading": "技术栈",
+              "body": "README 未提及任何具体技术栈。主题标签列出 TypeScript、React、Vue、Svelte 等，但无法从 README 确认实际使用。仓库描述提到 sandbox environment，但未说明实现方式。"
+            },
+            {
+              "heading": "核心能力",
+              "body": "据 README 营销内容：自主代码执行、浏览器控制、任务自动化、个人助理、跨会话一致性。但无技术细节、示例或架构验证，均停留在宣传层面。"
+            },
+            {
+              "heading": "适用场景",
+              "body": "README 列举学习研究、家庭项目、轻量办公、开发测试、支持排查、多任务处理等，但均为泛泛而谈，无实际案例支撑。"
+            },
+            {
+              "heading": "同类对比",
+              "body": "与 OpenAI Operator、Anthropic Computer Use、AutoGPT、BabyAGI 等相比，Manus 宣称类似功能，但无 benchmark、无开源代码可见（仓库语言为 None，可能无实质代码），无法进行有效对比。"
+            },
+            {
+              "heading": "版本动态",
+              "body": "创建于 2026-11-14，最近推送 2026-11-15，仅一天。Star 378，但可能是刷量。无 release、无 commit 历史可见（README 未提及）。 ---"
+            },
+            {
+              "heading": "ℹ️ 置信度与信息盲区",
+              "bullets": [
+                "置信度：low",
+                "信息盲区：未提供任何源码或可验证的实现细节；未说明技术栈和架构；未提供安装、运行命令或 API 文档；下载链接指向 Dropbox 压缩包，且文件名 ManusStudio2.0.rar，非标准开源分发方式；未提供 benchmark 或与同类工具的对比数据"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "topconstableinlet67__ai--manus2.0",
+          "fullName": "topconstableinlet67/ai--manus2.0",
+          "owner": "topconstableinlet67",
+          "name": "ai--manus2.0",
+          "url": "https://github.com/topconstableinlet67/ai--manus2.0",
+          "oneLiner": "宣称可自主执行代码与浏览器控制的AI代理，但README无技术细节",
+          "description": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
+          "language": "",
+          "category": "AI 应用",
+          "license": "Apache-2.0",
+          "starsTotal": 377,
+          "starsGained": 0,
+          "streakDays": 1,
+          "isNew": true,
+          "createdAt": "2026-11-14",
+          "pushedAt": "2026-11-15",
+          "latestRelease": "",
+          "firstSeen": "2026-11-18",
+          "topics": [
+            "ai",
+            "ai-agents",
+            "ai-sdk",
+            "anthropic",
+            "chatbot",
+            "function-calling",
+            "gemeni",
+            "generative-ai",
+            "llm",
+            "multimodal",
+            "openai",
+            "react",
+            "solidjs",
+            "streaming",
+            "svelte",
+            "tanstack",
+            "tool-calling",
+            "typescript",
+            "typescript-sdk",
+            "vue"
+          ],
+          "appearances": [
+            {
+              "date": "2026-11-18",
+              "reason": "new",
+              "starsTotal": 377,
+              "starsGained": 0,
+              "release": ""
+            }
+          ],
+          "analysis": [
+            {
+              "heading": "它是什么",
+              "body": "仓库描述称是通用 AI Agent 系统，支持沙箱中运行工具和操作；但 README 实际是 Manus 品牌的宣传文案，反复强调自主代码执行、浏览器控制、任务自动化、个人助理等，缺少任何可核验的技术实现说明。"
+            },
+            {
+              "heading": "为什么火",
+              "body": "Star 377，创建于 2026-11-14，最近推送 2026-11-15，数据异常集中在未来日期，可能为刷量或新仓库短期营销；README 提供 Dropbox 下载而非源码仓库地址，存在安全风险，不建议直接下载运行。"
+            },
+            {
+              "heading": "技术栈",
+              "body": "README 未列出任何具体技术栈、依赖或目录结构。仓库主题标签包含 TypeScript、React、SolidJS、Svelte、Vue、TanStack、AI SDK、OpenAI、Anthropic 等，但无法确认是否真实使用；语言标记为 None。"
+            },
+            {
+              "heading": "核心能力",
+              "body": "根据 README 宣传，声称具备：自主代码执行、浏览器自动化、任务自动化、后台个人助理、跨会话一致性等。但没有提供 API、示例或架构图证明这些能力。"
+            },
+            {
+              "heading": "适用场景",
+              "body": "宣传中列举：学习研究、家庭项目、轻办公、开发测试、远程支持、日常多任务。但无实际文档支持，无法评估真实适用性。"
+            },
+            {
+              "heading": "同类对比",
+              "body": "与 LangChain、AutoGPT、Open Interpreter、Browserless 等相比，本仓库没有可比较的技术细节；README 更接近产品落地页而非开源项目文档。"
+            },
+            {
+              "heading": "版本动态",
+              "body": "创建和最近推送仅相隔一天，无版本标签、变更日志或提交历史说明；主页为空，无法判断维护状态。 ---"
+            },
+            {
+              "heading": "ℹ️ 置信度与信息盲区",
+              "bullets": [
+                "置信度：low",
+                "信息盲区：无实际代码仓库结构或源码文件说明；无安装依赖（如 Node.js 版本、Python 版本）；无 API 文档或接口说明；无 benchmark 或性能数据；Dropbox 下载链接的文件内容未验证，存在安全风险"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "alibaba__open-code-review",
+          "fullName": "alibaba/open-code-review",
+          "owner": "alibaba",
+          "name": "open-code-review",
+          "url": "https://github.com/alibaba/open-code-review",
+          "oneLiner": "阿里 AI 代码审查：混合架构，行级精准省 token",
+          "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+          "language": "Go",
+          "category": "AI 应用",
+          "license": "Apache-2.0",
+          "starsTotal": 53644,
+          "starsGained": 3056,
+          "streakDays": 33,
+          "isNew": false,
+          "createdAt": "2026-05-18",
+          "pushedAt": "2026-11-17",
+          "latestRelease": "v1.13.11",
+          "firstSeen": "2026-07-24",
+          "topics": [
+            "agent",
+            "agent-skills",
+            "code-review",
+            "code-review-assistant",
+            "harness",
+            "repository-level-context"
+          ],
+          "appearances": [
+            {
+              "date": "2026-07-24",
+              "reason": "new",
+              "starsTotal": 11528,
+              "starsGained": 180,
+              "release": "v1.7.15"
+            },
+            {
+              "date": "2026-07-26",
+              "reason": "release_update",
+              "starsTotal": 12972,
+              "starsGained": 431,
+              "release": "v1.7.16"
+            },
+            {
+              "date": "2026-07-27",
+              "reason": "release_update",
+              "starsTotal": 13839,
+              "starsGained": 832,
+              "release": "v1.7.17"
+            },
+            {
+              "date": "2026-07-28",
+              "reason": "lightweight",
+              "starsTotal": 14813,
+              "starsGained": 979,
+              "release": "v1.7.17"
+            },
+            {
+              "date": "2026-07-30",
+              "reason": "release_update",
+              "starsTotal": 16004,
+              "starsGained": 4875,
+              "release": "v1.8.0"
+            },
+            {
+              "date": "2026-07-31",
+              "reason": "release_update",
+              "starsTotal": 16583,
+              "starsGained": 5322,
+              "release": "v1.8.1"
+            },
+            {
+              "date": "2026-08-01",
+              "reason": "release_update",
+              "starsTotal": 17024,
+              "starsGained": 4746,
+              "release": "v1.8.3"
+            },
+            {
+              "date": "2026-08-02",
+              "reason": "release_update",
+              "starsTotal": 17482,
+              "starsGained": 4708,
+              "release": "v1.8.4"
+            },
+            {
+              "date": "2026-08-03",
+              "reason": "release_update",
+              "starsTotal": 17894,
+              "starsGained": 4365,
+              "release": "v1.8.5"
+            },
+            {
+              "date": "2026-08-04",
+              "reason": "release_update",
+              "starsTotal": 18437,
+              "starsGained": 3881,
+              "release": "v1.8.6"
+            },
+            {
+              "date": "2026-08-05",
+              "reason": "release_update",
+              "starsTotal": 18790,
+              "starsGained": 3361,
+              "release": "v1.8.8"
+            },
+            {
+              "date": "2026-09-14",
+              "reason": "release_update",
+              "starsTotal": 23054,
+              "starsGained": 438,
+              "release": "v1.12.0"
+            },
+            {
+              "date": "2026-09-15",
+              "reason": "release_update",
+              "starsTotal": 25225,
+              "starsGained": 2213,
+              "release": "v1.12.1"
+            },
+            {
+              "date": "2026-09-16",
+              "reason": "release_update",
+              "starsTotal": 27831,
+              "starsGained": 2751,
+              "release": "v1.12.2"
+            },
+            {
+              "date": "2026-09-17",
+              "reason": "release_update",
+              "starsTotal": 31082,
+              "starsGained": 5169,
+              "release": "v1.12.4"
+            },
+            {
+              "date": "2026-09-18",
+              "reason": "release_update",
+              "starsTotal": 34224,
+              "starsGained": 8594,
+              "release": "v1.12.5"
+            },
+            {
+              "date": "2026-09-19",
+              "reason": "release_update",
+              "starsTotal": 36379,
+              "starsGained": 11489,
+              "release": "v1.12.6"
+            },
+            {
+              "date": "2026-09-20",
+              "reason": "release_update",
+              "starsTotal": 37586,
+              "starsGained": 15028,
+              "release": "v1.12.7"
+            },
+            {
+              "date": "2026-09-21",
+              "reason": "lightweight",
+              "starsTotal": 38417,
+              "starsGained": 15504,
+              "release": "v1.12.7"
+            },
+            {
+              "date": "2026-09-22",
+              "reason": "release_update",
+              "starsTotal": 39078,
+              "starsGained": 15504,
+              "release": "v1.12.8"
+            },
+            {
+              "date": "2026-09-23",
+              "reason": "release_update",
+              "starsTotal": 39633,
+              "starsGained": 14499,
+              "release": "v1.12.9"
+            },
+            {
+              "date": "2026-09-24",
+              "reason": "lightweight",
+              "starsTotal": 40116,
+              "starsGained": 12590,
+              "release": "v1.12.9"
+            },
+            {
+              "date": "2026-09-25",
+              "reason": "lightweight",
+              "starsTotal": 40626,
+              "starsGained": 9833,
+              "release": "v1.12.9"
+            },
+            {
+              "date": "2026-09-26",
+              "reason": "lightweight",
+              "starsTotal": 41213,
+              "starsGained": 6920,
+              "release": "v1.12.9"
+            },
+            {
+              "date": "2026-09-27",
+              "reason": "lightweight",
+              "starsTotal": 41538,
+              "starsGained": 5030,
+              "release": "v1.12.9"
+            },
+            {
+              "date": "2026-09-28",
+              "reason": "lightweight",
+              "starsTotal": 41842,
+              "starsGained": 4310,
+              "release": "v1.12.9"
+            },
+            {
+              "date": "2026-10-10",
+              "reason": "release_update",
+              "starsTotal": 45013,
+              "starsGained": 323,
+              "release": "v1.12.13"
+            },
+            {
+              "date": "2026-11-14",
+              "reason": "release_update",
+              "starsTotal": 50460,
+              "starsGained": 206,
+              "release": "v1.13.9"
+            },
+            {
+              "date": "2026-11-15",
+              "reason": "lightweight",
+              "starsTotal": 51253,
+              "starsGained": 897,
+              "release": "v1.13.9"
+            },
+            {
+              "date": "2026-11-16",
+              "reason": "release_update",
+              "starsTotal": 51897,
+              "starsGained": 688,
+              "release": "v1.13.10"
+            },
+            {
+              "date": "2026-11-16",
+              "reason": "lightweight",
+              "starsTotal": 52371,
+              "starsGained": 691,
+              "release": "v1.13.10"
+            },
+            {
+              "date": "2026-11-17",
+              "reason": "lightweight",
+              "starsTotal": 52882,
+              "starsGained": 2238,
+              "release": "v1.13.10"
+            },
+            {
+              "date": "2026-11-18",
+              "reason": "release_update",
+              "starsTotal": 53644,
+              "starsGained": 3056,
+              "release": "v1.13.11"
+            }
+          ],
+          "analysis": [
+            {
+              "heading": "它是什么",
+              "body": "Open Code Review（CLI 命令 ocr）是阿里巴巴把内部官方 AI 代码审查助手开源出来的项目。它读取 Git diff，通过带工具调用能力的 Agent 把变更文件交给可配置 LLM，产出结构化、行级精准的 review 评论；也支持 ocr scan 对无 diff 的整个文件/目录做审查。README 强调内部已用两年、服务数万开发者、识别数百万缺陷。"
+            },
+            {
+              "heading": "为什么火",
+              "bullets": [
+                "阿里内部两年、数万开发者、数百万缺陷的真实规模验证后开源；",
+                "GitHub 页面 Star 53.6k，项目创建约 6 个月即获得较高关注；",
+                "针对通用 Agent 做代码审查的三大痛点：文件覆盖不全、行号/位置漂移、质量不稳定；",
+                "核心设计是“确定性工程 × Agent”混合架构：文件选择、智能打包、规则匹配、评论定位/反思由工程逻辑硬约束，Agent 只负责动态决策和上下文检索；",
+                "基准测试称相比 Claude Code 通用 Agent，同样模型下 Precision/F1 显著更高，token 仅约 1/9，速度更快；Recall 较低是刻意取舍，减少噪音；",
+                "内置多语言规则集，举例涵盖 NPE、线程安全、XSS、SQL 注入等。"
+              ]
+            },
+            {
+              "heading": "技术栈",
+              "bullets": [
+                "语言：Go",
+                "分发：npm 包 @alibaba-group/open-code-review，全局安装后提供 ocr 命令",
+                "依赖：Git >= 2.41",
+                "模型兼容：OpenAI 与 Anthropic 兼容接口；支持内置/自定义 provider",
+                "Agent Skills：支持 Claude Code、Codex、Cursor、Kimi Code",
+                "CI 示例：GitHub Actions、GitLab CI、Bitbucket Pipelines、Gerrit CI、Codeup CI、GitFlic CI",
+                "基准数据集：HuggingFace 上的 AACR-Bench"
+              ]
+            },
+            {
+              "heading": "核心能力",
+              "bullets": [
+                "确定性管线：精确文件过滤/选择、智能文件打包（相关文件组成 sub-agent、隔离上下文、支持大变更集和并发）、基于模板引擎的细粒度规则匹配、独立评论定位和反思模块；",
+                "Agent 层：场景微调的 prompt 与工具集，Agent 可读完整文件、搜索仓库、查看其他变更文件，产出深层 review；",
+                "双模式：Native 模式使用 OCR 自己的 provider 和完整 pipeline；Delegation 模式借用宿主导 Agent 的模型/认证，但由 OCR 提供 pipeline 与 guardrails；",
+                "行级评论：结构化输出，CI 中可用；",
+                "内置安全/质量规则：NPE、线程安全、XSS、SQL 注入等（README 只举例，未给全量清单）。"
+              ]
+            },
+            {
+              "heading": "适用场景",
+              "bullets": [
+                "团队在 PR/MR 阶段接 CI 做自动代码审查；",
+                "个人开发者在 Claude Code、Cursor 等宿主导 Agent 中通过 Skills 使用；",
+                "没有 diff 的历史代码或陌生目录审计（ocr scan）；",
+                "希望用同样底层模型但比通用 Agent 更低 token、更少误报的审查场景。"
+              ]
+            },
+            {
+              "heading": "同类对比",
+              "body": "README 仅与“通用 Agent（Claude Code）”对比：OCR 在相同模型下 Precision/F1 更高、token 约 1/9、耗时更低，但 Recall 更低——适合追求少误报、控制成本的 CI 场景。未看到与专用代码审查工具的直接对比数据。"
+            },
+            {
+              "heading": "版本动态",
+              "body": "最新 Release v1.13.11（2026-11-17）仍在高频迭代：新增 session 按分支过滤、Move review 规则；修复不同路径拼写比较、多字节文件路径 rune 边界、MCP server 名称含点号、VSCode 上报失败状态、ACP 输入限制提示等问题；文档优化 onboarding 和多语言截图。 ---"
+            },
+            {
+              "heading": "ℹ️ 置信度与信息盲区",
+              "bullets": [
+                "置信度：high",
+                "信息盲区：README 未列出具体支持语言完整清单（benchmark 提到 10 种语言，但未逐个说明）；未提供与专用代码审查工具（如 CodeRabbit 等）的直接对比，仅对比通用 Claude Code Agent；内置规则集只举例 NPE/线程安全/XSS/SQL 注入，未给全量规则列表；未说明不同 provider 的认证/配置细节，需到官网 docs 查看；Star 数和趋势图来自页面 badge，建议核实统计口径"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "backnotprop__plannotator",
+          "fullName": "backnotprop/plannotator",
+          "owner": "backnotprop",
+          "name": "plannotator",
+          "url": "https://github.com/backnotprop/plannotator",
+          "oneLiner": "AI 编码代理的本地审查面板：注释文档、审 diff、回传反馈",
+          "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click. ",
+          "language": "TypeScript",
+          "category": "AI 应用",
+          "license": "Apache-2.0",
+          "starsTotal": 13011,
+          "starsGained": 2325,
+          "streakDays": 2,
+          "isNew": false,
+          "createdAt": "2025-12-28",
+          "pushedAt": "2026-11-17",
+          "latestRelease": "v0.28.67",
+          "firstSeen": "2026-11-17",
+          "topics": [
+            "agents",
+            "claude-code",
+            "code-review",
+            "codex",
+            "obsidian",
+            "opencode",
+            "pi-mono",
+            "plan-mode",
+            "skills"
+          ],
+          "appearances": [
+            {
+              "date": "2026-11-17",
+              "reason": "new",
+              "starsTotal": 12489,
+              "starsGained": 1719,
+              "release": "v0.28.66"
+            },
+            {
+              "date": "2026-11-18",
+              "reason": "release_update",
+              "starsTotal": 13011,
+              "starsGained": 2325,
+              "release": "v0.28.67"
+            }
+          ],
+          "analysis": [
+            {
+              "heading": "它是什么",
+              "body": "Plannotator 是一个本地优先的浏览器审查面板，通过插件、钩子和 slash commands 直接接入 Claude Code、Codex、Gemini CLI、OpenCode 等 AI 编码代理。代理产出计划、Markdown、HTML 或 diff 时，浏览器会打开审查界面；人工注释、评论后可一键把反馈发回代理，作为下一轮输入，不长时间占用 agent 会话。"
+            },
+            {
+              "heading": "为什么火",
+              "body": "13k+ Star 且发版频繁（v0.28.x），说明 AI 编码代理用户在人工把关和异步协作上有明显需求。它把多 agent 场景下分散的审查入口收拢到一个本地 Inbox，解决反馈滞后和会话阻塞问题，同时也支持 Git、GitButler、Jujutsu、Perforce 等常见 VCS。"
+            },
+            {
+              "heading": "技术栈",
+              "bullets": [
+                "项目类型：TypeScript，本地可执行，浏览器 UI + 本地服务",
+                "集成方式：插件 / hooks / slash commands；Claude Code 通过插件市场安装，Codex 走 Stop hook，Pi 和 OpenCode 用插件，其他 agent 可通过 MCP 接入",
+                "VCS 与平台：Git、GitButler、Jujutsu（jj）、Perforce（p4）、GitHub、GitLab",
+                "终端：Herdr Annotate 或独立 Plannotator TUI",
+                "分享：小内容内嵌链接，大内容加密上传并 7 天过期",
+                "README 未明确前端框架、本地服务端口和运行时依赖"
+              ]
+            },
+            {
+              "heading": "核心能力",
+              "bullets": [
+                "注释任意文档：本地 Markdown 文件或文件夹、URL、HTML 渲染、代理最后一条消息",
+                "代码审查：uncommitted diff、GitHub PR、GitLab MR、GitButler workspace、静态 patch file；支持 Guided review 把 diff 分成章节并按重要程度排序",
+                "Inbox 统一收件箱：代理可留下消息、问题、文件和引导审查，用户异步回复；回复发回提问的 agent 会话",
+                "Plan mode：通过 agent hooks 自动打开计划审查，不需要手动命令",
+                "终端审查：Herdr 插件或 TUI 可在终端审 Markdown 与代理回复，反馈直接作为下一条消息",
+                "AI 内置：审查时可问 AI，也可发起 AI review 在 diff 上发评论"
+              ]
+            },
+            {
+              "heading": "适用场景",
+              "bullets": [
+                "同时使用多个 AI 编码 agent 的个人开发者，想要一个统一审查入口",
+                "需要人工批准计划或 spec 后再让 agent 继续执行的流程",
+                "对代码 diff、PR、MR 做带注释的人工 review 并回传 agent",
+                "重视本地优先、不希望把工作代码上传到第三方审查服务的团队或个人"
+              ]
+            },
+            {
+              "heading": "同类对比",
+              "body": "Plannotator 类似一个跨 agent 的 review 中间层：功能上兼顾文档注释、代码审查和异步收件箱。相比单个 agent 自带 review 或 GitHub PR review，它更通用、更本地化，且不阻塞 agent 会话。README 未提供与具体工具的对照数据或 benchmark，选型前建议确认自己的 agent 组合和 VCS 是否在支持列表内。"
+            },
+            {
+              "heading": "版本动态",
+              "body": "最近 Release 为 v0.28.67（2026-11-17）。从 Release 列表看迭代非常密集，持续补齐多 agent 覆盖（Grok Bot、Hermes、OpenClaw、Muse Code 等）、Inbox 体验（批量归档、优先级、tag、Tailscale 账户限制）、跨机器 tag 以及 GitLab 全文件评论等。项目处于快速活跃期。 ---"
+            },
+            {
+              "heading": "ℹ️ 置信度与信息盲区",
+              "bullets": [
+                "置信度：high",
+                "信息盲区：README 未给出前端框架、本地服务端口、运行时依赖等实现细节；未提供性能、资源占用或 benchmark 数据；分享加密上传的具体服务端点与安全细节未说明；没有与同类工具的直接对比数据；README 被截断，可能缺少高级配置或自托管部署说明"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mvanhorn__last30days-skill",
+          "fullName": "mvanhorn/last30days-skill",
+          "owner": "mvanhorn",
+          "name": "last30days-skill",
+          "url": "https://github.com/mvanhorn/last30days-skill",
+          "oneLiner": "AI代理聚合20+社交平台，按真实参与度评分搜索",
+          "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+          "language": "Python",
+          "category": "AI 应用",
+          "license": "MIT",
+          "starsTotal": 68905,
+          "starsGained": 772,
+          "streakDays": 8,
+          "isNew": false,
+          "createdAt": "2026-01-23",
+          "pushedAt": "2026-11-17",
+          "latestRelease": "v4.3.2",
+          "firstSeen": "2026-07-09",
+          "topics": [
+            "ai-prompts",
+            "ai-skill",
+            "bluesky",
+            "claude",
+            "claude-code",
+            "clawhub",
+            "deep-research",
+            "hackernews",
+            "instagram",
+            "openclaw",
+            "polymarket",
+            "recency",
+            "reddit",
+            "research",
+            "social-media",
+            "tiktok",
+            "trends",
+            "twitter",
+            "web-search",
+            "youtube"
+          ],
+          "appearances": [
+            {
+              "date": "2026-07-09",
+              "reason": "new",
+              "starsTotal": 50602,
+              "starsGained": 373,
+              "release": "v3.11.1"
+            },
+            {
+              "date": "2026-07-28",
+              "reason": "release_update",
+              "starsTotal": 54179,
+              "starsGained": 240,
+              "release": "v3.18.3"
+            },
+            {
+              "date": "2026-07-31",
+              "reason": "release_update",
+              "starsTotal": 55561,
+              "starsGained": 378,
+              "release": "v3.18.4"
+            },
+            {
+              "date": "2026-08-01",
+              "reason": "lightweight",
+              "starsTotal": 56232,
+              "starsGained": 658,
+              "release": "v3.18.4"
+            },
+            {
+              "date": "2026-08-03",
+              "reason": "lightweight",
+              "starsTotal": 56880,
+              "starsGained": 206,
+              "release": "v3.18.4"
+            },
+            {
+              "date": "2026-08-31",
+              "reason": "release_update",
+              "starsTotal": 60395,
+              "starsGained": 271,
+              "release": "v3.21.1"
+            },
+            {
+              "date": "2026-11-17",
+              "reason": "release_update",
+              "starsTotal": 68070,
+              "starsGained": 122,
+              "release": "v4.2.1"
+            },
+            {
+              "date": "2026-11-18",
+              "reason": "release_update",
+              "starsTotal": 68905,
+              "starsGained": 772,
+              "release": "v4.3.2"
+            }
+          ],
+          "analysis": [
+            {
+              "heading": "它是什么",
+              "body": "一个AI agent技能/插件，让Claude Code等agent能够并行搜索Reddit、X、YouTube、TikTok、Hacker News、Polymarket等20多个平台，根据真实用户参与度（upvotes、likes、真实资金）评分，而非编辑或SEO。核心是“search people, not editors”。"
+            },
+            {
+              "heading": "为什么火",
+              "body": "Star 68905，GitHub Trending #1，最近活跃。聚合多个平台解决单一AI无法访问全部社交数据的问题，用户自己带key和浏览器会话，agent桥接这些平台。对做研究、会议准备、趋势发现的人很有用，尤其AI领域从业者。"
+            },
+            {
+              "heading": "技术栈",
+              "body": "Python（仓库语言）。作为Claude Code插件和npx skills安装，支持50+ Agent Skills hosts。具体依赖和实现未在README截断部分详细说明。"
+            },
+            {
+              "heading": "核心能力",
+              "bullets": [
+                "多源并行搜索：Reddit、X、YouTube、TikTok、Instagram Reels、HN、Polymarket、GitHub、Digg、arXiv、Techmemo、Yahoo Finance、LinkedIn、Meta Ads、StockTwits、Threads、Pinterest、小红书、Bluesky、Perplexity、DEV、Truth Social、Telegram、Trustpilot、Amazon、DripStack、Jobs/careers pages、Patents、Local corpus、Web。",
+                "参与度评分：upvotes、likes、views、odds等。",
+                "AI代理合成摘要。",
+                "发现模式：寻找爆发话题。",
+                "针对公司：招聘信号、专利信号、股价表现等。"
+              ]
+            },
+            {
+              "heading": "适用场景",
+              "bullets": [
+                "会议前调研人物或公司最近30天动态。",
+                "公司产品开发前的信号挖掘（招聘/专利）。",
+                "趋势发现（AI领域等）。",
+                "事件爆发后快速了解舆论（如Kanye West）。"
+              ]
+            },
+            {
+              "heading": "同类对比",
+              "body": "对比Google等编辑/SEO驱动搜索；单一AI如ChatGPT/Claude/Gemini各自有平台合作限制，无法覆盖全部社交平台。last30days利用用户自己的凭据和浏览器会话，让agent访问所有平台，并进行参与度加权。"
+            },
+            {
+              "heading": "版本动态",
+              "body": "v4.3.2 (2026-11-17) 最新，主要包括文档波斯语翻译、修复X浏览器cookies、Reddit archive部分报告、移除无效transcription key、Windows CLI解析、Exa功能增强等。仓库活跃，贡献者多。 ---"
+            },
+            {
+              "heading": "ℹ️ 置信度与信息盲区",
+              "bullets": [
+                "置信度：high",
+                "信息盲区：具体实现架构（如agent调用方式、Python库依赖）未在README截断部分展示。；X、YouTube、TikTok等源的具体认证配置细节不完全明确。；性能、可靠性、响应时间等未提及。；未提供与传统搜索对比的量化benchmark数据。；本地语料库、Amazon等源的具体使用方法可能需查阅CONFIGURATION.md或SKILL.md。"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "obra__superpowers",
+          "fullName": "obra/superpowers",
+          "owner": "obra",
+          "name": "superpowers",
+          "url": "https://github.com/obra/superpowers",
+          "oneLiner": "让编码代理先问为什么、再计划、再TDD、再子代理执行的强制方法论",
+          "description": "An agentic skills framework & software development methodology that works.",
+          "language": "Shell",
+          "category": "AI 应用",
+          "license": "MIT",
+          "starsTotal": 319218,
+          "starsGained": 598,
+          "streakDays": 10,
+          "isNew": false,
+          "createdAt": "2025-10-09",
+          "pushedAt": "2026-11-03",
+          "latestRelease": "v7.0.2",
+          "firstSeen": "2026-06-19",
+          "topics": [
+            "ai",
+            "brainstorming",
+            "coding",
+            "obra",
+            "sdlc",
+            "skills",
+            "subagent-driven-development",
+            "superpowers"
+          ],
+          "appearances": [
+            {
+              "date": "2026-06-19",
+              "reason": "new",
+              "starsTotal": 233004,
+              "starsGained": 1113,
+              "release": "v6.0.3"
+            },
+            {
+              "date": "2026-06-19",
+              "reason": "lightweight",
+              "starsTotal": 233048,
+              "starsGained": 1113,
+              "release": "v6.0.3"
+            },
+            {
+              "date": "2026-06-19",
+              "reason": "lightweight",
+              "starsTotal": 233052,
+              "starsGained": 1113,
+              "release": "v6.0.3"
+            },
+            {
+              "date": "2026-06-20",
+              "reason": "lightweight",
+              "starsTotal": 233104,
+              "starsGained": 1113,
+              "release": "v6.0.3"
+            },
+            {
+              "date": "2026-06-20",
+              "reason": "lightweight",
+              "starsTotal": 233723,
+              "starsGained": 1110,
+              "release": "v6.0.3"
+            },
+            {
+              "date": "2026-07-01",
+              "reason": "lightweight",
+              "starsTotal": 242332,
+              "starsGained": 884,
+              "release": "v6.0.3"
+            },
+            {
+              "date": "2026-07-04",
+              "reason": "release_update",
+              "starsTotal": 245342,
+              "starsGained": 1205,
+              "release": "v6.1.1"
+            },
+            {
+              "date": "2026-07-09",
+              "reason": "lightweight",
+              "starsTotal": 249632,
+              "starsGained": 999,
+              "release": "v6.1.1"
+            },
+            {
+              "date": "2026-07-26",
+              "reason": "release_update",
+              "starsTotal": 261106,
+              "starsGained": 479,
+              "release": "v6.2.0"
+            },
+            {
+              "date": "2026-11-18",
+              "reason": "release_update",
+              "starsTotal": 319218,
+              "starsGained": 598,
+              "release": "v7.0.2"
+            }
+          ],
+          "analysis": [
+            {
+              "heading": "它是什么",
+              "body": "Superpowers 是一套面向 AI 编码代理的技能框架和软件开发方法论，由 Prime Radiant 的 Jesse Vincent 等人构建。它由一组可组合技能（brainstorming、writing-plans、test-driven-development 等）和启动指令组成，让代理在写代码前先澄清需求、制定计划、用 TDD 实现、子代理执行并评审。项目通过插件/扩展方式安装到多个编码 harness，如 Claude Code、Codex、Cursor、Gemini CLI 等。"
+            },
+            {
+              "heading": "为什么火",
+              "body": "Star 数约 31.9 万，跨 15+ 编码 harness 支持。核心是强制改变编码代理的行为模式：代理不再“直接跳进写代码”，而是先退一步问你要什么、为什么，把需求写成可读 spec，批准后才制定计划，再进入子代理驱动开发和测试。v7.0.2 自述的盲测中，无意义提问从 41 降到 23，33/33 场景先挖出“为什么”，且批准前不构建。"
+            },
+            {
+              "heading": "技术栈",
+              "body": "主要语言 Shell；以技能文件和脚本形式分发，通过各 harness 的插件市场或仓库安装，利用原生 skills 或兼容层加载。MIT 许可。"
+            },
+            {
+              "heading": "核心能力",
+              "bullets": [
+                "brainstorming：构建前先追问意图，只问会改变构建结果的必要问题，给出可选项和推荐；小改动在聊天里确认，大项目输出设计文档。",
+                "writing-plans：把批准的设计拆成 2-5 分钟的小任务，每个任务包含精确文件路径、完整代码和验证步骤。",
+                "subagent-driven-development / executing-plans：前者每个任务派新子代理并逐个评审（最彻底）；后者在当前会话内联执行全部任务，最后做一次整分支评审（最便宜）。",
+                "test-driven-development：强制红-绿-重构，删除写在测试之前的代码。",
+                "requesting-code-review：在任务之间按计划评审，严重问题阻断进度。",
+                "finishing-a-development-branch：验证测试，提供合并/PR/保留/丢弃选项并清理 worktree。",
+                "using-git-worktrees：设计批准后创建隔离工作区，跑项目 setup，确认干净测试基线。",
+                "diagnosing-superpowers：会话异常时读取 transcript 并用行级证据报告问题，可导出脱敏 bundle。"
+              ]
+            },
+            {
+              "heading": "适用场景",
+              "bullets": [
+                "希望编码代理长时间自主工作却不偏离计划的团队和个人；",
+                "要求强制 TDD、代码评审和明确设计批准的工程流程；",
+                "同时使用多个编码 harness，希望用同一套方法论统一行为。"
+              ]
+            },
+            {
+              "heading": "同类对比",
+              "body": "相比在 Claude Code 里手动开 plan mode 或拼提示词，Superpowers 提供跨 harness 一致的强制技能触发和从需求到合并的完整生命周期；相比绑定单一后端的代理框架，它更偏方法论和插件化，不绑定模型供应商。README 提供了 v7.0.2 与自己旧版和 6.4.2 的盲测对比，但没有与 Aider/OpenHands 等第三方工具的量化对比。"
+            },
+            {
+              "heading": "版本动态",
+              "body": "最新 Release v7.0.2（2026-11-03）主要调优 brainstorming：问题更少、先问 why、有选择时给出带推荐的选项；修复六个 harness 的 bootstrap 问题；强化 SDD 和 executing-plans 脚本防止指向错误仓库或任务；修复 start-server.sh --project-dir . 相对路径问题。 ---"
+            },
+            {
+              "heading": "ℹ️ 置信度与信息盲区",
+              "bullets": [
+                "置信度：high",
+                "信息盲区：README 未提供与 Aider/OpenHands 等第三方代理框架的量化对比；未说明各 harness 插件的具体版本兼容范围和安装失败排障步骤；盲测数据来自项目自述，未见独立可复现的公开基准；未列出所有技能文件的完整清单和触发条件细节"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Tencent__LoopForge",
+          "fullName": "Tencent/LoopForge",
+          "owner": "Tencent",
+          "name": "LoopForge",
+          "url": "https://github.com/Tencent/LoopForge",
+          "oneLiner": "自托管多 Agent 编码流水线，内置人工审批门禁",
+          "description": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
+          "language": "Go",
+          "category": "AI 应用",
+          "license": "NOASSERTION",
+          "starsTotal": 3036,
+          "starsGained": 590,
+          "streakDays": 3,
+          "isNew": false,
+          "createdAt": "2026-07-28",
+          "pushedAt": "2026-11-17",
+          "latestRelease": "v0.4.0",
+          "firstSeen": "2026-11-16",
+          "topics": [
+            "agent-orchestration",
+            "agentic-workflow",
+            "ai-agents",
+            "ai-coding",
+            "claude-code",
+            "code-review",
+            "codebuddy",
+            "codex",
+            "coding-agents",
+            "cursor",
+            "developer-tools",
+            "human-on-the-loop",
+            "llm",
+            "mcp",
+            "multi-agent",
+            "sdlc",
+            "self-hosted",
+            "sop",
+            "workflow-automation",
+            "workflow-engine"
+          ],
+          "appearances": [
+            {
+              "date": "2026-11-16",
+              "reason": "new",
+              "starsTotal": 1348,
+              "starsGained": 484,
+              "release": "v0.3.8"
+            },
+            {
+              "date": "2026-11-16",
+              "reason": "lightweight",
+              "starsTotal": 1813,
+              "starsGained": 423,
+              "release": "v0.3.8"
+            },
+            {
+              "date": "2026-11-18",
+              "reason": "release_update",
+              "starsTotal": 3036,
+              "starsGained": 590,
+              "release": "v0.4.0"
+            }
+          ],
+          "analysis": [
+            {
+              "heading": "它是什么",
+              "body": "LoopForge 是腾讯开源的自托管工作流平台，用于把 coding agent（CodeBuddy、Codex、Claude Code 等）编排成可复用交付流程。两条核心路径：在聊天里让 Main Bot 开 Docker 沙箱、委托子代理完成需求；把验证过的流程保存为 SOP，由 Agent、Script、Human-gate、sub-SOP 节点串行执行。"
+            },
+            {
+              "heading": "为什么火",
+              "body": "解决“让 coding agent 修 bug，结果每次不一样”的问题：同一 SOP 每次走相同阶段和检查；规划、实现、评审、测试角色分离；关键节点有人工审批；运行可暂停、重试或从任意节点重跑。对已有 CI/CD 但缺 agent 治理的团队比较实用。"
+            },
+            {
+              "heading": "技术栈",
+              "body": "后端 Go；安装/运行依赖 Git、Docker、Compose、Python 3、curl；发布镜像托管在 GHCR；沙箱默认复用安装镜像，也支持自定义 Dockerfile；支持本地执行机。"
+            },
+            {
+              "heading": "核心能力",
+              "bullets": [
+                "聊天驱动：Main Bot 创建 conversation workspace，@角色/技能/需求/SOP，选择执行器和模型。",
+                "SOP 引擎：Agent、Script、Human-gate、sub-SOP 节点；人工门禁可退回指定步骤。",
+                "多执行器：CodeBuddy、Codex、Claude Code、OpenCode、Cursor CLI、Antigravity、Kimi Code、Pi、DeepSeek Harness、ZCode。",
+                "权限与凭证：个人 key/共享 key；内置 GitHub OAuth；支持 SSH 仓库与 per-host user keys；凭证不写入 clone URL。",
+                "可观测：节点状态、工具轨迹、日志、产出物，以及需求维度的交付与成本报告。"
+              ]
+            },
+            {
+              "heading": "适用场景",
+              "body": "已有代码库需要 PR/MR 交付的团队；产品文档或新项目生成；需要可审批、可审计的 agentic 工作流；希望在自己基础设施上跑多 agent 协作的开发者。"
+            },
+            {
+              "heading": "同类对比",
+              "body": "比直接使用 Claude Code/Codex CLI 多出 SOP 编排、人工审批、角色隔离和执行历史；对比通用 workflow 引擎更聚焦 SDLC 与 coding agent；相比 LangGraph/AutoGen 等 Python 编排库，更偏自托管产品形态。"
+            },
+            {
+              "heading": "版本动态",
+              "body": "最近发布 v0.4.0，包含聊天中自动补装缺失 CLI、SSH 仓库私钥支持、安全收紧、调度任务 prompt 长度修复、运行中编辑 workspace、强制清理执行历史等。项目迭代速度较快，当前 Star 3k+。 ---"
+            },
+            {
+              "heading": "ℹ️ 置信度与信息盲区",
+              "bullets": [
+                "置信度：high",
+                "信息盲区：许可证信息不一致：仓库元数据为 NOASSERTION，但 README badge 和正文称 MIT，需查 LICENSE 文件确认；未提供 benchmark 或量化效果数据；未详细说明 native deployment 的资源要求和兼容性矩阵；未看到完整的多租户/权限模型细节"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "DIYgod__pinky",
+          "fullName": "DIYgod/pinky",
+          "owner": "DIYgod",
+          "name": "pinky",
+          "url": "https://github.com/DIYgod/pinky",
+          "oneLiner": "让 Claude 等 MCP 代理在监督下操控真实 iPhone/Android 手机",
+          "description": "Let AI use your iPhone or Android phone, with you in the loop: any MCP agent from macOS, Windows or Linux, or Pinky itself, right on the phone.",
+          "language": "Go",
+          "category": "AI 应用",
+          "license": "Apache-2.0",
+          "starsTotal": 2371,
+          "starsGained": 0,
+          "streakDays": 6,
+          "isNew": false,
+          "createdAt": "2026-11-06",
+          "pushedAt": "2026-11-17",
+          "latestRelease": "v2026.1117.4",
+          "firstSeen": "2026-11-14",
+          "topics": [
+            "ai-agent",
+            "android",
+            "claude-code",
+            "ios",
+            "iphone",
+            "mcp",
+            "mcp-server",
+            "phone-automation"
+          ],
+          "appearances": [
+            {
+              "date": "2026-11-14",
+              "reason": "new",
+              "starsTotal": 2078,
+              "starsGained": 0,
+              "release": "v2026.1113.18"
+            },
+            {
+              "date": "2026-11-15",
+              "reason": "release_update",
+              "starsTotal": 2135,
+              "starsGained": 0,
+              "release": "v2026.1115.1"
+            },
+            {
+              "date": "2026-11-16",
+              "reason": "release_update",
+              "starsTotal": 2204,
+              "starsGained": 0,
+              "release": "v2026.1115.11"
+            },
+            {
+              "date": "2026-11-16",
+              "reason": "lightweight",
+              "starsTotal": 2241,
+              "starsGained": 0,
+              "release": "v2026.1116.4"
+            },
+            {
+              "date": "2026-11-17",
+              "reason": "release_update",
+              "starsTotal": 2287,
+              "starsGained": 0,
+              "release": "v2026.1117.1"
+            },
+            {
+              "date": "2026-11-18",
+              "reason": "release_update",
+              "starsTotal": 2371,
+              "starsGained": 0,
+              "release": "v2026.1117.4"
+            }
+          ],
+          "analysis": [
+            {
+              "heading": "它是什么",
+              "body": "Pinky 是一个开源桌面网关（Go 编写），让 MCP 代理（Claude Code、Claude Desktop、Codex、Cursor 等）操作真实 iPhone 或 Android 手机。核心是“人在环中”：高风险操作（付款、转账、发送、删除、安装、修改设置等）默认需要用户点击批准，规则由 Pinky 网关强制执行，而非依赖模型自觉。"
+            },
+            {
+              "heading": "为什么火",
+              "body": "Star 增长快，可能因为解决了一个真实痛点：用 MCP 代理控制真实手机，同时提供安全审批和操作留痕。支持 iOS 与 Android 双平台，且无需在 iOS 27+ 安装额外软件；对安卓 13+ 还支持隐藏第二屏，不打断用户使用。对极客、自动化测试、受控设备管理都有吸引力。"
+            },
+            {
+              "heading": "技术栈",
+              "bullets": [
+                "Go 编写，UI 使用 MyGo（GPU 绘制，无 Electron/webview），下载 16–22 MB，空闲约 70 MB 内存。",
+                "通过 MCP over stdio 或 HTTP 接入任意支持 MCP 的代理。",
+                "Android 自带 adb（从 Android 源码构建），iOS 通过 Apple 开发者镜像和 Pinky Helper/Pinky 应用驱动。",
+                "跨 macOS（Intel/Apple Silicon）、Windows x64、Linux x86-64 (GTK 3)。"
+              ]
+            },
+            {
+              "heading": "核心能力",
+              "bullets": [
+                "真实手机操作：Android 10–17、iOS 17.4+；iOS 27+ 无需额外安装，17.4–26 需从 Xcode 侧载 Pinky 应用。",
+                "安全批准：付款/交易/转账/发送/删除/呼叫/安装/链接外跳/设置变更等可配置等待；识别 10 种语言按钮；代理不能自我批准。",
+                "默认禁区：银行、钱包、密码管理器应用对代理不可见，代理不能输入密码/一次性验证码字段；可按任务临时授权。",
+                "手机端自主模式：Pinky 应用可在 Android/iPhone 上直接使用 DeepSeek、Qwen、Kimi、GLM、Claude、GPT、Gemini 或本地 Ollama/LM Studio 模型，无需电脑。",
+                "记录与回放：每步自然语言描述、截图、屏幕录像、HTML 报告导出，数据存于本机。",
+                "隐藏第二屏（Android 13+）与随时接管；解锁手机可经 Touch ID/Windows Hello/keyring，PIN 不暴露给代理。",
+                "定时任务与记忆：按条件运行任务，任务后可建议备忘经用户同意才保存。"
+              ]
+            },
+            {
+              "heading": "适用场景",
+              "bullets": [
+                "用 AI 代理自动化真实手机操作：发消息、下单、调试 UI、回归测试。",
+                "受控设备/他人手机的安全自动化，审批与可审计记录。",
+                "在手机上直接跑模型执行任务（安卓/iPhone），尤其是无电脑环境。",
+                "多平台手机兼容性测试（Android 模拟器、iOS Simulator、真实设备）。"
+              ]
+            },
+            {
+              "heading": "同类对比",
+              "body": "相对于纯提示词“代理控制手机”的方案，Pinky 的差异是网关强制审批与默认禁区，而不是依赖模型指令遵循；相对 Electron 类桌面工具，原生 MyGo UI 更轻量；相对云端手机自动化服务，它是本地优先、开源、无账户。但仍处于 pre-alpha，部分能力等待更多测试。"
+            },
+            {
+              "heading": "版本动态",
+              "body": "最近 Release v2026.1117.4（2026-11-17）修复 macOS 隐藏启动时审批窗口抢键盘、浮动面板应用列表显示、窄窗口任务按钮换行。项目创建于 2026-11-06，Star 2371，更新频繁。README 自述已用真实 Android 手机（USB）和 iPhone（iOS 27、iOS 18.7.11 via Pinky Helper）端到端跑通 Claude Code，手机端模型任务在 Mi 10 Pro（Android 17）和 iPhone 13 mini（iOS 27.0.1）完成；部分功能仍待用户实测。 ---"
+            },
+            {
+              "heading": "ℹ️ 置信度与信息盲区",
+              "bullets": [
+                "置信度：high",
+                "信息盲区：README 未提供延迟、吞吐量或资源占用的基准数据（仅提到内存约 70 MB/0% CPU）；Telemetry 的具体采集范围和关闭方式需要查看 docs/TELEMETRY.md，README 未展开；HTTP MCP 接入的认证/加密细节未在 README 中说明；iOS 17.4–26 侧载依赖 Xcode 和 Apple 开发者签名，README 未说明是否需要付费开发者账号；项目当前为 pre-alpha，部分功能（解锁、后台工作、Wi-Fi 配对、文件等）尚待用户实测，稳定性和兼容性数据有限"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "alexsergivan__kwant",
+          "fullName": "alexsergivan/kwant",
+          "owner": "alexsergivan",
+          "name": "kwant",
+          "url": "https://github.com/alexsergivan/kwant",
+          "oneLiner": "自托管多智能体AI团队，@交接、审批、二次校验单二进制",
+          "description": "Your own team of AI bots in one self-hosted binary: spaces, every account you have, handoffs, approvals and routines. Open-source, self-hosted alternative to Grok Bot, Claude Duet and OpenAI dots. Rust + React.",
+          "language": "Rust",
+          "category": "AI 应用",
+          "license": "AGPL-3.0",
+          "starsTotal": 691,
+          "starsGained": 0,
+          "streakDays": 11,
+          "isNew": false,
+          "createdAt": "2026-10-22",
+          "pushedAt": "2026-11-17",
+          "latestRelease": "mac-v0.9.21",
+          "firstSeen": "2026-11-09",
+          "topics": [
+            "ai-agents",
+            "ai-assistant",
+            "ai-bot",
+            "automation",
+            "bot",
+            "bots-team",
+            "chatbot",
+            "claude-duet",
+            "grok",
+            "grok-bot",
+            "grok-bot-alternative",
+            "harness",
+            "llm",
+            "multi-agent",
+            "openai-dots",
+            "openbot",
+            "personal-agent",
+            "rust",
+            "self-hosted",
+            "selfhosted-ai"
+          ],
+          "appearances": [
+            {
+              "date": "2026-11-09",
+              "reason": "new",
+              "starsTotal": 361,
+              "starsGained": 0,
+              "release": "mac-v0.7.6"
+            },
+            {
+              "date": "2026-11-10",
+              "reason": "release_update",
+              "starsTotal": 412,
+              "starsGained": 0,
+              "release": "mac-v0.7.7"
+            },
+            {
+              "date": "2026-11-11",
+              "reason": "release_update",
+              "starsTotal": 444,
+              "starsGained": 0,
+              "release": "mac-v0.8.2"
+            },
+            {
+              "date": "2026-11-12",
+              "reason": "release_update",
+              "starsTotal": 492,
+              "starsGained": 0,
+              "release": "mac-v0.9.0"
+            },
+            {
+              "date": "2026-11-13",
+              "reason": "release_update",
+              "starsTotal": 530,
+              "starsGained": 0,
+              "release": "mac-v0.9.3"
+            },
+            {
+              "date": "2026-11-14",
+              "reason": "release_update",
+              "starsTotal": 514,
+              "starsGained": 0,
+              "release": "mac-v0.9.7"
+            },
+            {
+              "date": "2026-11-15",
+              "reason": "release_update",
+              "starsTotal": 556,
+              "starsGained": 0,
+              "release": "mac-v0.9.11"
+            },
+            {
+              "date": "2026-11-16",
+              "reason": "release_update",
+              "starsTotal": 593,
+              "starsGained": 0,
+              "release": "mac-v0.9.14"
+            },
+            {
+              "date": "2026-11-16",
+              "reason": "lightweight",
+              "starsTotal": 633,
+              "starsGained": 0,
+              "release": "mac-v0.9.16"
+            },
+            {
+              "date": "2026-11-17",
+              "reason": "release_update",
+              "starsTotal": 640,
+              "starsGained": 0,
+              "release": "mac-v0.9.19"
+            },
+            {
+              "date": "2026-11-18",
+              "reason": "release_update",
+              "starsTotal": 691,
+              "starsGained": 0,
+              "release": "mac-v0.9.21"
+            }
+          ],
+          "analysis": [
+            {
+              "heading": "它是什么",
+              "body": "kwant 是一个开源自托管的多智能体 AI 助手平台，以单个二进制提供桌面应用或服务器。它让多个 AI bot 共享聊天空间，通过 @提及 进行任务交接，并引入“核对/验证”机制：任务卡片只有在 kwant 实际运行检查后才标记为 Verified，而不是仅凭 bot 声称完成。定位为 Grok Bot、Claude Duet、OpenAI dots 等云端 bot 的开源替代，数据与运行环境由用户自己掌控。"
+            },
+            {
+              "heading": "为什么火",
+              "body": "截至报告时 Star 数为 691（仓库创建于 2026-10-22，不到一个月），版本已迭代至 0.9.21，更新非常频繁。对极客的吸引力在于：①自托管、无官方 token，账户与数据在自己机器/服务器上；②把“工作流”概念引入 AI bot：handoff、审批、例行任务、spaces 隔离；③强调可核实性，不是简单黑盒自动回复。注意 Star 数与宣传性更新较多，实际稳定性与生态仍需自行验证。"
+            },
+            {
+              "heading": "技术栈",
+              "bullets": [
+                "后端/核心：Rust（Tokio、Axum、SQLite），编译为单二进制，React Web UI 嵌入其中。",
+                "部署形态：macOS universal app（Apple silicon + Intel，macOS 11+）、Linux x86_64（.deb、AppImage、自托管服务器脚本/Docker）、Windows beta。",
+                "AI 接入：可使用已有的 Claude、Codex 或 Grok CLI，或自带 API keys；浏览器自动化、MCP、Composio 等工具集成存在。",
+                "存储：SQLite，默认数据目录 ~/.kwnt（桌面版）。"
+              ]
+            },
+            {
+              "heading": "核心能力",
+              "bullets": [
+                "多智能体协作：bot 之间通过 @提及 交接工作，团队持续运行直到任务完成；支持 spaces 隔离工作/生活。",
+                "验证与审批：任务卡片通过“检查”变为 Verified；0.9+ 引入二次检查（另一模型在 clean copy 上重跑）、Inbox 审查、Approve/Send back/Roll back、Failed CI 反馈给 bot、Fix-it 等。",
+                "例行任务与调度：Routines，从侧边栏打开，支持按周/日触发。",
+                "浏览器控制：bot 可操作页面，Watch live、Point 点击页面元素、每个 bot 独立 job page、自动处理登录弹窗。",
+                "预算与用量：每个 bot 可设置月度 token/美元预算，达到 80% 提醒、100% 暂停；有 AI use 用量视图（7/30 天）。",
+                "工具生态：docs 包含 bot-actions、bot-browser、home-assistant、mcp-api、teams-api、payments、saved-passwords 等，集成面较广。"
+              ]
+            },
+            {
+              "heading": "适用场景",
+              "bullets": [
+                "个人自动化：管理多账户、重复例行任务、跨平台信息处理。",
+                "小团队/开发：代码审查、PR 反馈、worktree 隔离、CI 状态跟踪。",
+                "自托管爱好者：需要数据本地存储、无第三方 token、可审计的工作流。",
+                "对 AI 操作有审批需求的场景：关键步骤需人工确认或二次检查。"
+              ]
+            },
+            {
+              "heading": "同类对比",
+              "body": "相对 Grok Bot、Claude Duet、OpenAI dots 等云端闭源产品，kwant 的核心差异在自托管、开源（AGPL-3.0）与验证机制。但 README 未提供与这些产品在功能完成度、模型支持范围、错误率等方面的定量对比；生态和成熟度可能还不如大厂产品。同类开源多智能体项目（如 OpenBot 等）未在 README 中详细比较，无法判断相对优势。"
+            },
+            {
+              "heading": "版本动态",
+              "body": "最新 Release 为 mac-v0.9.21（2026-11-17），Mac/Linux 桌面与服务器均已提供，Windows 仍为 beta。0.9 系列功能密集：0.9.0 引入 Inbox 审查与二次检查；0.9.2 团队持续运行、0.9.3 bot 独立 job page、0.9.4 失败后自动重试/Blocked 反馈、0.9.5 预算与 Composio 三步接入、0.9.6 Suggest a team、0.9.7 打字状态与引擎标记、0.9.8 预置 @helpers、0.9.9 浏览器 panel 与 AI use、0.9.10 限额显示与 Approve 按钮、0.9.11 Fix-it 与文档引用、0.9.12 Dev mode 前置。如此高频发布说明作者活跃，但也可能意味着功能稳定性需用户自行评估。 ---"
+            },
+            {
+              "heading": "ℹ️ 置信度与信息盲区",
+              "bullets": [
+                "置信度：medium",
+                "信息盲区：完整配置流程（添加 AI 账户/API key 具体步骤）未在 README 截断部分展示，需查官方 docs/quickstart；未列出所有支持的 AI 模型/提供商完整清单；未见性能基准、内存/CPU 占用数据；bot 执行代码或文件操作的安全沙盒/隔离机制未详细说明；手机端“添加到主屏幕”的 PWA 功能边界未展开"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "JunWan666__astrbot-for-android",
+          "fullName": "JunWan666/astrbot-for-android",
+          "owner": "JunWan666",
+          "name": "astrbot-for-android",
+          "url": "https://github.com/JunWan666/astrbot-for-android",
+          "oneLiner": "在 Android 手机上本地部署 AstrBot，免 Root 接入 QQ/微信官方机器人。",
+          "description": "在 Android 手机上本地部署和管理 AstrBot，支持 QQ 官方机器人与微信官方 ClawBot、PRoot Ubuntu、终端任务、WebUI、日志和备份恢复，无需 Root。",
+          "language": "Kotlin",
+          "category": "AI 应用",
+          "license": "MIT",
+          "starsTotal": 405,
+          "starsGained": 0,
+          "streakDays": 21,
+          "isNew": false,
+          "createdAt": "2026-10-26",
+          "pushedAt": "2026-11-17",
+          "latestRelease": "v1.5.0",
+          "firstSeen": "2026-10-29",
+          "topics": [
+            "ai",
+            "android",
+            "astrbot",
+            "chatbot",
+            "jetpack-compose",
+            "kotlin",
+            "llm",
+            "proot",
+            "qq-bot",
+            "self-hosted",
+            "ubuntu"
+          ],
+          "appearances": [
+            {
+              "date": "2026-10-29",
+              "reason": "new",
+              "starsTotal": 230,
+              "starsGained": 0,
+              "release": "v1.1.0"
+            },
+            {
+              "date": "2026-10-30",
+              "reason": "release_update",
+              "starsTotal": 255,
+              "starsGained": 0,
+              "release": "v1.2.0"
+            },
+            {
+              "date": "2026-10-31",
+              "reason": "release_update",
+              "starsTotal": 273,
+              "starsGained": 0,
+              "release": "v1.3.0"
+            },
+            {
+              "date": "2026-11-01",
+              "reason": "lightweight",
+              "starsTotal": 286,
+              "starsGained": 0,
+              "release": "v1.3.0"
+            },
+            {
+              "date": "2026-11-02",
+              "reason": "release_update",
+              "starsTotal": 301,
+              "starsGained": 0,
+              "release": "v1.4.0"
+            },
+            {
+              "date": "2026-11-03",
+              "reason": "release_update",
+              "starsTotal": 310,
+              "starsGained": 0,
+              "release": "v1.4.1"
+            },
+            {
+              "date": "2026-11-04",
+              "reason": "lightweight",
+              "starsTotal": 319,
+              "starsGained": 0,
+              "release": "v1.4.1"
+            },
+            {
+              "date": "2026-11-05",
+              "reason": "lightweight",
+              "starsTotal": 327,
+              "starsGained": 0,
+              "release": "v1.4.1"
+            },
+            {
+              "date": "2026-11-06",
+              "reason": "lightweight",
+              "starsTotal": 332,
+              "starsGained": 0,
+              "release": "v1.4.1"
+            },
+            {
+              "date": "2026-11-07",
+              "reason": "lightweight",
+              "starsTotal": 339,
+              "starsGained": 0,
+              "release": "v1.4.1"
+            },
+            {
+              "date": "2026-11-08",
+              "reason": "lightweight",
+              "starsTotal": 346,
+              "starsGained": 0,
+              "release": "v1.4.1"
+            },
+            {
+              "date": "2026-11-09",
+              "reason": "lightweight",
+              "starsTotal": 352,
+              "starsGained": 0,
+              "release": "v1.4.1"
+            },
+            {
+              "date": "2026-11-10",
+              "reason": "lightweight",
+              "starsTotal": 360,
+              "starsGained": 0,
+              "release": "v1.4.1"
+            },
+            {
+              "date": "2026-11-11",
+              "reason": "lightweight",
+              "starsTotal": 363,
+              "starsGained": 0,
+              "release": "v1.4.1"
+            },
+            {
+              "date": "2026-11-12",
+              "reason": "lightweight",
+              "starsTotal": 368,
+              "starsGained": 0,
+              "release": "v1.4.1"
+            },
+            {
+              "date": "2026-11-13",
+              "reason": "lightweight",
+              "starsTotal": 372,
+              "starsGained": 0,
+              "release": "v1.4.1"
+            },
+            {
+              "date": "2026-11-14",
+              "reason": "lightweight",
+              "starsTotal": 376,
+              "starsGained": 0,
+              "release": "v1.4.1"
+            },
+            {
+              "date": "2026-11-15",
+              "reason": "lightweight",
+              "starsTotal": 383,
+              "starsGained": 0,
+              "release": "v1.4.1"
+            },
+            {
+              "date": "2026-11-16",
+              "reason": "lightweight",
+              "starsTotal": 395,
+              "starsGained": 0,
+              "release": "v1.4.1"
+            },
+            {
+              "date": "2026-11-16",
+              "reason": "lightweight",
+              "starsTotal": 400,
+              "starsGained": 0,
+              "release": "v1.4.1"
+            },
+            {
+              "date": "2026-11-18",
+              "reason": "release_update",
+              "starsTotal": 405,
+              "starsGained": 0,
+              "release": "v1.5.0"
+            }
+          ],
+          "analysis": [
+            {
+              "heading": "它是什么",
+              "body": "AstrBot for Android 是一个 Android 应用，以单个 APK 内置 PRoot Ubuntu 运行环境，在手机上本地部署和管理 AstrBot 聊天机器人框架。用户通过 Kotlin + Jetpack Compose 原生界面完成环境初始化、服务启停、日志查看、备份恢复，并可内嵌 WebUI 配置模型/插件/人设。支持 QQ 官方机器人和微信官方 ClawBot 授权接入，无需 Root。"
+            },
+            {
+              "heading": "为什么火",
+              "body": "需求明确：不少用户想在低功耗设备上常驻个人 AI 聊天机器人，但搭建和维护 Ubuntu + Python + AstrBot 门槛不低。该项目把整套环境打包进 APK，并提供官方机器人扫码授权和原生管理界面，将“手机当服务器”的门槛降到安装一个应用。405 star 反映了小众但刚需的自托管群体。"
+            },
+            {
+              "heading": "技术栈",
+              "bullets": [
+                "客户端：Kotlin、Jetpack Compose",
+                "运行环境：PRoot（用户空间 chroot）运行 Ubuntu",
+                "机器人框架：AstrBot（通过官方 GitHub Release 更新）",
+                "集成：QQ 官方机器人 API、微信官方 ClawBot（openclaw-weixin / iLink）、WebView、终端、cpolar、SSH",
+                "打包：单个 APK 包含 Ubuntu、AstrBot、离线桌面资源；管理器与后端分离更新"
+              ]
+            },
+            {
+              "heading": "核心能力",
+              "bullets": [
+                "一键初始化和启停 AstrBot，显示真实就绪状态",
+                "首页配置 QQ/微信官方机器人，扫码授权、自动连接、启停/重绑",
+                "内置 WebUI，支持固定缩放和外部浏览器访问",
+                "通用 Ubuntu 任务管理：自定义目录/命令、运行时长、日志清理",
+                "备份与恢复：本机快照、ZIP 导入导出、更新失败回退",
+                "诊断与日志：自动跟随、脱敏导出、系统分享",
+                "扩展：SSH、cpolar 内网穿透、Linux QQ、DeepSeek Harness",
+                "权限引导：后台运行、Shizuku、无障碍、省电白名单"
+              ]
+            },
+            {
+              "heading": "适用场景",
+              "bullets": [
+                "无服务器、希望用旧 Android 手机 24h 运行 QQ/微信聊天机器人",
+                "个人或小社群使用官方机器人接口，规避第三方协议封号风险",
+                "需要移动管理 AstrBot 模型、插件、人设，并随时查看日志",
+                "想在 Android 上运行自定义 Ubuntu 程序（不只限于 AstrBot）"
+              ]
+            },
+            {
+              "heading": "同类对比",
+              "bullets": [
+                "vs Termux 手动安装：本项目提供打包好的 Ubuntu 环境和原生管理 UI，免去大量配置；缺点是 APK 体积巨大（729 MiB），更新依赖项目方。",
+                "vs 服务器部署 AstrBot：移动端便携、低成本，但受 Android 后台机制和厂商省电策略影响，稳定性不如 VPS。",
+                "vs 非官方 QQ 机器人（NapCat 等）：官方机器人接口更合规，但功能限制较多（如无法用个人账号）。v1.5.0 已移除内置 NapCat/SnowLuma。"
+              ]
+            },
+            {
+              "heading": "版本动态",
+              "body": "v1.5.0（2026-11-17）移除 NapCat 和 SnowLuma，专注官方机器人接入，新增通用 Ubuntu 任务管理和环境修复，APK 从约 1GB 缩减到 729 MiB。升级保留用户数据和手动安装软件，旧版第三方接入停止自动启动。项目维护方向清晰：稳定官方渠道，降低法律与维护风险。 ---"
+            },
+            {
+              "heading": "ℹ️ 置信度与信息盲区",
+              "bullets": [
+                "置信度：high",
+                "信息盲区：未提供实际性能/资源占用基准（如内存、CPU 均值）；Android 后台运行在不同厂商 ROM 上的实际稳定性未量化；微信官方 ClawBot 的授权细节和限制未详细说明；移除 NapCat/SnowLuma 后，官方机器人接口是否满足原有个人号需求未对比；PRoot 在部分 Android 设备上的兼容性仅有例证，无系统测试矩阵"
+              ]
+            }
+          ]
+        }
+      ],
+      "news": [
+        {
+          "title": "More ways to work with Claude: Sheets, Whiteboards, and Interactive Connectors",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPU214TVpTUm5rSDZJU1ZmcE9NQTJ0bUFiQkVkNnFEc3NoMzlDRmkyRXU3YUlkb0ZtdmhQVFJROUI5NTU5aVk1aFZWN1I5VEYwcWJSSGNKTlIxcWpSY3BzWTEwLUY1UVFwSi1DMDZYSXQyeVc0bllhRVBpSl93OW83cmpURjZKR2QxNTdBeTVwS1RKNUk1VnQ4MjJpTlBjdkYzQWJ5TFpfZG1Dengzb0lya0JzNA?oc=5",
+          "source": "Claude",
+          "sourceType": "official",
+          "published": "2026-11-17",
+          "summary": "Claude 推出 Sheets、白板和交互式连接器等新工作方式。",
+          "category": "产品"
+        },
+        {
+          "title": "Introducing GPT-6.2 Astra and Sol",
+          "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+          "source": "OpenAI",
+          "sourceType": "official",
+          "published": "2026-11-17",
+          "summary": "OpenAI 发布 GPT-6.2 Astra 和 Sol，提升编码与效率。",
+          "category": "模型发布"
+        },
+        {
+          "title": "Put Gemini to work for you",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+          "source": "Google AI",
+          "sourceType": "official",
+          "published": "2026-11-17",
+          "summary": "谷歌展示 Gemini 任务界面，邀请用户描述任务以完成工作。",
+          "category": "产品"
+        },
+        {
+          "title": "Messages",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1ycUptX3VyS1JnVXh1YWdVOG1GaHNBS3FYQXlTZ2g4amZ1aFJoZ2twOHBZYmplNWJlUTZWU0loQ3FzTnJzQXJkN0QxOG1JMjRvTkxqMVRBeEJ2NjUzWjNsNnpMb3BXNDJjVmhJNFlBUXphQQ?oc=5",
+          "source": "Claude",
+          "sourceType": "official",
+          "published": "2026-11-17",
+          "summary": "Claude 平台更新 Messages 接口文档。",
+          "category": "工程"
+        },
+        {
+          "title": "Strengthening NATO and allied cyber defenses with AI",
+          "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+          "source": "OpenAI",
+          "sourceType": "official",
+          "published": "2026-11-17",
+          "summary": "OpenAI 与北约及盟友合作，利用 AI 强化网络防御和漏洞修复。",
+          "category": "其他"
+        },
+        {
+          "title": "What is the best harness for each model?",
+          "url": "https://runta.com/blog/introducing-frontierharness-eval-v1-1/",
+          "source": "Hacker News",
+          "sourceType": "community",
+          "published": "2026-11-17",
+          "summary": "讨论各语言模型最佳的 harness 选择。",
+          "category": "观点"
+        }
+      ]
+    },
+    {
       "date": "2026-11-17",
       "count": 17,
       "projects": [
@@ -115,8 +1990,8 @@
           "streakDays": 1,
           "isNew": true,
           "createdAt": "2025-12-28",
-          "pushedAt": "2026-11-16",
-          "latestRelease": "v0.28.66",
+          "pushedAt": "2026-11-17",
+          "latestRelease": "v0.28.67",
           "firstSeen": "2026-11-17",
           "topics": [
             "agents",
@@ -136,54 +2011,68 @@
               "starsTotal": 12489,
               "starsGained": 1719,
               "release": "v0.28.66"
+            },
+            {
+              "date": "2026-11-18",
+              "reason": "release_update",
+              "starsTotal": 13011,
+              "starsGained": 2325,
+              "release": "v0.28.67"
             }
           ],
           "analysis": [
             {
               "heading": "它是什么",
-              "body": "Plannotator 是本地、浏览器-based 的 AI 编程 agent 审查/注释层。通过插件、hooks、命令接入 Claude Code、Codex、Copilot CLI、Gemini CLI、OpenCode、Kiro、Droid、Amp、DeepSeek Harness、Pi 等；Inbox 还能接 Grok Bot、Muse、Hermes、OpenClaw 等个人助理。当 agent 提出决策、计划、HTML 或完成工作后，应用在浏览器打开，用户可标注、评论并把反馈发回 agent。另有终端版 Herdr Annotate / Plannotator TUI。"
+              "body": "Plannotator 是一个本地优先的浏览器审查面板，通过插件、钩子和 slash commands 直接接入 Claude Code、Codex、Gemini CLI、OpenCode 等 AI 编码代理。代理产出计划、Markdown、HTML 或 diff 时，浏览器会打开审查界面；人工注释、评论后可一键把反馈发回代理，作为下一轮输入，不长时间占用 agent 会话。"
             },
             {
               "heading": "为什么火",
-              "body": "Star 12489（给定数据），主要原因：多 agent 时代缺一个统一的人机审查界面；本地优先，不依赖 SaaS；支持主流 CLI agent 和 MCP；从计划、代码 review 到 Inbox 覆盖完整反馈闭环。对想“stay in the loop”的重度 agent 用户有直接价值。"
+              "body": "13k+ Star 且发版频繁（v0.28.x），说明 AI 编码代理用户在人工把关和异步协作上有明显需求。它把多 agent 场景下分散的审查入口收拢到一个本地 Inbox，解决反馈滞后和会话阻塞问题，同时也支持 Git、GitButler、Jujutsu、Perforce 等常见 VCS。"
             },
             {
               "heading": "技术栈",
-              "body": "语言 TypeScript。形态为本地 CLI + 浏览器 UI，通过插件/hooks/slash commands/MCP 与各 agent 集成。安装脚本从 GitHub Releases 拉二进制，可 --minimal 只装二进制。README 未披露后端存储、渲染框架或数据库细节；只知道本地数据目录用于会话/标注，分享时小份内容存在链接内、大份加密上传 7 天过期。"
+              "bullets": [
+                "项目类型：TypeScript，本地可执行，浏览器 UI + 本地服务",
+                "集成方式：插件 / hooks / slash commands；Claude Code 通过插件市场安装，Codex 走 Stop hook，Pi 和 OpenCode 用插件，其他 agent 可通过 MCP 接入",
+                "VCS 与平台：Git、GitButler、Jujutsu（jj）、Perforce（p4）、GitHub、GitLab",
+                "终端：Herdr Annotate 或独立 Plannotator TUI",
+                "分享：小内容内嵌链接，大内容加密上传并 7 天过期",
+                "README 未明确前端框架、本地服务端口和运行时依赖"
+              ]
             },
             {
               "heading": "核心能力",
               "bullets": [
-                "Inbox：本地统一收件箱，agent 留消息/问题/文件/guided review，用户点选回答、注释文件、Send 回复，不阻塞 agent 会话。",
-                "Annotate：标注 markdown/HTML/URL/文件夹，支持渲染本地站点和 hot reload。",
-                "Code Review：审查未提交改动、GitHub PR、GitLab MR、GitButler 工作区、patch 文件；评论发回 agent；支持 Git、GitButler、Jujutsu、Perforce。",
-                "Guided Review：AI 将大 diff 分章节，重要变更优先。",
-                "Plan mode：通过 hooks 自动在 agent 创建计划时打开审查界面。",
-                "终端集成：Herdr Annotate 与 Plannotator TUI。"
+                "注释任意文档：本地 Markdown 文件或文件夹、URL、HTML 渲染、代理最后一条消息",
+                "代码审查：uncommitted diff、GitHub PR、GitLab MR、GitButler workspace、静态 patch file；支持 Guided review 把 diff 分成章节并按重要程度排序",
+                "Inbox 统一收件箱：代理可留下消息、问题、文件和引导审查，用户异步回复；回复发回提问的 agent 会话",
+                "Plan mode：通过 agent hooks 自动打开计划审查，不需要手动命令",
+                "终端审查：Herdr 插件或 TUI 可在终端审 Markdown 与代理回复，反馈直接作为下一条消息",
+                "AI 内置：审查时可问 AI，也可发起 AI review 在 diff 上发评论"
               ]
             },
             {
               "heading": "适用场景",
               "bullets": [
-                "同时管理多个 Claude Code/Codex/etc agent 会话，需要统一收件箱和决策留痕的个人开发者/小团队。",
-                "审查复杂 PR/MR 或本地改动，希望评论直接回流给 agent 执行。",
-                "让 agent 产出计划/HTML/文档后人工 review 再继续。",
-                "偏好本地运行、不想把代码和反馈传到第三方 SaaS 的用户。"
+                "同时使用多个 AI 编码 agent 的个人开发者，想要一个统一审查入口",
+                "需要人工批准计划或 spec 后再让 agent 继续执行的流程",
+                "对代码 diff、PR、MR 做带注释的人工 review 并回传 agent",
+                "重视本地优先、不希望把工作代码上传到第三方审查服务的团队或个人"
               ]
             },
             {
               "heading": "同类对比",
-              "body": "README 未直接点名竞争对手。相比单一 agent 内置的 plan mode 或 diff 工具，它的差异在跨 agent/跨 harness 的统一收件箱和注释回流；相比纯 Git review 工具，多了对计划、HTML、agent 消息等非 diff 内容的支持。因未提供 benchmark 或详细对标，具体优劣需自行验证。"
+              "body": "Plannotator 类似一个跨 agent 的 review 中间层：功能上兼顾文档注释、代码审查和异步收件箱。相比单个 agent 自带 review 或 GitHub PR review，它更通用、更本地化，且不阻塞 agent 会话。README 未提供与具体工具的对照数据或 benchmark，选型前建议确认自己的 agent 组合和 VCS 是否在支持列表内。"
             },
             {
               "heading": "版本动态",
-              "body": "最新 Release v0.28.66（2026-11-16）。近期更新密集，包括：撤回 agent 未收到的回复、Tailscale 支持、T3 Code threads 的 Inbox 免配置、Artifacts 视频过滤器、GitLab 全文件评论、设置中配对 Grok Bot 等云 agent、Priority 和标签、Windows 上从 Inbox 启动 agent、规则、改善慢连接加载等。表明项目处于快速迭代期。 ---"
+              "body": "最近 Release 为 v0.28.67（2026-11-17）。从 Release 列表看迭代非常密集，持续补齐多 agent 覆盖（Grok Bot、Hermes、OpenClaw、Muse Code 等）、Inbox 体验（批量归档、优先级、tag、Tailscale 账户限制）、跨机器 tag 以及 GitLab 全文件评论等。项目处于快速活跃期。 ---"
             },
             {
               "heading": "ℹ️ 置信度与信息盲区",
               "bullets": [
                 "置信度：high",
-                "信息盲区：README 未披露内部存储、数据库、渲染框架等实现细节；未说明除安装脚本外是否需要 Node.js 或其他运行时依赖；无 benchmark/性能数据，也未与同类工具做量化对比；大文件、多线程、多 agent 并发场景下的资源占用未给出参考"
+                "信息盲区：README 未给出前端框架、本地服务端口、运行时依赖等实现细节；未提供性能、资源占用或 benchmark 数据；分享加密上传的具体服务端点与安全细节未说明；没有与同类工具的直接对比数据；README 被截断，可能缺少高级配置或自托管部署说明"
               ]
             }
           ]
@@ -204,7 +2093,7 @@
           "streakDays": 1,
           "isNew": true,
           "createdAt": "2026-05-05",
-          "pushedAt": "2026-11-16",
+          "pushedAt": "2026-11-17",
           "latestRelease": "v2.1",
           "firstSeen": "2026-11-17",
           "topics": [
@@ -231,6 +2120,13 @@
               "reason": "new",
               "starsTotal": 7338,
               "starsGained": 1057,
+              "release": "v2.1"
+            },
+            {
+              "date": "2026-11-18",
+              "reason": "lightweight",
+              "starsTotal": 8982,
+              "starsGained": 1747,
               "release": "v2.1"
             }
           ],
@@ -536,7 +2432,7 @@
           "streakDays": 22,
           "isNew": false,
           "createdAt": "2026-01-10",
-          "pushedAt": "2026-11-16",
+          "pushedAt": "2026-11-17",
           "latestRelease": "v3.35.0",
           "firstSeen": "2026-06-21",
           "topics": [
@@ -701,6 +2597,13 @@
               "reason": "release_update",
               "starsTotal": 72786,
               "starsGained": 4548,
+              "release": "v3.35.0"
+            },
+            {
+              "date": "2026-11-18",
+              "reason": "lightweight",
+              "starsTotal": 73059,
+              "starsGained": 4355,
               "release": "v3.35.0"
             }
           ],
@@ -879,7 +2782,7 @@
           "streakDays": 7,
           "isNew": false,
           "createdAt": "2025-09-11",
-          "pushedAt": "2026-11-16",
+          "pushedAt": "2026-11-17",
           "latestRelease": "chrome-devtools-mcp-v1.13.0",
           "firstSeen": "2026-07-03",
           "topics": [
@@ -940,6 +2843,13 @@
               "reason": "release_update",
               "starsTotal": 57636,
               "starsGained": 837,
+              "release": "chrome-devtools-mcp-v1.13.0"
+            },
+            {
+              "date": "2026-11-18",
+              "reason": "lightweight",
+              "starsTotal": 58009,
+              "starsGained": 2593,
               "release": "chrome-devtools-mcp-v1.13.0"
             }
           ],
@@ -1155,6 +3065,13 @@
               "starsTotal": 4289,
               "starsGained": 0,
               "release": "v0.1.41"
+            },
+            {
+              "date": "2026-11-18",
+              "reason": "lightweight",
+              "starsTotal": 4426,
+              "starsGained": 0,
+              "release": "v0.1.41"
             }
           ],
           "analysis": [
@@ -1222,8 +3139,8 @@
           "streakDays": 7,
           "isNew": false,
           "createdAt": "2026-01-23",
-          "pushedAt": "2026-11-16",
-          "latestRelease": "v4.2.1",
+          "pushedAt": "2026-11-17",
+          "latestRelease": "v4.3.2",
           "firstSeen": "2026-07-09",
           "topics": [
             "ai-prompts",
@@ -1296,65 +3213,60 @@
               "starsTotal": 68070,
               "starsGained": 122,
               "release": "v4.2.1"
+            },
+            {
+              "date": "2026-11-18",
+              "reason": "release_update",
+              "starsTotal": 68905,
+              "starsGained": 772,
+              "release": "v4.3.2"
             }
           ],
           "analysis": [
             {
               "heading": "它是什么",
-              "body": "/last30days 是一个 AI agent 技能（skill），让 AI 助手能并行搜索 Reddit、X、YouTube、Hacker News、Polymarket、GitHub 等 50+ 平台的最近 30 天内容，按点赞、转发、观看、真实资金等参与度信号评分，并由 AI “法官” 综合成一份简报。它作为一个可安装的技能包运行在 Claude Code、Codex、Cursor、Copilot、Gemini CLI 等 50+ 个 agent 宿主上，安装后零配置即可使用 Reddit、HN、Polymarket、GitHub，运行一次向导可解锁更多源。"
+              "body": "一个AI agent技能/插件，让Claude Code等agent能够并行搜索Reddit、X、YouTube、TikTok、Hacker News、Polymarket等20多个平台，根据真实用户参与度（upvotes、likes、真实资金）评分，而非编辑或SEO。核心是“search people, not editors”。"
             },
             {
               "heading": "为什么火",
-              "body": "该项目在 GitHub 上获得 68070 star，曾登上 Trending 第一。它切中的痛点是：Google 聚合的是编辑和 SEO 内容，ChatGPT 有 Reddit 协议但搜不到 X/TikTok，Gemini 有 YouTube 但缺 Reddit，每个平台都是数据孤岛。/last30days 把这些孤岛桥接起来，让 agent 能跨平台搜索并对比，用数百万用户每天的点赞和钱包投票作为排序信号，提供的是“人”在关注什么，而不是编辑在写什么。"
+              "body": "Star 68905，GitHub Trending #1，最近活跃。聚合多个平台解决单一AI无法访问全部社交数据的问题，用户自己带key和浏览器会话，agent桥接这些平台。对做研究、会议准备、趋势发现的人很有用，尤其AI领域从业者。"
             },
             {
               "heading": "技术栈",
-              "bullets": [
-                "语言：Python",
-                "分发：作为 agent skill，通过 Claude Code 插件市场或 npx skills add 安装",
-                "核心规范：skills/last30days/SKILL.md 是运行时真相来源",
-                "扩展工具：部分数据源依赖本地 CLI（如 arxiv-pp-cli、techmeme-pp-cli），首次运行向导会安装",
-                "零配置源：Reddit、HN、Polymarket、GitHub 直接可用；其他需 API keys 或浏览器会话"
-              ]
+              "body": "Python（仓库语言）。作为Claude Code插件和npx skills安装，支持50+ Agent Skills hosts。具体依赖和实现未在README截断部分详细说明。"
             },
             {
               "heading": "核心能力",
               "bullets": [
-                "多源并行搜索：覆盖社交（Reddit/X/YouTube/TikTok/Instagram/LinkedIn/Bluesky 等）、技术（GitHub/HN/arXiv/Techmeme）、金融（Polymarket/Yahoo Finance/StockTwits）、商业信号（Meta Ads/Trustpilot/Amazon）等",
-                "参与度评分：用 upvotes、likes、views、odds 等真实互动排序，而非 SEO",
-                "AI 综合：agent 对结果进行筛选和总结，输出简明的 grounded summary",
-                "专题模式：人物调研、公司招聘信号、专利分析、产品对比、趋势发现（--hiring-signals、? what's exploding in AI agents?）",
-                "可扩展性：50+ 宿主，提供插件机制，可新增源"
+                "多源并行搜索：Reddit、X、YouTube、TikTok、Instagram Reels、HN、Polymarket、GitHub、Digg、arXiv、Techmemo、Yahoo Finance、LinkedIn、Meta Ads、StockTwits、Threads、Pinterest、小红书、Bluesky、Perplexity、DEV、Truth Social、Telegram、Trustpilot、Amazon、DripStack、Jobs/careers pages、Patents、Local corpus、Web。",
+                "参与度评分：upvotes、likes、views、odds等。",
+                "AI代理合成摘要。",
+                "发现模式：寻找爆发话题。",
+                "针对公司：招聘信号、专利信号、股价表现等。"
               ]
             },
             {
               "heading": "适用场景",
               "bullets": [
-                "会议/销售前快速调研一个人或公司的近期动态",
-                "发现爆发中的话题（AI 领域变化快）",
-                "对比工具、产品或竞品",
-                "追踪热点事件（如名人、地缘政治）",
-                "分析公司的招聘和专利作为前瞻信号"
+                "会议前调研人物或公司最近30天动态。",
+                "公司产品开发前的信号挖掘（招聘/专利）。",
+                "趋势发现（AI领域等）。",
+                "事件爆发后快速了解舆论（如Kanye West）。"
               ]
             },
             {
               "heading": "同类对比",
-              "bullets": [
-                "vs Google 搜索：Google 基于编辑和 SEO 索引，缺少社交评论和实时热度；/last30days 直接以用户参与度排序",
-                "vs ChatGPT 搜索：ChatGPT 有 Reddit 合作但无法搜索 X、TikTok 等；本技能可同时接入多个平台",
-                "vs Gemini：拥有 YouTube 但缺乏 Reddit 原生数据；本技能桥接多个孤岛",
-                "vs Perplexity：Perplexity 提供 AI 搜索，但本技能将其作为一个来源之一，并叠加了金融、社交等信号"
-              ]
+              "body": "对比Google等编辑/SEO驱动搜索；单一AI如ChatGPT/Claude/Gemini各自有平台合作限制，无法覆盖全部社交平台。last30days利用用户自己的凭据和浏览器会话，让agent访问所有平台，并进行参与度加权。"
             },
             {
               "heading": "版本动态",
-              "body": "最新版本 v4.2.1（2026-11-16）主要是一轮修复：修正 YouTube 评论开关、Reddit 评论树读取、JSON 提取拒绝非对象、GitHub issue 评论按 reactions 排序、保存后缀清理等。多位新贡献者参与。项目迭代频繁，持续维护，反映了社区活跃度。 ---"
+              "body": "v4.3.2 (2026-11-17) 最新，主要包括文档波斯语翻译、修复X浏览器cookies、Reddit archive部分报告、移除无效transcription key、Windows CLI解析、Exa功能增强等。仓库活跃，贡献者多。 ---"
             },
             {
               "heading": "ℹ️ 置信度与信息盲区",
               "bullets": [
                 "置信度：high",
-                "信息盲区：README 未详细说明 Python 依赖清单和内部模块结构；未提供搜索质量评估或 benchmark 数据（docs/search-quality-eval.md 存在但未在 README 展示）；未说明各平台 API 调用的频率限制、重试和成本控制机制；未说明用户 API keys 的存储位置和安全处理方式；某些数据源的接入细节（如 Telegram、Truth Social、Amazon）需要查阅 CONFIGURATION.md，README 只做了概述"
+                "信息盲区：具体实现架构（如agent调用方式、Python库依赖）未在README截断部分展示。；X、YouTube、TikTok等源的具体认证配置细节不完全明确。；性能、可靠性、响应时间等未提及。；未提供与传统搜索对比的量化benchmark数据。；本地语料库、Amazon等源的具体使用方法可能需查阅CONFIGURATION.md或SKILL.md。"
               ]
             }
           ]
@@ -1375,7 +3287,7 @@
           "streakDays": 19,
           "isNew": false,
           "createdAt": "2026-10-29",
-          "pushedAt": "2026-11-16",
+          "pushedAt": "2026-11-17",
           "latestRelease": "v0.1.45",
           "firstSeen": "2026-10-31",
           "topics": [
@@ -1521,6 +3433,13 @@
               "starsTotal": 8852,
               "starsGained": 0,
               "release": "v0.1.45"
+            },
+            {
+              "date": "2026-11-18",
+              "reason": "lightweight",
+              "starsTotal": 8962,
+              "starsGained": 0,
+              "release": "v0.1.45"
             }
           ],
           "analysis": [
@@ -1602,7 +3521,7 @@
           "streakDays": 6,
           "isNew": false,
           "createdAt": "2026-11-09",
-          "pushedAt": "2026-11-16",
+          "pushedAt": "2026-11-17",
           "latestRelease": "desktop-v0.8.11",
           "firstSeen": "2026-11-13",
           "topics": [
@@ -1667,6 +3586,13 @@
               "date": "2026-11-17",
               "reason": "release_update",
               "starsTotal": 1618,
+              "starsGained": 0,
+              "release": "desktop-v0.8.11"
+            },
+            {
+              "date": "2026-11-18",
+              "reason": "lightweight",
+              "starsTotal": 1677,
               "starsGained": 0,
               "release": "desktop-v0.8.11"
             }
@@ -1743,8 +3669,8 @@
           "streakDays": 5,
           "isNew": false,
           "createdAt": "2026-11-06",
-          "pushedAt": "2026-11-16",
-          "latestRelease": "v2026.1117.1",
+          "pushedAt": "2026-11-17",
+          "latestRelease": "v2026.1117.4",
           "firstSeen": "2026-11-14",
           "topics": [
             "ai-agent",
@@ -1791,72 +3717,67 @@
               "starsTotal": 2287,
               "starsGained": 0,
               "release": "v2026.1117.1"
+            },
+            {
+              "date": "2026-11-18",
+              "reason": "release_update",
+              "starsTotal": 2371,
+              "starsGained": 0,
+              "release": "v2026.1117.4"
             }
           ],
           "analysis": [
             {
               "heading": "它是什么",
-              "body": "Pinky 是一个开源（Apache-2.0）跨平台工具，让任意 MCP agent（Claude Code、Claude Desktop、Codex、Cursor 等）操作真实 iPhone 或 Android 手机，关键操作需人在环路审批。也可以用 Pinky 手机端 App 独立执行任务，无需电脑。项目处于 pre-alpha，作者 DIYgod。"
+              "body": "Pinky 是一个开源桌面网关（Go 编写），让 MCP 代理（Claude Code、Claude Desktop、Codex、Cursor 等）操作真实 iPhone 或 Android 手机。核心是“人在环中”：高风险操作（付款、转账、发送、删除、安装、修改设置等）默认需要用户点击批准，规则由 Pinky 网关强制执行，而非依赖模型自觉。"
             },
             {
               "heading": "为什么火",
-              "bullets": [
-                "手机自动化风险高，普通 agent 直接操作容易失控。Pinky 在网关层强制执行审批，不靠提示词约束，覆盖支付、发送、删除、安装等高风险按钮，且支持 10 种语言识别。",
-                "跨双平台：Android 10–17 与 iOS 17.4+，有隐藏第二屏、后台任务、远程解锁等能力。",
-                "全本地、小体积（16–22 MB 下载，约 70 MB 内存，0% CPU），无 Electron/webview；多个模型可选，包括本地 Ollama/LM Studio。",
-                "项目创建于 2026-11-06，10 天左右已有 2287 Star，更新频繁。"
-              ]
+              "body": "Star 增长快，可能因为解决了一个真实痛点：用 MCP 代理控制真实手机，同时提供安全审批和操作留痕。支持 iOS 与 Android 双平台，且无需在 iOS 27+ 安装额外软件；对安卓 13+ 还支持隐藏第二屏，不打断用户使用。对极客、自动化测试、受控设备管理都有吸引力。"
             },
             {
               "heading": "技术栈",
               "bullets": [
-                "主语言 Go；UI 使用 MyGo（egoist/mygo）在 GPU 上绘制，无 Electron/webview。",
-                "通过 MCP 暴露手机控制能力，支持 stdio 与 HTTP 方式连接 agent。",
-                "Android：自带 adb，通过 USB 或无线调试；Android 13+ 支持隐藏第二屏，需安装 Pinky 手机端 App。",
-                "iOS：需要 Xcode 的 developer disk image（或第三方镜像），iOS 17.4–26 还要安装 Pinky 的 iPhone App；iOS 27+ 无需额外安装（已验证部分）。",
-                "支持多种模型：DeepSeek、Qwen、Kimi、GLM、Claude、GPT、Gemini，以及本地 Ollama/LM Studio。"
+                "Go 编写，UI 使用 MyGo（GPU 绘制，无 Electron/webview），下载 16–22 MB，空闲约 70 MB 内存。",
+                "通过 MCP over stdio 或 HTTP 接入任意支持 MCP 的代理。",
+                "Android 自带 adb（从 Android 源码构建），iOS 通过 Apple 开发者镜像和 Pinky Helper/Pinky 应用驱动。",
+                "跨 macOS（Intel/Apple Silicon）、Windows x64、Linux x86-64 (GTK 3)。"
               ]
             },
             {
               "heading": "核心能力",
               "bullets": [
-                "安全审批网关：支付、转账、发送、删除、通话、安装、外链/设置更改等风险步骤默认等待用户点击 Allow；银行、钱包、密码管理器默认对 agent 不可见；密码/OTC 输入框禁止写入。",
-                "人在环交互：可随时接管（点击镜像、手机触摸即可暂停 agent），全局快捷键停止。",
-                "记录与回放：每个步骤有文字、截图、屏幕录像，标有步骤标记，可导出 HTML 报告，全部留本地。",
-                "第二屏幕/离屏操作：Android 13+ 的 agent 在隐藏屏幕上工作，不影响用户使用手机。",
-                "手机独立运行：Pinky App 可在手机上直接执行任务，支持语音/文本/分享触发，Android 有悬浮按钮询问屏幕内容，并可后台隐藏屏幕执行。",
-                "定时任务与记忆：可按设定时间运行，或条件满足时通知；任务后可建议记住偏好，需用户确认。",
-                "远程解锁：保存 PIN 后通过 Touch ID/Windows Hello/钥匙串确认解锁，agent 不会看到 PIN。",
-                "录屏文件夹管理（最新版本）：可选择外部磁盘，处理磁盘缺失/只读，删除任务时同步清理。"
+                "真实手机操作：Android 10–17、iOS 17.4+；iOS 27+ 无需额外安装，17.4–26 需从 Xcode 侧载 Pinky 应用。",
+                "安全批准：付款/交易/转账/发送/删除/呼叫/安装/链接外跳/设置变更等可配置等待；识别 10 种语言按钮；代理不能自我批准。",
+                "默认禁区：银行、钱包、密码管理器应用对代理不可见，代理不能输入密码/一次性验证码字段；可按任务临时授权。",
+                "手机端自主模式：Pinky 应用可在 Android/iPhone 上直接使用 DeepSeek、Qwen、Kimi、GLM、Claude、GPT、Gemini 或本地 Ollama/LM Studio 模型，无需电脑。",
+                "记录与回放：每步自然语言描述、截图、屏幕录像、HTML 报告导出，数据存于本机。",
+                "隐藏第二屏（Android 13+）与随时接管；解锁手机可经 Touch ID/Windows Hello/keyring，PIN 不暴露给代理。",
+                "定时任务与记忆：按条件运行任务，任务后可建议备忘经用户同意才保存。"
               ]
             },
             {
               "heading": "适用场景",
               "bullets": [
-                "想用 Claude Code 等 agent 操控手机完成真实任务的开发者/极客：发消息、点餐、支付前审批。",
-                "需要在 Android 和 iOS 上自动化跨 App 流程，同时保持人工监管。",
-                "想训练/评测手机 agent 的研究者（有 ACCEPTANCE.md 等文档，本地记录）。",
-                "想用手机端独立执行自动化任务，不想开电脑的用户。"
+                "用 AI 代理自动化真实手机操作：发消息、下单、调试 UI、回归测试。",
+                "受控设备/他人手机的安全自动化，审批与可审计记录。",
+                "在手机上直接跑模型执行任务（安卓/iPhone），尤其是无电脑环境。",
+                "多平台手机兼容性测试（Android 模拟器、iOS Simulator、真实设备）。"
               ]
             },
             {
               "heading": "同类对比",
-              "body": "README 没有直接点名同类，但明显区别于仅提供手机屏幕截图/坐标点击的 MCP 工具：Pinky 强在审批网关（默认高风险操作等待人工）、跨平台 Android+iOS、Android 隐藏第二屏、记录可审计、手机端可独立跑。对“AI 操作手机”这个方向，它是偏安全与可审计的选择，而不是最简原型。"
+              "body": "相对于纯提示词“代理控制手机”的方案，Pinky 的差异是网关强制审批与默认禁区，而不是依赖模型指令遵循；相对 Electron 类桌面工具，原生 MyGo UI 更轻量；相对云端手机自动化服务，它是本地优先、开源、无账户。但仍处于 pre-alpha，部分能力等待更多测试。"
             },
             {
               "heading": "版本动态",
-              "body": "最新版本 v2026.1117.1（2026-11-16）主要改进录屏存储： ---",
-              "bullets": [
-                "可在 Settings › Privacy › 录屏文件夹 选择保存位置，如外接硬盘；新录屏去新位置，旧录屏仍可播放，可一键切回默认文件夹。",
-                "磁盘不可用或只读时自动回退到 Pinky 自己的文件夹，并在设置有提示，禁止选在其自身录屏文件夹内。",
-                "删除任务时同步删除所选文件夹中的录屏，即使磁盘当时未挂载/只读，也能在后续可访问时清理；删除所有活动只删 Pinky 的录屏，不碰用户其他文件。"
-              ]
+              "body": "最近 Release v2026.1117.4（2026-11-17）修复 macOS 隐藏启动时审批窗口抢键盘、浮动面板应用列表显示、窄窗口任务按钮换行。项目创建于 2026-11-06，Star 2371，更新频繁。README 自述已用真实 Android 手机（USB）和 iPhone（iOS 27、iOS 18.7.11 via Pinky Helper）端到端跑通 Claude Code，手机端模型任务在 Mi 10 Pro（Android 17）和 iPhone 13 mini（iOS 27.0.1）完成；部分功能仍待用户实测。 ---"
             },
             {
               "heading": "ℹ️ 置信度与信息盲区",
               "bullets": [
                 "置信度：high",
-                "信息盲区：无 benchmark 或性能量化数据（如读屏延迟、审批按钮识别准确率）；未说明各 Android 品牌/OEM 的兼容差异覆盖是否完整（README 只列品牌，但未提供验证矩阵）；未提供与同类项目的直接对比或差异数据；docs/mcp.md 等文档未展开，具体 MCP 工具接口细节未在 README 中覆盖"
+                "信息盲区：README 未提供延迟、吞吐量或资源占用的基准数据（仅提到内存约 70 MB/0% CPU）；Telemetry 的具体采集范围和关闭方式需要查看 docs/TELEMETRY.md，README 未展开；HTTP MCP 接入的认证/加密细节未在 README 中说明；iOS 17.4–26 侧载依赖 Xcode 和 Apple 开发者签名，README 未说明是否需要付费开发者账号；项目当前为 pre-alpha，部分功能（解锁、后台工作、Wi-Fi 配对、文件等）尚待用户实测，稳定性和兼容性数据有限"
               ]
             }
           ]
@@ -1877,7 +3798,7 @@
           "streakDays": 11,
           "isNew": false,
           "createdAt": "2026-10-26",
-          "pushedAt": "2026-11-16",
+          "pushedAt": "2026-11-17",
           "latestRelease": "v4.1.7",
           "firstSeen": "2026-11-08",
           "topics": [
@@ -1966,6 +3887,13 @@
               "date": "2026-11-17",
               "reason": "release_update",
               "starsTotal": 679,
+              "starsGained": 0,
+              "release": "v4.1.7"
+            },
+            {
+              "date": "2026-11-18",
+              "reason": "lightweight",
+              "starsTotal": 719,
               "starsGained": 0,
               "release": "v4.1.7"
             }
@@ -2190,6 +4118,13 @@
               "starsTotal": 561,
               "starsGained": 0,
               "release": "v0.7.6"
+            },
+            {
+              "date": "2026-11-18",
+              "reason": "lightweight",
+              "starsTotal": 567,
+              "starsGained": 0,
+              "release": "v0.7.6"
             }
           ],
           "analysis": [
@@ -2365,6 +4300,13 @@
               "starsTotal": 673,
               "starsGained": 0,
               "release": "v0.2.4"
+            },
+            {
+              "date": "2026-11-18",
+              "reason": "lightweight",
+              "starsTotal": 685,
+              "starsGained": 0,
+              "release": "v0.2.4"
             }
           ],
           "analysis": [
@@ -2443,8 +4385,8 @@
           "streakDays": 10,
           "isNew": false,
           "createdAt": "2026-10-22",
-          "pushedAt": "2026-11-16",
-          "latestRelease": "mac-v0.9.19",
+          "pushedAt": "2026-11-17",
+          "latestRelease": "mac-v0.9.21",
           "firstSeen": "2026-11-09",
           "topics": [
             "ai-agents",
@@ -2538,60 +4480,66 @@
               "starsTotal": 640,
               "starsGained": 0,
               "release": "mac-v0.9.19"
+            },
+            {
+              "date": "2026-11-18",
+              "reason": "release_update",
+              "starsTotal": 691,
+              "starsGained": 0,
+              "release": "mac-v0.9.21"
             }
           ],
           "analysis": [
             {
               "heading": "它是什么",
-              "body": "kwant 是一个自托管的多 AI bot 团队平台，允许用户创建多个 bot 分工协作，通过 @mention 交接任务，自动完成任务或按日程运行。它在单个二进制内提供 Rust 后端和 React 前端，可运行在桌面或服务器上，兼容 Claude/Codex/Grok CLI 或自带 API key。"
+              "body": "kwant 是一个开源自托管的多智能体 AI 助手平台，以单个二进制提供桌面应用或服务器。它让多个 AI bot 共享聊天空间，通过 @提及 进行任务交接，并引入“核对/验证”机制：任务卡片只有在 kwant 实际运行检查后才标记为 Verified，而不是仅凭 bot 声称完成。定位为 Grok Bot、Claude Duet、OpenAI dots 等云端 bot 的开源替代，数据与运行环境由用户自己掌控。"
             },
             {
               "heading": "为什么火",
-              "body": "项目处于 AI agent 自托管赛道，迎合数据私有化需求；功能覆盖多代理路由、人工审核、浏览器自动化、CI 集成等，且发布节奏极快（0.9 系列一个月内 19 个小版本）。作为开源产品，它直接对标 Grok Bot、Claude Duet、OpenAI dots 等商业服务，无订阅费用。不过 Star 尚只有 640，仍属早期。"
+              "body": "截至报告时 Star 数为 691（仓库创建于 2026-10-22，不到一个月），版本已迭代至 0.9.21，更新非常频繁。对极客的吸引力在于：①自托管、无官方 token，账户与数据在自己机器/服务器上；②把“工作流”概念引入 AI bot：handoff、审批、例行任务、spaces 隔离；③强调可核实性，不是简单黑盒自动回复。注意 Star 数与宣传性更新较多，实际稳定性与生态仍需自行验证。"
             },
             {
               "heading": "技术栈",
               "bullets": [
-                "后端：Rust（Tokio, Axum, SQLite）",
-                "前端：React，编译后嵌入二进制",
-                "部署：桌面应用（macOS/Linux/Windows beta）、服务器二进制、Docker（ghcr.io/alexsergivan/kwnt）",
-                "桌面技术细节未明确（README 仅说明 Rust + React 嵌入二进制，未提及 Tauri/Electron）"
+                "后端/核心：Rust（Tokio、Axum、SQLite），编译为单二进制，React Web UI 嵌入其中。",
+                "部署形态：macOS universal app（Apple silicon + Intel，macOS 11+）、Linux x86_64（.deb、AppImage、自托管服务器脚本/Docker）、Windows beta。",
+                "AI 接入：可使用已有的 Claude、Codex 或 Grok CLI，或自带 API keys；浏览器自动化、MCP、Composio 等工具集成存在。",
+                "存储：SQLite，默认数据目录 ~/.kwnt（桌面版）。"
               ]
             },
             {
               "heading": "核心能力",
               "bullets": [
-                "多代理协作：bots 共享聊天，@mention 可多轮交接，自动路由到最合适的 bot。",
-                "任务验证：Mission board 上的任务只有在 kwant 自己运行检查（如运行测试）通过后才会标记 Verified，不轻信 bot 自述。",
-                "人工审核：Inbox 集中展示需要审批的工作，支持 Pass/Fail/Needs you 判定，可批量批准，高风险项由另一模型复查。",
-                "浏览器自动化：bot 可操作浏览器完成登录、CAPTCHA、点击元素等，每个 bot job 独立页面且共享登录。",
-                "开发集成：支持 worktree、PR 审查、CI 反馈、diff 行注释，适合辅助代码工作流。",
-                "空间与连接管理：工作/家庭等独立空间，管理多 AI 账户、Composio、MCP 工具，支持月度预算。",
-                "运行灵活：桌面、服务器、Docker、手机 PWA 均可使用。"
+                "多智能体协作：bot 之间通过 @提及 交接工作，团队持续运行直到任务完成；支持 spaces 隔离工作/生活。",
+                "验证与审批：任务卡片通过“检查”变为 Verified；0.9+ 引入二次检查（另一模型在 clean copy 上重跑）、Inbox 审查、Approve/Send back/Roll back、Failed CI 反馈给 bot、Fix-it 等。",
+                "例行任务与调度：Routines，从侧边栏打开，支持按周/日触发。",
+                "浏览器控制：bot 可操作页面，Watch live、Point 点击页面元素、每个 bot 独立 job page、自动处理登录弹窗。",
+                "预算与用量：每个 bot 可设置月度 token/美元预算，达到 80% 提醒、100% 暂停；有 AI use 用量视图（7/30 天）。",
+                "工具生态：docs 包含 bot-actions、bot-browser、home-assistant、mcp-api、teams-api、payments、saved-passwords 等，集成面较广。"
               ]
             },
             {
               "heading": "适用场景",
               "bullets": [
-                "希望自托管 AI 代理、保持数据私有的个人或小团队。",
-                "需要自动化重复任务（研究、内容生成、回复）且要求人工审核的开发/运营人员。",
-                "希望多 AI 模型协作、交叉验证输出质量的复杂工作流。",
-                "已在用 Claude/Codex/Grok CLI 但需要统一编排和审批的用户。"
+                "个人自动化：管理多账户、重复例行任务、跨平台信息处理。",
+                "小团队/开发：代码审查、PR 反馈、worktree 隔离、CI 状态跟踪。",
+                "自托管爱好者：需要数据本地存储、无第三方 token、可审计的工作流。",
+                "对 AI 操作有审批需求的场景：关键步骤需人工确认或二次检查。"
               ]
             },
             {
               "heading": "同类对比",
-              "body": "与 Grok Bot、Claude Duet、OpenAI dots 相比，kwant 的主要差异是开源、自托管、数据可控，不锁定单一 AI 供应商。其“验证靠运行检查”而非模型自报的机制更严格；但社区规模和生态完善度不如商业产品，且发布时间短，功能迭代中可能存在不稳定。"
+              "body": "相对 Grok Bot、Claude Duet、OpenAI dots 等云端闭源产品，kwant 的核心差异在自托管、开源（AGPL-3.0）与验证机制。但 README 未提供与这些产品在功能完成度、模型支持范围、错误率等方面的定量对比；生态和成熟度可能还不如大厂产品。同类开源多智能体项目（如 OpenBot 等）未在 README 中详细比较，无法判断相对优势。"
             },
             {
               "heading": "版本动态",
-              "body": "0.9 系列更新非常密集（0.9.0～0.9.19），最新版本 mac-v0.9.19（2026-11-16）。关键演进包括：Inbox 审核、二次检查、浏览器自动化增强、CI 集成、worktree、连接管理、团队建议、预算控制、手机体验优化。提供 Mac universal、Linux deb/AppImage、Windows beta 和服务器安装方式。 ---"
+              "body": "最新 Release 为 mac-v0.9.21（2026-11-17），Mac/Linux 桌面与服务器均已提供，Windows 仍为 beta。0.9 系列功能密集：0.9.0 引入 Inbox 审查与二次检查；0.9.2 团队持续运行、0.9.3 bot 独立 job page、0.9.4 失败后自动重试/Blocked 反馈、0.9.5 预算与 Composio 三步接入、0.9.6 Suggest a team、0.9.7 打字状态与引擎标记、0.9.8 预置 @helpers、0.9.9 浏览器 panel 与 AI use、0.9.10 限额显示与 Approve 按钮、0.9.11 Fix-it 与文档引用、0.9.12 Dev mode 前置。如此高频发布说明作者活跃，但也可能意味着功能稳定性需用户自行评估。 ---"
             },
             {
               "heading": "ℹ️ 置信度与信息盲区",
               "bullets": [
                 "置信度：medium",
-                "信息盲区：桌面应用具体技术栈未说明（是否 Tauri/Electron 不明）；未提供支持的 AI API 格式和模型提供者完整列表（仅提到 Claude/Codex/Grok CLI/自有 API key）；未提供性能数据或资源占用基准；多用户权限模型和团队规模限制未说明（可能面向个人）；未提供测试覆盖率或代码质量指标"
+                "信息盲区：完整配置流程（添加 AI 账户/API key 具体步骤）未在 README 截断部分展示，需查官方 docs/quickstart；未列出所有支持的 AI 模型/提供商完整清单；未见性能基准、内存/CPU 占用数据；bot 执行代码或文件操作的安全沙盒/隔离机制未详细说明；手机端“添加到主屏幕”的 PWA 功能边界未展开"
               ]
             }
           ]
@@ -3465,8 +5413,8 @@
           "streakDays": 1,
           "isNew": true,
           "createdAt": "2026-11-06",
-          "pushedAt": "2026-11-16",
-          "latestRelease": "v2026.1117.1",
+          "pushedAt": "2026-11-17",
+          "latestRelease": "v2026.1117.4",
           "firstSeen": "2026-11-14",
           "topics": [
             "ai-agent",
@@ -3513,72 +5461,67 @@
               "starsTotal": 2287,
               "starsGained": 0,
               "release": "v2026.1117.1"
+            },
+            {
+              "date": "2026-11-18",
+              "reason": "release_update",
+              "starsTotal": 2371,
+              "starsGained": 0,
+              "release": "v2026.1117.4"
             }
           ],
           "analysis": [
             {
               "heading": "它是什么",
-              "body": "Pinky 是一个开源（Apache-2.0）跨平台工具，让任意 MCP agent（Claude Code、Claude Desktop、Codex、Cursor 等）操作真实 iPhone 或 Android 手机，关键操作需人在环路审批。也可以用 Pinky 手机端 App 独立执行任务，无需电脑。项目处于 pre-alpha，作者 DIYgod。"
+              "body": "Pinky 是一个开源桌面网关（Go 编写），让 MCP 代理（Claude Code、Claude Desktop、Codex、Cursor 等）操作真实 iPhone 或 Android 手机。核心是“人在环中”：高风险操作（付款、转账、发送、删除、安装、修改设置等）默认需要用户点击批准，规则由 Pinky 网关强制执行，而非依赖模型自觉。"
             },
             {
               "heading": "为什么火",
-              "bullets": [
-                "手机自动化风险高，普通 agent 直接操作容易失控。Pinky 在网关层强制执行审批，不靠提示词约束，覆盖支付、发送、删除、安装等高风险按钮，且支持 10 种语言识别。",
-                "跨双平台：Android 10–17 与 iOS 17.4+，有隐藏第二屏、后台任务、远程解锁等能力。",
-                "全本地、小体积（16–22 MB 下载，约 70 MB 内存，0% CPU），无 Electron/webview；多个模型可选，包括本地 Ollama/LM Studio。",
-                "项目创建于 2026-11-06，10 天左右已有 2287 Star，更新频繁。"
-              ]
+              "body": "Star 增长快，可能因为解决了一个真实痛点：用 MCP 代理控制真实手机，同时提供安全审批和操作留痕。支持 iOS 与 Android 双平台，且无需在 iOS 27+ 安装额外软件；对安卓 13+ 还支持隐藏第二屏，不打断用户使用。对极客、自动化测试、受控设备管理都有吸引力。"
             },
             {
               "heading": "技术栈",
               "bullets": [
-                "主语言 Go；UI 使用 MyGo（egoist/mygo）在 GPU 上绘制，无 Electron/webview。",
-                "通过 MCP 暴露手机控制能力，支持 stdio 与 HTTP 方式连接 agent。",
-                "Android：自带 adb，通过 USB 或无线调试；Android 13+ 支持隐藏第二屏，需安装 Pinky 手机端 App。",
-                "iOS：需要 Xcode 的 developer disk image（或第三方镜像），iOS 17.4–26 还要安装 Pinky 的 iPhone App；iOS 27+ 无需额外安装（已验证部分）。",
-                "支持多种模型：DeepSeek、Qwen、Kimi、GLM、Claude、GPT、Gemini，以及本地 Ollama/LM Studio。"
+                "Go 编写，UI 使用 MyGo（GPU 绘制，无 Electron/webview），下载 16–22 MB，空闲约 70 MB 内存。",
+                "通过 MCP over stdio 或 HTTP 接入任意支持 MCP 的代理。",
+                "Android 自带 adb（从 Android 源码构建），iOS 通过 Apple 开发者镜像和 Pinky Helper/Pinky 应用驱动。",
+                "跨 macOS（Intel/Apple Silicon）、Windows x64、Linux x86-64 (GTK 3)。"
               ]
             },
             {
               "heading": "核心能力",
               "bullets": [
-                "安全审批网关：支付、转账、发送、删除、通话、安装、外链/设置更改等风险步骤默认等待用户点击 Allow；银行、钱包、密码管理器默认对 agent 不可见；密码/OTC 输入框禁止写入。",
-                "人在环交互：可随时接管（点击镜像、手机触摸即可暂停 agent），全局快捷键停止。",
-                "记录与回放：每个步骤有文字、截图、屏幕录像，标有步骤标记，可导出 HTML 报告，全部留本地。",
-                "第二屏幕/离屏操作：Android 13+ 的 agent 在隐藏屏幕上工作，不影响用户使用手机。",
-                "手机独立运行：Pinky App 可在手机上直接执行任务，支持语音/文本/分享触发，Android 有悬浮按钮询问屏幕内容，并可后台隐藏屏幕执行。",
-                "定时任务与记忆：可按设定时间运行，或条件满足时通知；任务后可建议记住偏好，需用户确认。",
-                "远程解锁：保存 PIN 后通过 Touch ID/Windows Hello/钥匙串确认解锁，agent 不会看到 PIN。",
-                "录屏文件夹管理（最新版本）：可选择外部磁盘，处理磁盘缺失/只读，删除任务时同步清理。"
+                "真实手机操作：Android 10–17、iOS 17.4+；iOS 27+ 无需额外安装，17.4–26 需从 Xcode 侧载 Pinky 应用。",
+                "安全批准：付款/交易/转账/发送/删除/呼叫/安装/链接外跳/设置变更等可配置等待；识别 10 种语言按钮；代理不能自我批准。",
+                "默认禁区：银行、钱包、密码管理器应用对代理不可见，代理不能输入密码/一次性验证码字段；可按任务临时授权。",
+                "手机端自主模式：Pinky 应用可在 Android/iPhone 上直接使用 DeepSeek、Qwen、Kimi、GLM、Claude、GPT、Gemini 或本地 Ollama/LM Studio 模型，无需电脑。",
+                "记录与回放：每步自然语言描述、截图、屏幕录像、HTML 报告导出，数据存于本机。",
+                "隐藏第二屏（Android 13+）与随时接管；解锁手机可经 Touch ID/Windows Hello/keyring，PIN 不暴露给代理。",
+                "定时任务与记忆：按条件运行任务，任务后可建议备忘经用户同意才保存。"
               ]
             },
             {
               "heading": "适用场景",
               "bullets": [
-                "想用 Claude Code 等 agent 操控手机完成真实任务的开发者/极客：发消息、点餐、支付前审批。",
-                "需要在 Android 和 iOS 上自动化跨 App 流程，同时保持人工监管。",
-                "想训练/评测手机 agent 的研究者（有 ACCEPTANCE.md 等文档，本地记录）。",
-                "想用手机端独立执行自动化任务，不想开电脑的用户。"
+                "用 AI 代理自动化真实手机操作：发消息、下单、调试 UI、回归测试。",
+                "受控设备/他人手机的安全自动化，审批与可审计记录。",
+                "在手机上直接跑模型执行任务（安卓/iPhone），尤其是无电脑环境。",
+                "多平台手机兼容性测试（Android 模拟器、iOS Simulator、真实设备）。"
               ]
             },
             {
               "heading": "同类对比",
-              "body": "README 没有直接点名同类，但明显区别于仅提供手机屏幕截图/坐标点击的 MCP 工具：Pinky 强在审批网关（默认高风险操作等待人工）、跨平台 Android+iOS、Android 隐藏第二屏、记录可审计、手机端可独立跑。对“AI 操作手机”这个方向，它是偏安全与可审计的选择，而不是最简原型。"
+              "body": "相对于纯提示词“代理控制手机”的方案，Pinky 的差异是网关强制审批与默认禁区，而不是依赖模型指令遵循；相对 Electron 类桌面工具，原生 MyGo UI 更轻量；相对云端手机自动化服务，它是本地优先、开源、无账户。但仍处于 pre-alpha，部分能力等待更多测试。"
             },
             {
               "heading": "版本动态",
-              "body": "最新版本 v2026.1117.1（2026-11-16）主要改进录屏存储： ---",
-              "bullets": [
-                "可在 Settings › Privacy › 录屏文件夹 选择保存位置，如外接硬盘；新录屏去新位置，旧录屏仍可播放，可一键切回默认文件夹。",
-                "磁盘不可用或只读时自动回退到 Pinky 自己的文件夹，并在设置有提示，禁止选在其自身录屏文件夹内。",
-                "删除任务时同步删除所选文件夹中的录屏，即使磁盘当时未挂载/只读，也能在后续可访问时清理；删除所有活动只删 Pinky 的录屏，不碰用户其他文件。"
-              ]
+              "body": "最近 Release v2026.1117.4（2026-11-17）修复 macOS 隐藏启动时审批窗口抢键盘、浮动面板应用列表显示、窄窗口任务按钮换行。项目创建于 2026-11-06，Star 2371，更新频繁。README 自述已用真实 Android 手机（USB）和 iPhone（iOS 27、iOS 18.7.11 via Pinky Helper）端到端跑通 Claude Code，手机端模型任务在 Mi 10 Pro（Android 17）和 iPhone 13 mini（iOS 27.0.1）完成；部分功能仍待用户实测。 ---"
             },
             {
               "heading": "ℹ️ 置信度与信息盲区",
               "bullets": [
                 "置信度：high",
-                "信息盲区：无 benchmark 或性能量化数据（如读屏延迟、审批按钮识别准确率）；未说明各 Android 品牌/OEM 的兼容差异覆盖是否完整（README 只列品牌，但未提供验证矩阵）；未提供与同类项目的直接对比或差异数据；docs/mcp.md 等文档未展开，具体 MCP 工具接口细节未在 README 中覆盖"
+                "信息盲区：README 未提供延迟、吞吐量或资源占用的基准数据（仅提到内存约 70 MB/0% CPU）；Telemetry 的具体采集范围和关闭方式需要查看 docs/TELEMETRY.md，README 未展开；HTTP MCP 接入的认证/加密细节未在 README 中说明；iOS 17.4–26 侧载依赖 Xcode 和 Apple 开发者签名，README 未说明是否需要付费开发者账号；项目当前为 pre-alpha，部分功能（解锁、后台工作、Wi-Fi 配对、文件等）尚待用户实测，稳定性和兼容性数据有限"
               ]
             }
           ]
@@ -3767,7 +5710,7 @@
           "streakDays": 1,
           "isNew": true,
           "createdAt": "2025-10-19",
-          "pushedAt": "2026-11-16",
+          "pushedAt": "2026-11-17",
           "latestRelease": "",
           "firstSeen": "2026-11-14",
           "topics": [],
@@ -3805,6 +5748,13 @@
               "reason": "lightweight",
               "starsTotal": 6240,
               "starsGained": 841,
+              "release": ""
+            },
+            {
+              "date": "2026-11-18",
+              "reason": "lightweight",
+              "starsTotal": 6830,
+              "starsGained": 2407,
               "release": ""
             }
           ],
@@ -4025,7 +5975,7 @@
           "streakDays": 1,
           "isNew": true,
           "createdAt": "2026-11-09",
-          "pushedAt": "2026-11-16",
+          "pushedAt": "2026-11-17",
           "latestRelease": "desktop-v0.8.11",
           "firstSeen": "2026-11-13",
           "topics": [
@@ -4090,6 +6040,13 @@
               "date": "2026-11-17",
               "reason": "release_update",
               "starsTotal": 1618,
+              "starsGained": 0,
+              "release": "desktop-v0.8.11"
+            },
+            {
+              "date": "2026-11-18",
+              "reason": "lightweight",
+              "starsTotal": 1677,
               "starsGained": 0,
               "release": "desktop-v0.8.11"
             }
@@ -4613,7 +6570,7 @@
           "streakDays": 1,
           "isNew": true,
           "createdAt": "2026-07-13",
-          "pushedAt": "2026-11-16",
+          "pushedAt": "2026-11-17",
           "latestRelease": "npm-v0.10.0",
           "firstSeen": "2026-11-12",
           "topics": [
@@ -4661,6 +6618,13 @@
               "starsTotal": 13746,
               "starsGained": 2294,
               "release": "npm-v0.10.0"
+            },
+            {
+              "date": "2026-11-18",
+              "reason": "lightweight",
+              "starsTotal": 13939,
+              "starsGained": 2352,
+              "release": "npm-v0.10.0"
             }
           ],
           "analysis": []
@@ -4681,7 +6645,7 @@
           "streakDays": 1,
           "isNew": true,
           "createdAt": "2026-10-20",
-          "pushedAt": "2026-11-11",
+          "pushedAt": "2026-11-14",
           "latestRelease": "v0.3.6",
           "firstSeen": "2026-11-12",
           "topics": [
@@ -4719,6 +6683,13 @@
               "starsTotal": 435,
               "starsGained": 0,
               "release": "v0.3.6"
+            },
+            {
+              "date": "2026-11-18",
+              "reason": "lightweight",
+              "starsTotal": 482,
+              "starsGained": 0,
+              "release": "v0.3.6"
             }
           ],
           "analysis": []
@@ -4739,7 +6710,7 @@
           "streakDays": 1,
           "isNew": true,
           "createdAt": "2026-10-21",
-          "pushedAt": "2026-11-16",
+          "pushedAt": "2026-11-17",
           "latestRelease": "",
           "firstSeen": "2026-11-12",
           "topics": [
@@ -4797,6 +6768,13 @@
               "date": "2026-11-17",
               "reason": "lightweight",
               "starsTotal": 344,
+              "starsGained": 0,
+              "release": ""
+            },
+            {
+              "date": "2026-11-18",
+              "reason": "lightweight",
+              "starsTotal": 345,
               "starsGained": 0,
               "release": ""
             }
@@ -5585,6 +7563,13 @@
               "starsTotal": 569,
               "starsGained": 0,
               "release": ""
+            },
+            {
+              "date": "2026-11-18",
+              "reason": "lightweight",
+              "starsTotal": 575,
+              "starsGained": 0,
+              "release": ""
             }
           ],
           "analysis": []
@@ -5950,8 +7935,8 @@
           "streakDays": 1,
           "isNew": true,
           "createdAt": "2026-10-22",
-          "pushedAt": "2026-11-16",
-          "latestRelease": "mac-v0.9.19",
+          "pushedAt": "2026-11-17",
+          "latestRelease": "mac-v0.9.21",
           "firstSeen": "2026-11-09",
           "topics": [
             "ai-agents",
@@ -6045,60 +8030,66 @@
               "starsTotal": 640,
               "starsGained": 0,
               "release": "mac-v0.9.19"
+            },
+            {
+              "date": "2026-11-18",
+              "reason": "release_update",
+              "starsTotal": 691,
+              "starsGained": 0,
+              "release": "mac-v0.9.21"
             }
           ],
           "analysis": [
             {
               "heading": "它是什么",
-              "body": "kwant 是一个自托管的多 AI bot 团队平台，允许用户创建多个 bot 分工协作，通过 @mention 交接任务，自动完成任务或按日程运行。它在单个二进制内提供 Rust 后端和 React 前端，可运行在桌面或服务器上，兼容 Claude/Codex/Grok CLI 或自带 API key。"
+              "body": "kwant 是一个开源自托管的多智能体 AI 助手平台，以单个二进制提供桌面应用或服务器。它让多个 AI bot 共享聊天空间，通过 @提及 进行任务交接，并引入“核对/验证”机制：任务卡片只有在 kwant 实际运行检查后才标记为 Verified，而不是仅凭 bot 声称完成。定位为 Grok Bot、Claude Duet、OpenAI dots 等云端 bot 的开源替代，数据与运行环境由用户自己掌控。"
             },
             {
               "heading": "为什么火",
-              "body": "项目处于 AI agent 自托管赛道，迎合数据私有化需求；功能覆盖多代理路由、人工审核、浏览器自动化、CI 集成等，且发布节奏极快（0.9 系列一个月内 19 个小版本）。作为开源产品，它直接对标 Grok Bot、Claude Duet、OpenAI dots 等商业服务，无订阅费用。不过 Star 尚只有 640，仍属早期。"
+              "body": "截至报告时 Star 数为 691（仓库创建于 2026-10-22，不到一个月），版本已迭代至 0.9.21，更新非常频繁。对极客的吸引力在于：①自托管、无官方 token，账户与数据在自己机器/服务器上；②把“工作流”概念引入 AI bot：handoff、审批、例行任务、spaces 隔离；③强调可核实性，不是简单黑盒自动回复。注意 Star 数与宣传性更新较多，实际稳定性与生态仍需自行验证。"
             },
             {
               "heading": "技术栈",
               "bullets": [
-                "后端：Rust（Tokio, Axum, SQLite）",
-                "前端：React，编译后嵌入二进制",
-                "部署：桌面应用（macOS/Linux/Windows beta）、服务器二进制、Docker（ghcr.io/alexsergivan/kwnt）",
-                "桌面技术细节未明确（README 仅说明 Rust + React 嵌入二进制，未提及 Tauri/Electron）"
+                "后端/核心：Rust（Tokio、Axum、SQLite），编译为单二进制，React Web UI 嵌入其中。",
+                "部署形态：macOS universal app（Apple silicon + Intel，macOS 11+）、Linux x86_64（.deb、AppImage、自托管服务器脚本/Docker）、Windows beta。",
+                "AI 接入：可使用已有的 Claude、Codex 或 Grok CLI，或自带 API keys；浏览器自动化、MCP、Composio 等工具集成存在。",
+                "存储：SQLite，默认数据目录 ~/.kwnt（桌面版）。"
               ]
             },
             {
               "heading": "核心能力",
               "bullets": [
-                "多代理协作：bots 共享聊天，@mention 可多轮交接，自动路由到最合适的 bot。",
-                "任务验证：Mission board 上的任务只有在 kwant 自己运行检查（如运行测试）通过后才会标记 Verified，不轻信 bot 自述。",
-                "人工审核：Inbox 集中展示需要审批的工作，支持 Pass/Fail/Needs you 判定，可批量批准，高风险项由另一模型复查。",
-                "浏览器自动化：bot 可操作浏览器完成登录、CAPTCHA、点击元素等，每个 bot job 独立页面且共享登录。",
-                "开发集成：支持 worktree、PR 审查、CI 反馈、diff 行注释，适合辅助代码工作流。",
-                "空间与连接管理：工作/家庭等独立空间，管理多 AI 账户、Composio、MCP 工具，支持月度预算。",
-                "运行灵活：桌面、服务器、Docker、手机 PWA 均可使用。"
+                "多智能体协作：bot 之间通过 @提及 交接工作，团队持续运行直到任务完成；支持 spaces 隔离工作/生活。",
+                "验证与审批：任务卡片通过“检查”变为 Verified；0.9+ 引入二次检查（另一模型在 clean copy 上重跑）、Inbox 审查、Approve/Send back/Roll back、Failed CI 反馈给 bot、Fix-it 等。",
+                "例行任务与调度：Routines，从侧边栏打开，支持按周/日触发。",
+                "浏览器控制：bot 可操作页面，Watch live、Point 点击页面元素、每个 bot 独立 job page、自动处理登录弹窗。",
+                "预算与用量：每个 bot 可设置月度 token/美元预算，达到 80% 提醒、100% 暂停；有 AI use 用量视图（7/30 天）。",
+                "工具生态：docs 包含 bot-actions、bot-browser、home-assistant、mcp-api、teams-api、payments、saved-passwords 等，集成面较广。"
               ]
             },
             {
               "heading": "适用场景",
               "bullets": [
-                "希望自托管 AI 代理、保持数据私有的个人或小团队。",
-                "需要自动化重复任务（研究、内容生成、回复）且要求人工审核的开发/运营人员。",
-                "希望多 AI 模型协作、交叉验证输出质量的复杂工作流。",
-                "已在用 Claude/Codex/Grok CLI 但需要统一编排和审批的用户。"
+                "个人自动化：管理多账户、重复例行任务、跨平台信息处理。",
+                "小团队/开发：代码审查、PR 反馈、worktree 隔离、CI 状态跟踪。",
+                "自托管爱好者：需要数据本地存储、无第三方 token、可审计的工作流。",
+                "对 AI 操作有审批需求的场景：关键步骤需人工确认或二次检查。"
               ]
             },
             {
               "heading": "同类对比",
-              "body": "与 Grok Bot、Claude Duet、OpenAI dots 相比，kwant 的主要差异是开源、自托管、数据可控，不锁定单一 AI 供应商。其“验证靠运行检查”而非模型自报的机制更严格；但社区规模和生态完善度不如商业产品，且发布时间短，功能迭代中可能存在不稳定。"
+              "body": "相对 Grok Bot、Claude Duet、OpenAI dots 等云端闭源产品，kwant 的核心差异在自托管、开源（AGPL-3.0）与验证机制。但 README 未提供与这些产品在功能完成度、模型支持范围、错误率等方面的定量对比；生态和成熟度可能还不如大厂产品。同类开源多智能体项目（如 OpenBot 等）未在 README 中详细比较，无法判断相对优势。"
             },
             {
               "heading": "版本动态",
-              "body": "0.9 系列更新非常密集（0.9.0～0.9.19），最新版本 mac-v0.9.19（2026-11-16）。关键演进包括：Inbox 审核、二次检查、浏览器自动化增强、CI 集成、worktree、连接管理、团队建议、预算控制、手机体验优化。提供 Mac universal、Linux deb/AppImage、Windows beta 和服务器安装方式。 ---"
+              "body": "最新 Release 为 mac-v0.9.21（2026-11-17），Mac/Linux 桌面与服务器均已提供，Windows 仍为 beta。0.9 系列功能密集：0.9.0 引入 Inbox 审查与二次检查；0.9.2 团队持续运行、0.9.3 bot 独立 job page、0.9.4 失败后自动重试/Blocked 反馈、0.9.5 预算与 Composio 三步接入、0.9.6 Suggest a team、0.9.7 打字状态与引擎标记、0.9.8 预置 @helpers、0.9.9 浏览器 panel 与 AI use、0.9.10 限额显示与 Approve 按钮、0.9.11 Fix-it 与文档引用、0.9.12 Dev mode 前置。如此高频发布说明作者活跃，但也可能意味着功能稳定性需用户自行评估。 ---"
             },
             {
               "heading": "ℹ️ 置信度与信息盲区",
               "bullets": [
                 "置信度：medium",
-                "信息盲区：桌面应用具体技术栈未说明（是否 Tauri/Electron 不明）；未提供支持的 AI API 格式和模型提供者完整列表（仅提到 Claude/Codex/Grok CLI/自有 API key）；未提供性能数据或资源占用基准；多用户权限模型和团队规模限制未说明（可能面向个人）；未提供测试覆盖率或代码质量指标"
+                "信息盲区：完整配置流程（添加 AI 账户/API key 具体步骤）未在 README 截断部分展示，需查官方 docs/quickstart；未列出所有支持的 AI 模型/提供商完整清单；未见性能基准、内存/CPU 占用数据；bot 执行代码或文件操作的安全沙盒/隔离机制未详细说明；手机端“添加到主屏幕”的 PWA 功能边界未展开"
               ]
             }
           ]
@@ -6551,7 +8542,7 @@
           "streakDays": 1,
           "isNew": true,
           "createdAt": "2026-10-26",
-          "pushedAt": "2026-11-16",
+          "pushedAt": "2026-11-17",
           "latestRelease": "v4.1.7",
           "firstSeen": "2026-11-08",
           "topics": [
@@ -6640,6 +8631,13 @@
               "date": "2026-11-17",
               "reason": "release_update",
               "starsTotal": 679,
+              "starsGained": 0,
+              "release": "v4.1.7"
+            },
+            {
+              "date": "2026-11-18",
+              "reason": "lightweight",
+              "starsTotal": 719,
               "starsGained": 0,
               "release": "v4.1.7"
             }
@@ -7481,7 +9479,7 @@
           "streakDays": 1,
           "isNew": true,
           "createdAt": "2026-01-11",
-          "pushedAt": "2026-11-16",
+          "pushedAt": "2026-11-17",
           "latestRelease": "v0.43.0",
           "firstSeen": "2026-11-06",
           "topics": [],
@@ -7568,6 +9566,13 @@
               "reason": "lightweight",
               "starsTotal": 51983,
               "starsGained": 4217,
+              "release": "v0.43.0"
+            },
+            {
+              "date": "2026-11-18",
+              "reason": "lightweight",
+              "starsTotal": 52332,
+              "starsGained": 3760,
               "release": "v0.43.0"
             }
           ],
@@ -7809,7 +9814,7 @@
           "streakDays": 1,
           "isNew": true,
           "createdAt": "2026-10-24",
-          "pushedAt": "2026-11-16",
+          "pushedAt": "2026-11-17",
           "latestRelease": "v1.2.0",
           "firstSeen": "2026-11-06",
           "topics": [
@@ -7909,6 +9914,13 @@
               "date": "2026-11-17",
               "reason": "lightweight",
               "starsTotal": 669,
+              "starsGained": 0,
+              "release": "v1.2.0"
+            },
+            {
+              "date": "2026-11-18",
+              "reason": "lightweight",
+              "starsTotal": 679,
               "starsGained": 0,
               "release": "v1.2.0"
             }
@@ -8529,6 +10541,13 @@
               "starsTotal": 673,
               "starsGained": 0,
               "release": "v0.2.4"
+            },
+            {
+              "date": "2026-11-18",
+              "reason": "lightweight",
+              "starsTotal": 685,
+              "starsGained": 0,
+              "release": "v0.2.4"
             }
           ],
           "analysis": [
@@ -8876,6 +10895,13 @@
               "starsTotal": 270,
               "starsGained": 0,
               "release": "v0.2.1"
+            },
+            {
+              "date": "2026-11-18",
+              "reason": "lightweight",
+              "starsTotal": 270,
+              "starsGained": 0,
+              "release": "v0.2.1"
             }
           ],
           "analysis": []
@@ -9049,6 +11075,13 @@
               "date": "2026-11-17",
               "reason": "lightweight",
               "starsTotal": 330,
+              "starsGained": 0,
+              "release": "v2.1.26"
+            },
+            {
+              "date": "2026-11-18",
+              "reason": "lightweight",
+              "starsTotal": 333,
               "starsGained": 0,
               "release": "v2.1.26"
             }
@@ -9424,6 +11457,13 @@
               "starsTotal": 4289,
               "starsGained": 0,
               "release": "v0.1.41"
+            },
+            {
+              "date": "2026-11-18",
+              "reason": "lightweight",
+              "starsTotal": 4426,
+              "starsGained": 0,
+              "release": "v0.1.41"
             }
           ],
           "analysis": [
@@ -9620,6 +11660,13 @@
               "starsTotal": 2136,
               "starsGained": 0,
               "release": "v18-champion"
+            },
+            {
+              "date": "2026-11-18",
+              "reason": "lightweight",
+              "starsTotal": 2311,
+              "starsGained": 0,
+              "release": "v18-champion"
             }
           ],
           "analysis": []
@@ -9762,6 +11809,13 @@
               "date": "2026-11-17",
               "reason": "lightweight",
               "starsTotal": 883,
+              "starsGained": 0,
+              "release": "v0.10.0"
+            },
+            {
+              "date": "2026-11-18",
+              "reason": "lightweight",
+              "starsTotal": 890,
               "starsGained": 0,
               "release": "v0.10.0"
             }
@@ -10779,6 +12833,13 @@
               "starsTotal": 986,
               "starsGained": 0,
               "release": "v0.3.11"
+            },
+            {
+              "date": "2026-11-18",
+              "reason": "lightweight",
+              "starsTotal": 996,
+              "starsGained": 0,
+              "release": "v0.3.11"
             }
           ],
           "analysis": []
@@ -11187,7 +13248,7 @@
           "streakDays": 1,
           "isNew": true,
           "createdAt": "2026-10-29",
-          "pushedAt": "2026-11-16",
+          "pushedAt": "2026-11-17",
           "latestRelease": "v0.1.45",
           "firstSeen": "2026-10-31",
           "topics": [
@@ -11333,6 +13394,13 @@
               "starsTotal": 8852,
               "starsGained": 0,
               "release": "v0.1.45"
+            },
+            {
+              "date": "2026-11-18",
+              "reason": "lightweight",
+              "starsTotal": 8962,
+              "starsGained": 0,
+              "release": "v0.1.45"
             }
           ],
           "analysis": [
@@ -11414,7 +13482,7 @@
           "streakDays": 1,
           "isNew": true,
           "createdAt": "2026-10-25",
-          "pushedAt": "2026-11-16",
+          "pushedAt": "2026-11-17",
           "latestRelease": "v1.1.0",
           "firstSeen": "2026-10-31",
           "topics": [
@@ -11561,6 +13629,13 @@
               "date": "2026-11-17",
               "reason": "lightweight",
               "starsTotal": 24735,
+              "starsGained": 0,
+              "release": "v1.1.0"
+            },
+            {
+              "date": "2026-11-18",
+              "reason": "lightweight",
+              "starsTotal": 25952,
               "starsGained": 0,
               "release": "v1.1.0"
             }
@@ -11768,6 +13843,13 @@
               "date": "2026-11-17",
               "reason": "release_update",
               "starsTotal": 561,
+              "starsGained": 0,
+              "release": "v0.7.6"
+            },
+            {
+              "date": "2026-11-18",
+              "reason": "lightweight",
+              "starsTotal": 567,
               "starsGained": 0,
               "release": "v0.7.6"
             }
@@ -12940,6 +15022,13 @@
               "starsTotal": 609,
               "starsGained": 0,
               "release": "examples-v1"
+            },
+            {
+              "date": "2026-11-18",
+              "reason": "lightweight",
+              "starsTotal": 626,
+              "starsGained": 0,
+              "release": "examples-v1"
             }
           ],
           "analysis": []
@@ -12951,7 +15040,7 @@
           "name": "astrbot-for-android",
           "url": "https://github.com/JunWan666/astrbot-for-android",
           "oneLiner": "在 Android 手机上本地部署和管理 AstrBot 与 NapCat，内置 PRoot Ubuntu 运行环境，支持原生管理界面、WebUI、日志、备份恢复和独立更新，无需 Root。",
-          "description": "在 Android 手机上本地部署和管理 AstrBot 与 NapCat，内置 PRoot Ubuntu 运行环境，支持原生管理界面、WebUI、日志、备份恢复和独立更新，无需 Root。",
+          "description": "在 Android 手机上本地部署和管理 AstrBot，支持 QQ 官方机器人与微信官方 ClawBot、PRoot Ubuntu、终端任务、WebUI、日志和备份恢复，无需 Root。",
           "language": "Kotlin",
           "category": "AI 应用",
           "license": "MIT",
@@ -12960,8 +15049,8 @@
           "streakDays": 1,
           "isNew": true,
           "createdAt": "2026-10-26",
-          "pushedAt": "2026-11-09",
-          "latestRelease": "v1.4.1",
+          "pushedAt": "2026-11-17",
+          "latestRelease": "v1.5.0",
           "firstSeen": "2026-10-29",
           "topics": [
             "ai",
@@ -12971,9 +15060,6 @@
             "jetpack-compose",
             "kotlin",
             "llm",
-            "napcat",
-            "napcatqq",
-            "onebot",
             "proot",
             "qq-bot",
             "self-hosted",
@@ -13119,9 +15205,76 @@
               "starsTotal": 400,
               "starsGained": 0,
               "release": "v1.4.1"
+            },
+            {
+              "date": "2026-11-18",
+              "reason": "release_update",
+              "starsTotal": 405,
+              "starsGained": 0,
+              "release": "v1.5.0"
             }
           ],
-          "analysis": []
+          "analysis": [
+            {
+              "heading": "它是什么",
+              "body": "AstrBot for Android 是一个 Android 应用，以单个 APK 内置 PRoot Ubuntu 运行环境，在手机上本地部署和管理 AstrBot 聊天机器人框架。用户通过 Kotlin + Jetpack Compose 原生界面完成环境初始化、服务启停、日志查看、备份恢复，并可内嵌 WebUI 配置模型/插件/人设。支持 QQ 官方机器人和微信官方 ClawBot 授权接入，无需 Root。"
+            },
+            {
+              "heading": "为什么火",
+              "body": "需求明确：不少用户想在低功耗设备上常驻个人 AI 聊天机器人，但搭建和维护 Ubuntu + Python + AstrBot 门槛不低。该项目把整套环境打包进 APK，并提供官方机器人扫码授权和原生管理界面，将“手机当服务器”的门槛降到安装一个应用。405 star 反映了小众但刚需的自托管群体。"
+            },
+            {
+              "heading": "技术栈",
+              "bullets": [
+                "客户端：Kotlin、Jetpack Compose",
+                "运行环境：PRoot（用户空间 chroot）运行 Ubuntu",
+                "机器人框架：AstrBot（通过官方 GitHub Release 更新）",
+                "集成：QQ 官方机器人 API、微信官方 ClawBot（openclaw-weixin / iLink）、WebView、终端、cpolar、SSH",
+                "打包：单个 APK 包含 Ubuntu、AstrBot、离线桌面资源；管理器与后端分离更新"
+              ]
+            },
+            {
+              "heading": "核心能力",
+              "bullets": [
+                "一键初始化和启停 AstrBot，显示真实就绪状态",
+                "首页配置 QQ/微信官方机器人，扫码授权、自动连接、启停/重绑",
+                "内置 WebUI，支持固定缩放和外部浏览器访问",
+                "通用 Ubuntu 任务管理：自定义目录/命令、运行时长、日志清理",
+                "备份与恢复：本机快照、ZIP 导入导出、更新失败回退",
+                "诊断与日志：自动跟随、脱敏导出、系统分享",
+                "扩展：SSH、cpolar 内网穿透、Linux QQ、DeepSeek Harness",
+                "权限引导：后台运行、Shizuku、无障碍、省电白名单"
+              ]
+            },
+            {
+              "heading": "适用场景",
+              "bullets": [
+                "无服务器、希望用旧 Android 手机 24h 运行 QQ/微信聊天机器人",
+                "个人或小社群使用官方机器人接口，规避第三方协议封号风险",
+                "需要移动管理 AstrBot 模型、插件、人设，并随时查看日志",
+                "想在 Android 上运行自定义 Ubuntu 程序（不只限于 AstrBot）"
+              ]
+            },
+            {
+              "heading": "同类对比",
+              "bullets": [
+                "vs Termux 手动安装：本项目提供打包好的 Ubuntu 环境和原生管理 UI，免去大量配置；缺点是 APK 体积巨大（729 MiB），更新依赖项目方。",
+                "vs 服务器部署 AstrBot：移动端便携、低成本，但受 Android 后台机制和厂商省电策略影响，稳定性不如 VPS。",
+                "vs 非官方 QQ 机器人（NapCat 等）：官方机器人接口更合规，但功能限制较多（如无法用个人账号）。v1.5.0 已移除内置 NapCat/SnowLuma。"
+              ]
+            },
+            {
+              "heading": "版本动态",
+              "body": "v1.5.0（2026-11-17）移除 NapCat 和 SnowLuma，专注官方机器人接入，新增通用 Ubuntu 任务管理和环境修复，APK 从约 1GB 缩减到 729 MiB。升级保留用户数据和手动安装软件，旧版第三方接入停止自动启动。项目维护方向清晰：稳定官方渠道，降低法律与维护风险。 ---"
+            },
+            {
+              "heading": "ℹ️ 置信度与信息盲区",
+              "bullets": [
+                "置信度：high",
+                "信息盲区：未提供实际性能/资源占用基准（如内存、CPU 均值）；Android 后台运行在不同厂商 ROM 上的实际稳定性未量化；微信官方 ClawBot 的授权细节和限制未详细说明；移除 NapCat/SnowLuma 后，官方机器人接口是否满足原有个人号需求未对比；PRoot 在部分 Android 设备上的兼容性仅有例证，无系统测试矩阵"
+              ]
+            }
+          ]
         }
       ],
       "news": [
@@ -13427,6 +15580,13 @@
               "starsTotal": 928,
               "starsGained": 0,
               "release": ""
+            },
+            {
+              "date": "2026-11-18",
+              "reason": "lightweight",
+              "starsTotal": 930,
+              "starsGained": 0,
+              "release": ""
             }
           ],
           "analysis": []
@@ -13697,6 +15857,13 @@
               "date": "2026-11-17",
               "reason": "lightweight",
               "starsTotal": 400,
+              "starsGained": 0,
+              "release": "v1.4.0"
+            },
+            {
+              "date": "2026-11-18",
+              "reason": "lightweight",
+              "starsTotal": 401,
               "starsGained": 0,
               "release": "v1.4.0"
             }
@@ -14139,7 +16306,7 @@
           "streakDays": 1,
           "isNew": true,
           "createdAt": "2026-10-24",
-          "pushedAt": "2026-11-16",
+          "pushedAt": "2026-11-17",
           "latestRelease": "v1.4.1",
           "firstSeen": "2026-10-27",
           "topics": [
@@ -14311,6 +16478,13 @@
               "date": "2026-11-17",
               "reason": "lightweight",
               "starsTotal": 739,
+              "starsGained": 0,
+              "release": "v1.4.1"
+            },
+            {
+              "date": "2026-11-18",
+              "reason": "lightweight",
+              "starsTotal": 742,
               "starsGained": 0,
               "release": "v1.4.1"
             }
@@ -14547,7 +16721,7 @@
           "streakDays": 1,
           "isNew": true,
           "createdAt": "2026-10-24",
-          "pushedAt": "2026-11-15",
+          "pushedAt": "2026-11-17",
           "latestRelease": "v0.4.4",
           "firstSeen": "2026-10-26",
           "topics": [
@@ -14719,6 +16893,13 @@
               "date": "2026-11-16",
               "reason": "lightweight",
               "starsTotal": 8170,
+              "starsGained": 0,
+              "release": "v0.4.4"
+            },
+            {
+              "date": "2026-11-18",
+              "reason": "lightweight",
+              "starsTotal": 8283,
               "starsGained": 0,
               "release": "v0.4.4"
             }
@@ -65802,6 +67983,13 @@
               "starsTotal": 195986,
               "starsGained": 6077,
               "release": ""
+            },
+            {
+              "date": "2026-11-18",
+              "reason": "lightweight",
+              "starsTotal": 196654,
+              "starsGained": 5666,
+              "release": ""
             }
           ],
           "analysis": []
@@ -77797,8 +79985,8 @@
           "streakDays": 2,
           "isNew": false,
           "createdAt": "2026-01-23",
-          "pushedAt": "2026-11-16",
-          "latestRelease": "v4.2.1",
+          "pushedAt": "2026-11-17",
+          "latestRelease": "v4.3.2",
           "firstSeen": "2026-07-09",
           "topics": [
             "ai-prompts",
@@ -77871,65 +80059,60 @@
               "starsTotal": 68070,
               "starsGained": 122,
               "release": "v4.2.1"
+            },
+            {
+              "date": "2026-11-18",
+              "reason": "release_update",
+              "starsTotal": 68905,
+              "starsGained": 772,
+              "release": "v4.3.2"
             }
           ],
           "analysis": [
             {
               "heading": "它是什么",
-              "body": "/last30days 是一个 AI agent 技能（skill），让 AI 助手能并行搜索 Reddit、X、YouTube、Hacker News、Polymarket、GitHub 等 50+ 平台的最近 30 天内容，按点赞、转发、观看、真实资金等参与度信号评分，并由 AI “法官” 综合成一份简报。它作为一个可安装的技能包运行在 Claude Code、Codex、Cursor、Copilot、Gemini CLI 等 50+ 个 agent 宿主上，安装后零配置即可使用 Reddit、HN、Polymarket、GitHub，运行一次向导可解锁更多源。"
+              "body": "一个AI agent技能/插件，让Claude Code等agent能够并行搜索Reddit、X、YouTube、TikTok、Hacker News、Polymarket等20多个平台，根据真实用户参与度（upvotes、likes、真实资金）评分，而非编辑或SEO。核心是“search people, not editors”。"
             },
             {
               "heading": "为什么火",
-              "body": "该项目在 GitHub 上获得 68070 star，曾登上 Trending 第一。它切中的痛点是：Google 聚合的是编辑和 SEO 内容，ChatGPT 有 Reddit 协议但搜不到 X/TikTok，Gemini 有 YouTube 但缺 Reddit，每个平台都是数据孤岛。/last30days 把这些孤岛桥接起来，让 agent 能跨平台搜索并对比，用数百万用户每天的点赞和钱包投票作为排序信号，提供的是“人”在关注什么，而不是编辑在写什么。"
+              "body": "Star 68905，GitHub Trending #1，最近活跃。聚合多个平台解决单一AI无法访问全部社交数据的问题，用户自己带key和浏览器会话，agent桥接这些平台。对做研究、会议准备、趋势发现的人很有用，尤其AI领域从业者。"
             },
             {
               "heading": "技术栈",
-              "bullets": [
-                "语言：Python",
-                "分发：作为 agent skill，通过 Claude Code 插件市场或 npx skills add 安装",
-                "核心规范：skills/last30days/SKILL.md 是运行时真相来源",
-                "扩展工具：部分数据源依赖本地 CLI（如 arxiv-pp-cli、techmeme-pp-cli），首次运行向导会安装",
-                "零配置源：Reddit、HN、Polymarket、GitHub 直接可用；其他需 API keys 或浏览器会话"
-              ]
+              "body": "Python（仓库语言）。作为Claude Code插件和npx skills安装，支持50+ Agent Skills hosts。具体依赖和实现未在README截断部分详细说明。"
             },
             {
               "heading": "核心能力",
               "bullets": [
-                "多源并行搜索：覆盖社交（Reddit/X/YouTube/TikTok/Instagram/LinkedIn/Bluesky 等）、技术（GitHub/HN/arXiv/Techmeme）、金融（Polymarket/Yahoo Finance/StockTwits）、商业信号（Meta Ads/Trustpilot/Amazon）等",
-                "参与度评分：用 upvotes、likes、views、odds 等真实互动排序，而非 SEO",
-                "AI 综合：agent 对结果进行筛选和总结，输出简明的 grounded summary",
-                "专题模式：人物调研、公司招聘信号、专利分析、产品对比、趋势发现（--hiring-signals、? what's exploding in AI agents?）",
-                "可扩展性：50+ 宿主，提供插件机制，可新增源"
+                "多源并行搜索：Reddit、X、YouTube、TikTok、Instagram Reels、HN、Polymarket、GitHub、Digg、arXiv、Techmemo、Yahoo Finance、LinkedIn、Meta Ads、StockTwits、Threads、Pinterest、小红书、Bluesky、Perplexity、DEV、Truth Social、Telegram、Trustpilot、Amazon、DripStack、Jobs/careers pages、Patents、Local corpus、Web。",
+                "参与度评分：upvotes、likes、views、odds等。",
+                "AI代理合成摘要。",
+                "发现模式：寻找爆发话题。",
+                "针对公司：招聘信号、专利信号、股价表现等。"
               ]
             },
             {
               "heading": "适用场景",
               "bullets": [
-                "会议/销售前快速调研一个人或公司的近期动态",
-                "发现爆发中的话题（AI 领域变化快）",
-                "对比工具、产品或竞品",
-                "追踪热点事件（如名人、地缘政治）",
-                "分析公司的招聘和专利作为前瞻信号"
+                "会议前调研人物或公司最近30天动态。",
+                "公司产品开发前的信号挖掘（招聘/专利）。",
+                "趋势发现（AI领域等）。",
+                "事件爆发后快速了解舆论（如Kanye West）。"
               ]
             },
             {
               "heading": "同类对比",
-              "bullets": [
-                "vs Google 搜索：Google 基于编辑和 SEO 索引，缺少社交评论和实时热度；/last30days 直接以用户参与度排序",
-                "vs ChatGPT 搜索：ChatGPT 有 Reddit 合作但无法搜索 X、TikTok 等；本技能可同时接入多个平台",
-                "vs Gemini：拥有 YouTube 但缺乏 Reddit 原生数据；本技能桥接多个孤岛",
-                "vs Perplexity：Perplexity 提供 AI 搜索，但本技能将其作为一个来源之一，并叠加了金融、社交等信号"
-              ]
+              "body": "对比Google等编辑/SEO驱动搜索；单一AI如ChatGPT/Claude/Gemini各自有平台合作限制，无法覆盖全部社交平台。last30days利用用户自己的凭据和浏览器会话，让agent访问所有平台，并进行参与度加权。"
             },
             {
               "heading": "版本动态",
-              "body": "最新版本 v4.2.1（2026-11-16）主要是一轮修复：修正 YouTube 评论开关、Reddit 评论树读取、JSON 提取拒绝非对象、GitHub issue 评论按 reactions 排序、保存后缀清理等。多位新贡献者参与。项目迭代频繁，持续维护，反映了社区活跃度。 ---"
+              "body": "v4.3.2 (2026-11-17) 最新，主要包括文档波斯语翻译、修复X浏览器cookies、Reddit archive部分报告、移除无效transcription key、Windows CLI解析、Exa功能增强等。仓库活跃，贡献者多。 ---"
             },
             {
               "heading": "ℹ️ 置信度与信息盲区",
               "bullets": [
                 "置信度：high",
-                "信息盲区：README 未详细说明 Python 依赖清单和内部模块结构；未提供搜索质量评估或 benchmark 数据（docs/search-quality-eval.md 存在但未在 README 展示）；未说明各平台 API 调用的频率限制、重试和成本控制机制；未说明用户 API keys 的存储位置和安全处理方式；某些数据源的接入细节（如 Telegram、Truth Social、Amazon）需要查阅 CONFIGURATION.md，README 只做了概述"
+                "信息盲区：具体实现架构（如agent调用方式、Python库依赖）未在README截断部分展示。；X、YouTube、TikTok等源的具体认证配置细节不完全明确。；性能、可靠性、响应时间等未提及。；未提供与传统搜索对比的量化benchmark数据。；本地语料库、Amazon等源的具体使用方法可能需查阅CONFIGURATION.md或SKILL.md。"
               ]
             }
           ]
@@ -81753,8 +83936,8 @@
           "streakDays": 3,
           "isNew": false,
           "createdAt": "2026-05-18",
-          "pushedAt": "2026-11-16",
-          "latestRelease": "v1.13.10",
+          "pushedAt": "2026-11-17",
+          "latestRelease": "v1.13.11",
           "firstSeen": "2026-07-24",
           "topics": [
             "agent",
@@ -81988,76 +84171,75 @@
               "starsTotal": 52882,
               "starsGained": 2238,
               "release": "v1.13.10"
+            },
+            {
+              "date": "2026-11-18",
+              "reason": "release_update",
+              "starsTotal": 53644,
+              "starsGained": 3056,
+              "release": "v1.13.11"
             }
           ],
           "analysis": [
             {
               "heading": "它是什么",
-              "body": "阿里巴巴开源的AI代码审查CLI工具，已在内部服务数万开发者、发现数百万缺陷。它读取Git差异，通过可配置的LLM代理（Agent）进行结构化审查，输出行级精确定位的评论。支持全仓库扫描、会话恢复、委托模式等多种工作流，深度集成常见CI/CD平台和编码代理（Claude Code, Cursor, Codex）。"
+              "body": "Open Code Review（CLI 命令 ocr）是阿里巴巴把内部官方 AI 代码审查助手开源出来的项目。它读取 Git diff，通过带工具调用能力的 Agent 把变更文件交给可配置 LLM，产出结构化、行级精准的 review 评论；也支持 ocr scan 对无 diff 的整个文件/目录做审查。README 强调内部已用两年、服务数万开发者、识别数百万缺陷。"
             },
             {
               "heading": "为什么火",
               "bullets": [
-                "百万级内部验证：经过阿里巴巴大规模实践，可靠性有一定背书。",
-                "混合架构：确定性管道处理文件选择、规则匹配、定位修正，Agent专注动态推理，规避纯提示语方案的不稳定性。",
-                "成本与质量优势：相比通用Agent（如Claude Code），达到更高精确度和F1值，且Token消耗仅约1/9。",
-                "开箱即用：内置针对空指针、线程安全、XSS、SQL注入等问题的精细化规则集。"
+                "阿里内部两年、数万开发者、数百万缺陷的真实规模验证后开源；",
+                "GitHub 页面 Star 53.6k，项目创建约 6 个月即获得较高关注；",
+                "针对通用 Agent 做代码审查的三大痛点：文件覆盖不全、行号/位置漂移、质量不稳定；",
+                "核心设计是“确定性工程 × Agent”混合架构：文件选择、智能打包、规则匹配、评论定位/反思由工程逻辑硬约束，Agent 只负责动态决策和上下文检索；",
+                "基准测试称相比 Claude Code 通用 Agent，同样模型下 Precision/F1 显著更高，token 仅约 1/9，速度更快；Recall 较低是刻意取舍，减少噪音；",
+                "内置多语言规则集，举例涵盖 NPE、线程安全、XSS、SQL 注入等。"
               ]
             },
             {
               "heading": "技术栈",
               "bullets": [
                 "语言：Go",
-                "安装方式：npm全局安装（CLI），也支持安装脚本、GitHub Release二进制或源码编译",
-                "模型兼容：OpenAI与Anthropic兼容接口",
-                "集成：GitHub Actions、GitLab CI、Bitbucket Pipelines、Gerrit、GitFlic CI等"
+                "分发：npm 包 @alibaba-group/open-code-review，全局安装后提供 ocr 命令",
+                "依赖：Git >= 2.41",
+                "模型兼容：OpenAI 与 Anthropic 兼容接口；支持内置/自定义 provider",
+                "Agent Skills：支持 Claude Code、Codex、Cursor、Kimi Code",
+                "CI 示例：GitHub Actions、GitLab CI、Bitbucket Pipelines、Gerrit CI、Codeup CI、GitFlic CI",
+                "基准数据集：HuggingFace 上的 AACR-Bench"
               ]
             },
             {
               "heading": "核心能力",
               "bullets": [
-                "多模式审查：工作区模式、分支比较、单提交审查、全仓库扫描（ocr scan）",
-                "智能分片：将相关文件打包成子代理，支持并发，大变更集不丢文件",
-                "精准定位与反思：外部模块纠正行号和内容，提高评论准确性",
-                "场景优化工具集：基于生产数据分析定制，避免通用工具的无效重复调用",
-                "委托模式：无需配置自有LLM，由编码代理（如Cursor）直接执行审查",
-                "MCP服务器：可扩展外部审查工具"
+                "确定性管线：精确文件过滤/选择、智能文件打包（相关文件组成 sub-agent、隔离上下文、支持大变更集和并发）、基于模板引擎的细粒度规则匹配、独立评论定位和反思模块；",
+                "Agent 层：场景微调的 prompt 与工具集，Agent 可读完整文件、搜索仓库、查看其他变更文件，产出深层 review；",
+                "双模式：Native 模式使用 OCR 自己的 provider 和完整 pipeline；Delegation 模式借用宿主导 Agent 的模型/认证，但由 OCR 提供 pipeline 与 guardrails；",
+                "行级评论：结构化输出，CI 中可用；",
+                "内置安全/质量规则：NPE、线程安全、XSS、SQL 注入等（README 只举例，未给全量清单）。"
               ]
             },
             {
               "heading": "适用场景",
               "bullets": [
-                "团队级CI审查：代替人工检查代码规范、安全缺陷",
-                "大型变更集评审：避免人类或通用AI疲劳导致的遗漏",
-                "陌生代码库审计：通过ocr scan快速摸底代码质量",
-                "编码代理增强：作为Claude Code、Cursor等工具的审查技能"
+                "团队在 PR/MR 阶段接 CI 做自动代码审查；",
+                "个人开发者在 Claude Code、Cursor 等宿主导 Agent 中通过 Skills 使用；",
+                "没有 diff 的历史代码或陌生目录审计（ocr scan）；",
+                "希望用同样底层模型但比通用 Agent 更低 token、更少误报的审查场景。"
               ]
             },
             {
               "heading": "同类对比",
-              "body": "与通用代理（如Claude Code）直接执行代码审查相比： 与传统静态分析工具对比，OCR融入LLM的语义理解能力，能发现需要上下文推断的问题，但部署依赖外部模型服务。",
-              "bullets": [
-                "精确度：OCR更高，减少误报",
-                "召回率：OCR略低，故意牺牲广度换取低噪声",
-                "Token消耗：OCR约为通用代理的1/9",
-                "稳定性：工程约束使审查质量波动小"
-              ]
+              "body": "README 仅与“通用 Agent（Claude Code）”对比：OCR 在相同模型下 Precision/F1 更高、token 约 1/9、耗时更低，但 Recall 更低——适合追求少误报、控制成本的 CI 场景。未看到与专用代码审查工具的直接对比数据。"
             },
             {
               "heading": "版本动态",
-              "body": "最新v1.7.17新增： 项目活跃，多语言README，社区贡献者较多。 ---",
-              "bullets": [
-                "原生OpenCode集成",
-                "Julia语言支持",
-                "Rust宏正确性检查规则",
-                "代码评论元数据枚举规范化修复"
-              ]
+              "body": "最新 Release v1.13.11（2026-11-17）仍在高频迭代：新增 session 按分支过滤、Move review 规则；修复不同路径拼写比较、多字节文件路径 rune 边界、MCP server 名称含点号、VSCode 上报失败状态、ACP 输入限制提示等问题；文档优化 onboarding 和多语言截图。 ---"
             },
             {
               "heading": "ℹ️ 置信度与信息盲区",
               "bullets": [
                 "置信度：high",
-                "信息盲区：benchmark表格中的具体数值未在提供的README截断中展示；内置规则集（NPE/线程安全/XSS/SQL注入）的详细覆盖范围和配置方式未在README详述；支持的OpenAI/Anthropic模型具体列表未列出；委托模式下各编码代理的具体操作步骤仅在子文档链接，未在README展开"
+                "信息盲区：README 未列出具体支持语言完整清单（benchmark 提到 10 种语言，但未逐个说明）；未提供与专用代码审查工具（如 CodeRabbit 等）的直接对比，仅对比通用 Claude Code Agent；内置规则集只举例 NPE/线程安全/XSS/SQL 注入，未给全量规则列表；未说明不同 provider 的认证/配置细节，需到官网 docs 查看；Star 数和趋势图来自页面 badge，建议核实统计口径"
               ]
             }
           ]
@@ -85258,8 +87440,8 @@
           "streakDays": 9,
           "isNew": false,
           "createdAt": "2025-10-09",
-          "pushedAt": "2026-07-24",
-          "latestRelease": "v6.2.0",
+          "pushedAt": "2026-11-03",
+          "latestRelease": "v7.0.2",
           "firstSeen": "2026-06-19",
           "topics": [
             "ai",
@@ -85334,54 +87516,62 @@
               "starsTotal": 261106,
               "starsGained": 479,
               "release": "v6.2.0"
+            },
+            {
+              "date": "2026-11-18",
+              "reason": "release_update",
+              "starsTotal": 319218,
+              "starsGained": 598,
+              "release": "v7.0.2"
             }
           ],
           "analysis": [
             {
               "heading": "它是什么",
-              "body": "Superpowers 是一个软件工程方法论与可组合技能框架，专为 AI 编码代理（Claude Code、Cursor、Gemini CLI 等）设计。它不依赖特定平台，通过插件机制注入初始指令和一套自动触发的技能，将代理的行为从“看到需求就写代码”重塑为完整的 SDLC：头脑风暴 → 设计文档 → 实现计划 → 子代理驱动开发（SDD）→ TDD → 代码审查 → 分支完成。"
+              "body": "Superpowers 是一套面向 AI 编码代理的技能框架和软件开发方法论，由 Prime Radiant 的 Jesse Vincent 等人构建。它由一组可组合技能（brainstorming、writing-plans、test-driven-development 等）和启动指令组成，让代理在写代码前先澄清需求、制定计划、用 TDD 实现、子代理执行并评审。项目通过插件/扩展方式安装到多个编码 harness，如 Claude Code、Codex、Cursor、Gemini CLI 等。"
             },
             {
               "heading": "为什么火",
-              "body": "该项目让编码代理的自主开发变得可预测且高质：代理会主动细化需求、写出精确到文件路径的任务、使用隔离分支和双阶段审查（spec 合规 + 代码质量），并具备修复循环与断路器。对需要“发呆几小时但不出错”的开发者极具吸引力。Star 超过 26 万，社区活跃，由经验丰富的开发者（Jesse Vincent）维护。"
+              "body": "Star 数约 31.9 万，跨 15+ 编码 harness 支持。核心是强制改变编码代理的行为模式：代理不再“直接跳进写代码”，而是先退一步问你要什么、为什么，把需求写成可读 spec，批准后才制定计划，再进入子代理驱动开发和测试。v7.0.2 自述的盲测中，无意义提问从 41 降到 23，33/33 场景先挖出“为什么”，且批准前不构建。"
             },
             {
               "heading": "技术栈",
-              "body": "仓库主要为 Shell 和 Markdown 文件。核心是技能定义（SKILL.md）和初始引导指令，不同平台的插件实现各异的 hook 注入，并不包含重型服务端组件。本质上是以提示工程为中心的轻量级框架。"
+              "body": "主要语言 Shell；以技能文件和脚本形式分发，通过各 harness 的插件市场或仓库安装，利用原生 skills 或兼容层加载。MIT 许可。"
             },
             {
               "heading": "核心能力",
               "bullets": [
-                "自动化的需求精炼：brainstorming 技能通过苏格拉底式提问产出设计文档。",
-                "精细的任务规划：将工作拆解为 2–5 分钟可完成的原子任务，每个任务明确文件路径、代码和验证步骤。",
-                "子代理驱动开发 (SDD)：每个任务分派独立的子代理，执行后经过 spec 合规与代码质量两阶段审查，不合格则返回修复，最多五轮，超限后由控制者裁决。",
-                "严格的 TDD：强制红-绿-重构循环，删除任何未经过测试的代码。",
-                "全生命周期覆盖：从创建 git worktree、自动执行计划、代码审查，到收尾分支的合并/PR/丢弃决策。",
-                "跨平台即插即用：支持 Claude Code、Cursor、Codex、Gemini CLI、Copilot CLI 等十余种代理，安装仅需一行指令或插件市场操作。"
+                "brainstorming：构建前先追问意图，只问会改变构建结果的必要问题，给出可选项和推荐；小改动在聊天里确认，大项目输出设计文档。",
+                "writing-plans：把批准的设计拆成 2-5 分钟的小任务，每个任务包含精确文件路径、完整代码和验证步骤。",
+                "subagent-driven-development / executing-plans：前者每个任务派新子代理并逐个评审（最彻底）；后者在当前会话内联执行全部任务，最后做一次整分支评审（最便宜）。",
+                "test-driven-development：强制红-绿-重构，删除写在测试之前的代码。",
+                "requesting-code-review：在任务之间按计划评审，严重问题阻断进度。",
+                "finishing-a-development-branch：验证测试，提供合并/PR/保留/丢弃选项并清理 worktree。",
+                "using-git-worktrees：设计批准后创建隔离工作区，跑项目 setup，确认干净测试基线。",
+                "diagnosing-superpowers：会话异常时读取 transcript 并用行级证据报告问题，可导出脱敏 bundle。"
               ]
             },
             {
               "heading": "适用场景",
               "bullets": [
-                "使用 AI 编码代理加速日常开发的个人或团队",
-                "希望代理自主完成中等复杂功能、保持代码质量一致性的场景",
-                "需要代理在后台长时间工作（数小时）而不偏离设计的项目",
-                "无法或不愿托管代码到外部 AI 开发平台的企业"
+                "希望编码代理长时间自主工作却不偏离计划的团队和个人；",
+                "要求强制 TDD、代码评审和明确设计批准的工程流程；",
+                "同时使用多个编码 harness，希望用同一套方法论统一行为。"
               ]
             },
             {
               "heading": "同类对比",
-              "body": "与 Devin、Sweep 等全托管 AI 开发助手相比，Superpowers 更轻量、可运行在本地代理上，用户完全控制代码和流程；与 Aider 的“architect 模式”相比，它的流程更加固化和系统化（强制设计-计划-审查-修复循环），但灵活性稍弱。其跨代理能力是突出优势。"
+              "body": "相比在 Claude Code 里手动开 plan mode 或拼提示词，Superpowers 提供跨 harness 一致的强制技能触发和从需求到合并的完整生命周期；相比绑定单一后端的代理框架，它更偏方法论和插件化，不绑定模型供应商。README 提供了 v7.0.2 与自己旧版和 6.4.2 的盲测对比，但没有与 Aider/OpenHands 等第三方工具的量化对比。"
             },
             {
               "heading": "版本动态",
-              "body": "最新 v6.2.0 引入了重要的 SDD 结构变更：工作区按计划作用域隔离，避免跨任务污染；修复循环改为恢复原实施者而非重新派发；添加五轮断路器和控制者裁决。整体技能文档进行大幅压缩，去除说服性文案，保留关键逻辑，并通过子代理探针验证行为。项目仍在积极迭代。 ---"
+              "body": "最新 Release v7.0.2（2026-11-03）主要调优 brainstorming：问题更少、先问 why、有选择时给出带推荐的选项；修复六个 harness 的 bootstrap 问题；强化 SDD 和 executing-plans 脚本防止指向错误仓库或任务；修复 start-server.sh --project-dir . 相对路径问题。 ---"
             },
             {
               "heading": "ℹ️ 置信度与信息盲区",
               "bullets": [
                 "置信度：high",
-                "信息盲区：未提供与其他工作流框架（Aider、Sweep）的效果对比基准；Windows 支持细节未在 README 中展开（仅有 docs/windows 目录）；未给出插件在各大代理平台上的兼容性测试覆盖率数据；未说明对大型仓库（monorepo）的性能影响"
+                "信息盲区：README 未提供与 Aider/OpenHands 等第三方代理框架的量化对比；未说明各 harness 插件的具体版本兼容范围和安装失败排障步骤；盲测数据来自项目自述，未见独立可复现的公开基准；未列出所有技能文件的完整清单和触发条件细节"
               ]
             }
           ]
@@ -85402,8 +87592,8 @@
           "streakDays": 2,
           "isNew": false,
           "createdAt": "2026-05-18",
-          "pushedAt": "2026-11-16",
-          "latestRelease": "v1.13.10",
+          "pushedAt": "2026-11-17",
+          "latestRelease": "v1.13.11",
           "firstSeen": "2026-07-24",
           "topics": [
             "agent",
@@ -85637,76 +87827,75 @@
               "starsTotal": 52882,
               "starsGained": 2238,
               "release": "v1.13.10"
+            },
+            {
+              "date": "2026-11-18",
+              "reason": "release_update",
+              "starsTotal": 53644,
+              "starsGained": 3056,
+              "release": "v1.13.11"
             }
           ],
           "analysis": [
             {
               "heading": "它是什么",
-              "body": "阿里巴巴开源的AI代码审查CLI工具，已在内部服务数万开发者、发现数百万缺陷。它读取Git差异，通过可配置的LLM代理（Agent）进行结构化审查，输出行级精确定位的评论。支持全仓库扫描、会话恢复、委托模式等多种工作流，深度集成常见CI/CD平台和编码代理（Claude Code, Cursor, Codex）。"
+              "body": "Open Code Review（CLI 命令 ocr）是阿里巴巴把内部官方 AI 代码审查助手开源出来的项目。它读取 Git diff，通过带工具调用能力的 Agent 把变更文件交给可配置 LLM，产出结构化、行级精准的 review 评论；也支持 ocr scan 对无 diff 的整个文件/目录做审查。README 强调内部已用两年、服务数万开发者、识别数百万缺陷。"
             },
             {
               "heading": "为什么火",
               "bullets": [
-                "百万级内部验证：经过阿里巴巴大规模实践，可靠性有一定背书。",
-                "混合架构：确定性管道处理文件选择、规则匹配、定位修正，Agent专注动态推理，规避纯提示语方案的不稳定性。",
-                "成本与质量优势：相比通用Agent（如Claude Code），达到更高精确度和F1值，且Token消耗仅约1/9。",
-                "开箱即用：内置针对空指针、线程安全、XSS、SQL注入等问题的精细化规则集。"
+                "阿里内部两年、数万开发者、数百万缺陷的真实规模验证后开源；",
+                "GitHub 页面 Star 53.6k，项目创建约 6 个月即获得较高关注；",
+                "针对通用 Agent 做代码审查的三大痛点：文件覆盖不全、行号/位置漂移、质量不稳定；",
+                "核心设计是“确定性工程 × Agent”混合架构：文件选择、智能打包、规则匹配、评论定位/反思由工程逻辑硬约束，Agent 只负责动态决策和上下文检索；",
+                "基准测试称相比 Claude Code 通用 Agent，同样模型下 Precision/F1 显著更高，token 仅约 1/9，速度更快；Recall 较低是刻意取舍，减少噪音；",
+                "内置多语言规则集，举例涵盖 NPE、线程安全、XSS、SQL 注入等。"
               ]
             },
             {
               "heading": "技术栈",
               "bullets": [
                 "语言：Go",
-                "安装方式：npm全局安装（CLI），也支持安装脚本、GitHub Release二进制或源码编译",
-                "模型兼容：OpenAI与Anthropic兼容接口",
-                "集成：GitHub Actions、GitLab CI、Bitbucket Pipelines、Gerrit、GitFlic CI等"
+                "分发：npm 包 @alibaba-group/open-code-review，全局安装后提供 ocr 命令",
+                "依赖：Git >= 2.41",
+                "模型兼容：OpenAI 与 Anthropic 兼容接口；支持内置/自定义 provider",
+                "Agent Skills：支持 Claude Code、Codex、Cursor、Kimi Code",
+                "CI 示例：GitHub Actions、GitLab CI、Bitbucket Pipelines、Gerrit CI、Codeup CI、GitFlic CI",
+                "基准数据集：HuggingFace 上的 AACR-Bench"
               ]
             },
             {
               "heading": "核心能力",
               "bullets": [
-                "多模式审查：工作区模式、分支比较、单提交审查、全仓库扫描（ocr scan）",
-                "智能分片：将相关文件打包成子代理，支持并发，大变更集不丢文件",
-                "精准定位与反思：外部模块纠正行号和内容，提高评论准确性",
-                "场景优化工具集：基于生产数据分析定制，避免通用工具的无效重复调用",
-                "委托模式：无需配置自有LLM，由编码代理（如Cursor）直接执行审查",
-                "MCP服务器：可扩展外部审查工具"
+                "确定性管线：精确文件过滤/选择、智能文件打包（相关文件组成 sub-agent、隔离上下文、支持大变更集和并发）、基于模板引擎的细粒度规则匹配、独立评论定位和反思模块；",
+                "Agent 层：场景微调的 prompt 与工具集，Agent 可读完整文件、搜索仓库、查看其他变更文件，产出深层 review；",
+                "双模式：Native 模式使用 OCR 自己的 provider 和完整 pipeline；Delegation 模式借用宿主导 Agent 的模型/认证，但由 OCR 提供 pipeline 与 guardrails；",
+                "行级评论：结构化输出，CI 中可用；",
+                "内置安全/质量规则：NPE、线程安全、XSS、SQL 注入等（README 只举例，未给全量清单）。"
               ]
             },
             {
               "heading": "适用场景",
               "bullets": [
-                "团队级CI审查：代替人工检查代码规范、安全缺陷",
-                "大型变更集评审：避免人类或通用AI疲劳导致的遗漏",
-                "陌生代码库审计：通过ocr scan快速摸底代码质量",
-                "编码代理增强：作为Claude Code、Cursor等工具的审查技能"
+                "团队在 PR/MR 阶段接 CI 做自动代码审查；",
+                "个人开发者在 Claude Code、Cursor 等宿主导 Agent 中通过 Skills 使用；",
+                "没有 diff 的历史代码或陌生目录审计（ocr scan）；",
+                "希望用同样底层模型但比通用 Agent 更低 token、更少误报的审查场景。"
               ]
             },
             {
               "heading": "同类对比",
-              "body": "与通用代理（如Claude Code）直接执行代码审查相比： 与传统静态分析工具对比，OCR融入LLM的语义理解能力，能发现需要上下文推断的问题，但部署依赖外部模型服务。",
-              "bullets": [
-                "精确度：OCR更高，减少误报",
-                "召回率：OCR略低，故意牺牲广度换取低噪声",
-                "Token消耗：OCR约为通用代理的1/9",
-                "稳定性：工程约束使审查质量波动小"
-              ]
+              "body": "README 仅与“通用 Agent（Claude Code）”对比：OCR 在相同模型下 Precision/F1 更高、token 约 1/9、耗时更低，但 Recall 更低——适合追求少误报、控制成本的 CI 场景。未看到与专用代码审查工具的直接对比数据。"
             },
             {
               "heading": "版本动态",
-              "body": "最新v1.7.17新增： 项目活跃，多语言README，社区贡献者较多。 ---",
-              "bullets": [
-                "原生OpenCode集成",
-                "Julia语言支持",
-                "Rust宏正确性检查规则",
-                "代码评论元数据枚举规范化修复"
-              ]
+              "body": "最新 Release v1.13.11（2026-11-17）仍在高频迭代：新增 session 按分支过滤、Move review 规则；修复不同路径拼写比较、多字节文件路径 rune 边界、MCP server 名称含点号、VSCode 上报失败状态、ACP 输入限制提示等问题；文档优化 onboarding 和多语言截图。 ---"
             },
             {
               "heading": "ℹ️ 置信度与信息盲区",
               "bullets": [
                 "置信度：high",
-                "信息盲区：benchmark表格中的具体数值未在提供的README截断中展示；内置规则集（NPE/线程安全/XSS/SQL注入）的详细覆盖范围和配置方式未在README详述；支持的OpenAI/Anthropic模型具体列表未列出；委托模式下各编码代理的具体操作步骤仅在子文档链接，未在README展开"
+                "信息盲区：README 未列出具体支持语言完整清单（benchmark 提到 10 种语言，但未逐个说明）；未提供与专用代码审查工具（如 CodeRabbit 等）的直接对比，仅对比通用 Claude Code Agent；内置规则集只举例 NPE/线程安全/XSS/SQL 注入，未给全量规则列表；未说明不同 provider 的认证/配置细节，需到官网 docs 查看；Star 数和趋势图来自页面 badge，建议核实统计口径"
               ]
             }
           ]
@@ -87651,8 +89840,8 @@
           "streakDays": 1,
           "isNew": true,
           "createdAt": "2026-05-18",
-          "pushedAt": "2026-11-16",
-          "latestRelease": "v1.13.10",
+          "pushedAt": "2026-11-17",
+          "latestRelease": "v1.13.11",
           "firstSeen": "2026-07-24",
           "topics": [
             "agent",
@@ -87886,76 +90075,75 @@
               "starsTotal": 52882,
               "starsGained": 2238,
               "release": "v1.13.10"
+            },
+            {
+              "date": "2026-11-18",
+              "reason": "release_update",
+              "starsTotal": 53644,
+              "starsGained": 3056,
+              "release": "v1.13.11"
             }
           ],
           "analysis": [
             {
               "heading": "它是什么",
-              "body": "阿里巴巴开源的AI代码审查CLI工具，已在内部服务数万开发者、发现数百万缺陷。它读取Git差异，通过可配置的LLM代理（Agent）进行结构化审查，输出行级精确定位的评论。支持全仓库扫描、会话恢复、委托模式等多种工作流，深度集成常见CI/CD平台和编码代理（Claude Code, Cursor, Codex）。"
+              "body": "Open Code Review（CLI 命令 ocr）是阿里巴巴把内部官方 AI 代码审查助手开源出来的项目。它读取 Git diff，通过带工具调用能力的 Agent 把变更文件交给可配置 LLM，产出结构化、行级精准的 review 评论；也支持 ocr scan 对无 diff 的整个文件/目录做审查。README 强调内部已用两年、服务数万开发者、识别数百万缺陷。"
             },
             {
               "heading": "为什么火",
               "bullets": [
-                "百万级内部验证：经过阿里巴巴大规模实践，可靠性有一定背书。",
-                "混合架构：确定性管道处理文件选择、规则匹配、定位修正，Agent专注动态推理，规避纯提示语方案的不稳定性。",
-                "成本与质量优势：相比通用Agent（如Claude Code），达到更高精确度和F1值，且Token消耗仅约1/9。",
-                "开箱即用：内置针对空指针、线程安全、XSS、SQL注入等问题的精细化规则集。"
+                "阿里内部两年、数万开发者、数百万缺陷的真实规模验证后开源；",
+                "GitHub 页面 Star 53.6k，项目创建约 6 个月即获得较高关注；",
+                "针对通用 Agent 做代码审查的三大痛点：文件覆盖不全、行号/位置漂移、质量不稳定；",
+                "核心设计是“确定性工程 × Agent”混合架构：文件选择、智能打包、规则匹配、评论定位/反思由工程逻辑硬约束，Agent 只负责动态决策和上下文检索；",
+                "基准测试称相比 Claude Code 通用 Agent，同样模型下 Precision/F1 显著更高，token 仅约 1/9，速度更快；Recall 较低是刻意取舍，减少噪音；",
+                "内置多语言规则集，举例涵盖 NPE、线程安全、XSS、SQL 注入等。"
               ]
             },
             {
               "heading": "技术栈",
               "bullets": [
                 "语言：Go",
-                "安装方式：npm全局安装（CLI），也支持安装脚本、GitHub Release二进制或源码编译",
-                "模型兼容：OpenAI与Anthropic兼容接口",
-                "集成：GitHub Actions、GitLab CI、Bitbucket Pipelines、Gerrit、GitFlic CI等"
+                "分发：npm 包 @alibaba-group/open-code-review，全局安装后提供 ocr 命令",
+                "依赖：Git >= 2.41",
+                "模型兼容：OpenAI 与 Anthropic 兼容接口；支持内置/自定义 provider",
+                "Agent Skills：支持 Claude Code、Codex、Cursor、Kimi Code",
+                "CI 示例：GitHub Actions、GitLab CI、Bitbucket Pipelines、Gerrit CI、Codeup CI、GitFlic CI",
+                "基准数据集：HuggingFace 上的 AACR-Bench"
               ]
             },
             {
               "heading": "核心能力",
               "bullets": [
-                "多模式审查：工作区模式、分支比较、单提交审查、全仓库扫描（ocr scan）",
-                "智能分片：将相关文件打包成子代理，支持并发，大变更集不丢文件",
-                "精准定位与反思：外部模块纠正行号和内容，提高评论准确性",
-                "场景优化工具集：基于生产数据分析定制，避免通用工具的无效重复调用",
-                "委托模式：无需配置自有LLM，由编码代理（如Cursor）直接执行审查",
-                "MCP服务器：可扩展外部审查工具"
+                "确定性管线：精确文件过滤/选择、智能文件打包（相关文件组成 sub-agent、隔离上下文、支持大变更集和并发）、基于模板引擎的细粒度规则匹配、独立评论定位和反思模块；",
+                "Agent 层：场景微调的 prompt 与工具集，Agent 可读完整文件、搜索仓库、查看其他变更文件，产出深层 review；",
+                "双模式：Native 模式使用 OCR 自己的 provider 和完整 pipeline；Delegation 模式借用宿主导 Agent 的模型/认证，但由 OCR 提供 pipeline 与 guardrails；",
+                "行级评论：结构化输出，CI 中可用；",
+                "内置安全/质量规则：NPE、线程安全、XSS、SQL 注入等（README 只举例，未给全量清单）。"
               ]
             },
             {
               "heading": "适用场景",
               "bullets": [
-                "团队级CI审查：代替人工检查代码规范、安全缺陷",
-                "大型变更集评审：避免人类或通用AI疲劳导致的遗漏",
-                "陌生代码库审计：通过ocr scan快速摸底代码质量",
-                "编码代理增强：作为Claude Code、Cursor等工具的审查技能"
+                "团队在 PR/MR 阶段接 CI 做自动代码审查；",
+                "个人开发者在 Claude Code、Cursor 等宿主导 Agent 中通过 Skills 使用；",
+                "没有 diff 的历史代码或陌生目录审计（ocr scan）；",
+                "希望用同样底层模型但比通用 Agent 更低 token、更少误报的审查场景。"
               ]
             },
             {
               "heading": "同类对比",
-              "body": "与通用代理（如Claude Code）直接执行代码审查相比： 与传统静态分析工具对比，OCR融入LLM的语义理解能力，能发现需要上下文推断的问题，但部署依赖外部模型服务。",
-              "bullets": [
-                "精确度：OCR更高，减少误报",
-                "召回率：OCR略低，故意牺牲广度换取低噪声",
-                "Token消耗：OCR约为通用代理的1/9",
-                "稳定性：工程约束使审查质量波动小"
-              ]
+              "body": "README 仅与“通用 Agent（Claude Code）”对比：OCR 在相同模型下 Precision/F1 更高、token 约 1/9、耗时更低，但 Recall 更低——适合追求少误报、控制成本的 CI 场景。未看到与专用代码审查工具的直接对比数据。"
             },
             {
               "heading": "版本动态",
-              "body": "最新v1.7.17新增： 项目活跃，多语言README，社区贡献者较多。 ---",
-              "bullets": [
-                "原生OpenCode集成",
-                "Julia语言支持",
-                "Rust宏正确性检查规则",
-                "代码评论元数据枚举规范化修复"
-              ]
+              "body": "最新 Release v1.13.11（2026-11-17）仍在高频迭代：新增 session 按分支过滤、Move review 规则；修复不同路径拼写比较、多字节文件路径 rune 边界、MCP server 名称含点号、VSCode 上报失败状态、ACP 输入限制提示等问题；文档优化 onboarding 和多语言截图。 ---"
             },
             {
               "heading": "ℹ️ 置信度与信息盲区",
               "bullets": [
                 "置信度：high",
-                "信息盲区：benchmark表格中的具体数值未在提供的README截断中展示；内置规则集（NPE/线程安全/XSS/SQL注入）的详细覆盖范围和配置方式未在README详述；支持的OpenAI/Anthropic模型具体列表未列出；委托模式下各编码代理的具体操作步骤仅在子文档链接，未在README展开"
+                "信息盲区：README 未列出具体支持语言完整清单（benchmark 提到 10 种语言，但未逐个说明）；未提供与专用代码审查工具（如 CodeRabbit 等）的直接对比，仅对比通用 Claude Code Agent；内置规则集只举例 NPE/线程安全/XSS/SQL 注入，未给全量规则列表；未说明不同 provider 的认证/配置细节，需到官网 docs 查看；Star 数和趋势图来自页面 badge，建议核实统计口径"
               ]
             }
           ]
@@ -98617,6 +100805,13 @@
               "starsTotal": 9704,
               "starsGained": 540,
               "release": "v1.0"
+            },
+            {
+              "date": "2026-11-18",
+              "reason": "lightweight",
+              "starsTotal": 10043,
+              "starsGained": 943,
+              "release": "v1.0"
             }
           ],
           "analysis": []
@@ -99477,8 +101672,8 @@
           "streakDays": 1,
           "isNew": true,
           "createdAt": "2026-01-23",
-          "pushedAt": "2026-11-16",
-          "latestRelease": "v4.2.1",
+          "pushedAt": "2026-11-17",
+          "latestRelease": "v4.3.2",
           "firstSeen": "2026-07-09",
           "topics": [
             "ai-prompts",
@@ -99551,65 +101746,60 @@
               "starsTotal": 68070,
               "starsGained": 122,
               "release": "v4.2.1"
+            },
+            {
+              "date": "2026-11-18",
+              "reason": "release_update",
+              "starsTotal": 68905,
+              "starsGained": 772,
+              "release": "v4.3.2"
             }
           ],
           "analysis": [
             {
               "heading": "它是什么",
-              "body": "/last30days 是一个 AI agent 技能（skill），让 AI 助手能并行搜索 Reddit、X、YouTube、Hacker News、Polymarket、GitHub 等 50+ 平台的最近 30 天内容，按点赞、转发、观看、真实资金等参与度信号评分，并由 AI “法官” 综合成一份简报。它作为一个可安装的技能包运行在 Claude Code、Codex、Cursor、Copilot、Gemini CLI 等 50+ 个 agent 宿主上，安装后零配置即可使用 Reddit、HN、Polymarket、GitHub，运行一次向导可解锁更多源。"
+              "body": "一个AI agent技能/插件，让Claude Code等agent能够并行搜索Reddit、X、YouTube、TikTok、Hacker News、Polymarket等20多个平台，根据真实用户参与度（upvotes、likes、真实资金）评分，而非编辑或SEO。核心是“search people, not editors”。"
             },
             {
               "heading": "为什么火",
-              "body": "该项目在 GitHub 上获得 68070 star，曾登上 Trending 第一。它切中的痛点是：Google 聚合的是编辑和 SEO 内容，ChatGPT 有 Reddit 协议但搜不到 X/TikTok，Gemini 有 YouTube 但缺 Reddit，每个平台都是数据孤岛。/last30days 把这些孤岛桥接起来，让 agent 能跨平台搜索并对比，用数百万用户每天的点赞和钱包投票作为排序信号，提供的是“人”在关注什么，而不是编辑在写什么。"
+              "body": "Star 68905，GitHub Trending #1，最近活跃。聚合多个平台解决单一AI无法访问全部社交数据的问题，用户自己带key和浏览器会话，agent桥接这些平台。对做研究、会议准备、趋势发现的人很有用，尤其AI领域从业者。"
             },
             {
               "heading": "技术栈",
-              "bullets": [
-                "语言：Python",
-                "分发：作为 agent skill，通过 Claude Code 插件市场或 npx skills add 安装",
-                "核心规范：skills/last30days/SKILL.md 是运行时真相来源",
-                "扩展工具：部分数据源依赖本地 CLI（如 arxiv-pp-cli、techmeme-pp-cli），首次运行向导会安装",
-                "零配置源：Reddit、HN、Polymarket、GitHub 直接可用；其他需 API keys 或浏览器会话"
-              ]
+              "body": "Python（仓库语言）。作为Claude Code插件和npx skills安装，支持50+ Agent Skills hosts。具体依赖和实现未在README截断部分详细说明。"
             },
             {
               "heading": "核心能力",
               "bullets": [
-                "多源并行搜索：覆盖社交（Reddit/X/YouTube/TikTok/Instagram/LinkedIn/Bluesky 等）、技术（GitHub/HN/arXiv/Techmeme）、金融（Polymarket/Yahoo Finance/StockTwits）、商业信号（Meta Ads/Trustpilot/Amazon）等",
-                "参与度评分：用 upvotes、likes、views、odds 等真实互动排序，而非 SEO",
-                "AI 综合：agent 对结果进行筛选和总结，输出简明的 grounded summary",
-                "专题模式：人物调研、公司招聘信号、专利分析、产品对比、趋势发现（--hiring-signals、? what's exploding in AI agents?）",
-                "可扩展性：50+ 宿主，提供插件机制，可新增源"
+                "多源并行搜索：Reddit、X、YouTube、TikTok、Instagram Reels、HN、Polymarket、GitHub、Digg、arXiv、Techmemo、Yahoo Finance、LinkedIn、Meta Ads、StockTwits、Threads、Pinterest、小红书、Bluesky、Perplexity、DEV、Truth Social、Telegram、Trustpilot、Amazon、DripStack、Jobs/careers pages、Patents、Local corpus、Web。",
+                "参与度评分：upvotes、likes、views、odds等。",
+                "AI代理合成摘要。",
+                "发现模式：寻找爆发话题。",
+                "针对公司：招聘信号、专利信号、股价表现等。"
               ]
             },
             {
               "heading": "适用场景",
               "bullets": [
-                "会议/销售前快速调研一个人或公司的近期动态",
-                "发现爆发中的话题（AI 领域变化快）",
-                "对比工具、产品或竞品",
-                "追踪热点事件（如名人、地缘政治）",
-                "分析公司的招聘和专利作为前瞻信号"
+                "会议前调研人物或公司最近30天动态。",
+                "公司产品开发前的信号挖掘（招聘/专利）。",
+                "趋势发现（AI领域等）。",
+                "事件爆发后快速了解舆论（如Kanye West）。"
               ]
             },
             {
               "heading": "同类对比",
-              "bullets": [
-                "vs Google 搜索：Google 基于编辑和 SEO 索引，缺少社交评论和实时热度；/last30days 直接以用户参与度排序",
-                "vs ChatGPT 搜索：ChatGPT 有 Reddit 合作但无法搜索 X、TikTok 等；本技能可同时接入多个平台",
-                "vs Gemini：拥有 YouTube 但缺乏 Reddit 原生数据；本技能桥接多个孤岛",
-                "vs Perplexity：Perplexity 提供 AI 搜索，但本技能将其作为一个来源之一，并叠加了金融、社交等信号"
-              ]
+              "body": "对比Google等编辑/SEO驱动搜索；单一AI如ChatGPT/Claude/Gemini各自有平台合作限制，无法覆盖全部社交平台。last30days利用用户自己的凭据和浏览器会话，让agent访问所有平台，并进行参与度加权。"
             },
             {
               "heading": "版本动态",
-              "body": "最新版本 v4.2.1（2026-11-16）主要是一轮修复：修正 YouTube 评论开关、Reddit 评论树读取、JSON 提取拒绝非对象、GitHub issue 评论按 reactions 排序、保存后缀清理等。多位新贡献者参与。项目迭代频繁，持续维护，反映了社区活跃度。 ---"
+              "body": "v4.3.2 (2026-11-17) 最新，主要包括文档波斯语翻译、修复X浏览器cookies、Reddit archive部分报告、移除无效transcription key、Windows CLI解析、Exa功能增强等。仓库活跃，贡献者多。 ---"
             },
             {
               "heading": "ℹ️ 置信度与信息盲区",
               "bullets": [
                 "置信度：high",
-                "信息盲区：README 未详细说明 Python 依赖清单和内部模块结构；未提供搜索质量评估或 benchmark 数据（docs/search-quality-eval.md 存在但未在 README 展示）；未说明各平台 API 调用的频率限制、重试和成本控制机制；未说明用户 API keys 的存储位置和安全处理方式；某些数据源的接入细节（如 Telegram、Truth Social、Amazon）需要查阅 CONFIGURATION.md，README 只做了概述"
+                "信息盲区：具体实现架构（如agent调用方式、Python库依赖）未在README截断部分展示。；X、YouTube、TikTok等源的具体认证配置细节不完全明确。；性能、可靠性、响应时间等未提及。；未提供与传统搜索对比的量化benchmark数据。；本地语料库、Amazon等源的具体使用方法可能需查阅CONFIGURATION.md或SKILL.md。"
               ]
             }
           ]
@@ -109373,7 +111563,7 @@
           "streakDays": 13,
           "isNew": false,
           "createdAt": "2026-01-10",
-          "pushedAt": "2026-11-16",
+          "pushedAt": "2026-11-17",
           "latestRelease": "v3.35.0",
           "firstSeen": "2026-06-21",
           "topics": [
@@ -109538,6 +111728,13 @@
               "reason": "release_update",
               "starsTotal": 72786,
               "starsGained": 4548,
+              "release": "v3.35.0"
+            },
+            {
+              "date": "2026-11-18",
+              "reason": "lightweight",
+              "starsTotal": 73059,
+              "starsGained": 4355,
               "release": "v3.35.0"
             }
           ],
@@ -113432,8 +115629,8 @@
           "streakDays": 7,
           "isNew": false,
           "createdAt": "2025-10-09",
-          "pushedAt": "2026-07-24",
-          "latestRelease": "v6.2.0",
+          "pushedAt": "2026-11-03",
+          "latestRelease": "v7.0.2",
           "firstSeen": "2026-06-19",
           "topics": [
             "ai",
@@ -113508,54 +115705,62 @@
               "starsTotal": 261106,
               "starsGained": 479,
               "release": "v6.2.0"
+            },
+            {
+              "date": "2026-11-18",
+              "reason": "release_update",
+              "starsTotal": 319218,
+              "starsGained": 598,
+              "release": "v7.0.2"
             }
           ],
           "analysis": [
             {
               "heading": "它是什么",
-              "body": "Superpowers 是一个软件工程方法论与可组合技能框架，专为 AI 编码代理（Claude Code、Cursor、Gemini CLI 等）设计。它不依赖特定平台，通过插件机制注入初始指令和一套自动触发的技能，将代理的行为从“看到需求就写代码”重塑为完整的 SDLC：头脑风暴 → 设计文档 → 实现计划 → 子代理驱动开发（SDD）→ TDD → 代码审查 → 分支完成。"
+              "body": "Superpowers 是一套面向 AI 编码代理的技能框架和软件开发方法论，由 Prime Radiant 的 Jesse Vincent 等人构建。它由一组可组合技能（brainstorming、writing-plans、test-driven-development 等）和启动指令组成，让代理在写代码前先澄清需求、制定计划、用 TDD 实现、子代理执行并评审。项目通过插件/扩展方式安装到多个编码 harness，如 Claude Code、Codex、Cursor、Gemini CLI 等。"
             },
             {
               "heading": "为什么火",
-              "body": "该项目让编码代理的自主开发变得可预测且高质：代理会主动细化需求、写出精确到文件路径的任务、使用隔离分支和双阶段审查（spec 合规 + 代码质量），并具备修复循环与断路器。对需要“发呆几小时但不出错”的开发者极具吸引力。Star 超过 26 万，社区活跃，由经验丰富的开发者（Jesse Vincent）维护。"
+              "body": "Star 数约 31.9 万，跨 15+ 编码 harness 支持。核心是强制改变编码代理的行为模式：代理不再“直接跳进写代码”，而是先退一步问你要什么、为什么，把需求写成可读 spec，批准后才制定计划，再进入子代理驱动开发和测试。v7.0.2 自述的盲测中，无意义提问从 41 降到 23，33/33 场景先挖出“为什么”，且批准前不构建。"
             },
             {
               "heading": "技术栈",
-              "body": "仓库主要为 Shell 和 Markdown 文件。核心是技能定义（SKILL.md）和初始引导指令，不同平台的插件实现各异的 hook 注入，并不包含重型服务端组件。本质上是以提示工程为中心的轻量级框架。"
+              "body": "主要语言 Shell；以技能文件和脚本形式分发，通过各 harness 的插件市场或仓库安装，利用原生 skills 或兼容层加载。MIT 许可。"
             },
             {
               "heading": "核心能力",
               "bullets": [
-                "自动化的需求精炼：brainstorming 技能通过苏格拉底式提问产出设计文档。",
-                "精细的任务规划：将工作拆解为 2–5 分钟可完成的原子任务，每个任务明确文件路径、代码和验证步骤。",
-                "子代理驱动开发 (SDD)：每个任务分派独立的子代理，执行后经过 spec 合规与代码质量两阶段审查，不合格则返回修复，最多五轮，超限后由控制者裁决。",
-                "严格的 TDD：强制红-绿-重构循环，删除任何未经过测试的代码。",
-                "全生命周期覆盖：从创建 git worktree、自动执行计划、代码审查，到收尾分支的合并/PR/丢弃决策。",
-                "跨平台即插即用：支持 Claude Code、Cursor、Codex、Gemini CLI、Copilot CLI 等十余种代理，安装仅需一行指令或插件市场操作。"
+                "brainstorming：构建前先追问意图，只问会改变构建结果的必要问题，给出可选项和推荐；小改动在聊天里确认，大项目输出设计文档。",
+                "writing-plans：把批准的设计拆成 2-5 分钟的小任务，每个任务包含精确文件路径、完整代码和验证步骤。",
+                "subagent-driven-development / executing-plans：前者每个任务派新子代理并逐个评审（最彻底）；后者在当前会话内联执行全部任务，最后做一次整分支评审（最便宜）。",
+                "test-driven-development：强制红-绿-重构，删除写在测试之前的代码。",
+                "requesting-code-review：在任务之间按计划评审，严重问题阻断进度。",
+                "finishing-a-development-branch：验证测试，提供合并/PR/保留/丢弃选项并清理 worktree。",
+                "using-git-worktrees：设计批准后创建隔离工作区，跑项目 setup，确认干净测试基线。",
+                "diagnosing-superpowers：会话异常时读取 transcript 并用行级证据报告问题，可导出脱敏 bundle。"
               ]
             },
             {
               "heading": "适用场景",
               "bullets": [
-                "使用 AI 编码代理加速日常开发的个人或团队",
-                "希望代理自主完成中等复杂功能、保持代码质量一致性的场景",
-                "需要代理在后台长时间工作（数小时）而不偏离设计的项目",
-                "无法或不愿托管代码到外部 AI 开发平台的企业"
+                "希望编码代理长时间自主工作却不偏离计划的团队和个人；",
+                "要求强制 TDD、代码评审和明确设计批准的工程流程；",
+                "同时使用多个编码 harness，希望用同一套方法论统一行为。"
               ]
             },
             {
               "heading": "同类对比",
-              "body": "与 Devin、Sweep 等全托管 AI 开发助手相比，Superpowers 更轻量、可运行在本地代理上，用户完全控制代码和流程；与 Aider 的“architect 模式”相比，它的流程更加固化和系统化（强制设计-计划-审查-修复循环），但灵活性稍弱。其跨代理能力是突出优势。"
+              "body": "相比在 Claude Code 里手动开 plan mode 或拼提示词，Superpowers 提供跨 harness 一致的强制技能触发和从需求到合并的完整生命周期；相比绑定单一后端的代理框架，它更偏方法论和插件化，不绑定模型供应商。README 提供了 v7.0.2 与自己旧版和 6.4.2 的盲测对比，但没有与 Aider/OpenHands 等第三方工具的量化对比。"
             },
             {
               "heading": "版本动态",
-              "body": "最新 v6.2.0 引入了重要的 SDD 结构变更：工作区按计划作用域隔离，避免跨任务污染；修复循环改为恢复原实施者而非重新派发；添加五轮断路器和控制者裁决。整体技能文档进行大幅压缩，去除说服性文案，保留关键逻辑，并通过子代理探针验证行为。项目仍在积极迭代。 ---"
+              "body": "最新 Release v7.0.2（2026-11-03）主要调优 brainstorming：问题更少、先问 why、有选择时给出带推荐的选项；修复六个 harness 的 bootstrap 问题；强化 SDD 和 executing-plans 脚本防止指向错误仓库或任务；修复 start-server.sh --project-dir . 相对路径问题。 ---"
             },
             {
               "heading": "ℹ️ 置信度与信息盲区",
               "bullets": [
                 "置信度：high",
-                "信息盲区：未提供与其他工作流框架（Aider、Sweep）的效果对比基准；Windows 支持细节未在 README 中展开（仅有 docs/windows 目录）；未给出插件在各大代理平台上的兼容性测试覆盖率数据；未说明对大型仓库（monorepo）的性能影响"
+                "信息盲区：README 未提供与 Aider/OpenHands 等第三方代理框架的量化对比；未说明各 harness 插件的具体版本兼容范围和安装失败排障步骤；盲测数据来自项目自述，未见独立可复现的公开基准；未列出所有技能文件的完整清单和触发条件细节"
               ]
             }
           ]
@@ -113576,7 +115781,7 @@
           "streakDays": 2,
           "isNew": false,
           "createdAt": "2025-09-11",
-          "pushedAt": "2026-11-16",
+          "pushedAt": "2026-11-17",
           "latestRelease": "chrome-devtools-mcp-v1.13.0",
           "firstSeen": "2026-07-03",
           "topics": [
@@ -113637,6 +115842,13 @@
               "reason": "release_update",
               "starsTotal": 57636,
               "starsGained": 837,
+              "release": "chrome-devtools-mcp-v1.13.0"
+            },
+            {
+              "date": "2026-11-18",
+              "reason": "lightweight",
+              "starsTotal": 58009,
+              "starsGained": 2593,
               "release": "chrome-devtools-mcp-v1.13.0"
             }
           ],
@@ -115673,7 +117885,7 @@
           "streakDays": 1,
           "isNew": true,
           "createdAt": "2025-09-11",
-          "pushedAt": "2026-11-16",
+          "pushedAt": "2026-11-17",
           "latestRelease": "chrome-devtools-mcp-v1.13.0",
           "firstSeen": "2026-07-03",
           "topics": [
@@ -115734,6 +117946,13 @@
               "reason": "release_update",
               "starsTotal": 57636,
               "starsGained": 837,
+              "release": "chrome-devtools-mcp-v1.13.0"
+            },
+            {
+              "date": "2026-11-18",
+              "reason": "lightweight",
+              "starsTotal": 58009,
+              "starsGained": 2593,
               "release": "chrome-devtools-mcp-v1.13.0"
             }
           ],
@@ -126416,7 +128635,7 @@
           "streakDays": 9,
           "isNew": false,
           "createdAt": "2026-01-10",
-          "pushedAt": "2026-11-16",
+          "pushedAt": "2026-11-17",
           "latestRelease": "v3.35.0",
           "firstSeen": "2026-06-21",
           "topics": [
@@ -126581,6 +128800,13 @@
               "reason": "release_update",
               "starsTotal": 72786,
               "starsGained": 4548,
+              "release": "v3.35.0"
+            },
+            {
+              "date": "2026-11-18",
+              "reason": "lightweight",
+              "starsTotal": 73059,
+              "starsGained": 4355,
               "release": "v3.35.0"
             }
           ],
@@ -138848,7 +141074,7 @@
           "streakDays": 1,
           "isNew": true,
           "createdAt": "2026-01-18",
-          "pushedAt": "2026-11-02",
+          "pushedAt": "2026-11-17",
           "latestRelease": "v2.2.3",
           "firstSeen": "2026-06-24",
           "topics": [
@@ -139196,6 +141422,13 @@
               "reason": "lightweight",
               "starsTotal": 296401,
               "starsGained": 6201,
+              "release": "v2.2.3"
+            },
+            {
+              "date": "2026-11-18",
+              "reason": "lightweight",
+              "starsTotal": 305359,
+              "starsGained": 902,
               "release": "v2.2.3"
             }
           ],
@@ -145454,7 +147687,7 @@
           "streakDays": 1,
           "isNew": true,
           "createdAt": "2026-01-10",
-          "pushedAt": "2026-11-16",
+          "pushedAt": "2026-11-17",
           "latestRelease": "v3.35.0",
           "firstSeen": "2026-06-21",
           "topics": [
@@ -145619,6 +147852,13 @@
               "reason": "release_update",
               "starsTotal": 72786,
               "starsGained": 4548,
+              "release": "v3.35.0"
+            },
+            {
+              "date": "2026-11-18",
+              "reason": "lightweight",
+              "starsTotal": 73059,
+              "starsGained": 4355,
               "release": "v3.35.0"
             }
           ],
