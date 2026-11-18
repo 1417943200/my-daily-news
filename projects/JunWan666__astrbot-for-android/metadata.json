@@ -18,7 +18,7 @@
   ],
   "license": "MIT",
   "category": "AI 应用",
-  "classify_reason": "AstrBot 安卓部署，AI 聊天机器人平台",
+  "classify_reason": "在 Android 上部署 AI 机器人 AstrBot 的工具",
   "one_liner": "在 Android 手机上本地部署 AstrBot，免 Root 接入 QQ/微信官方机器人。",
   "why_worth_it": "解决无服务器用户手机常驻聊天机器人，官方机器人接入开箱即用，比 Termux 手搓省心。",
   "tags": [
@@ -36,13 +36,13 @@
     "PRoot 在部分 Android 设备上的兼容性仅有例证，无系统测试矩阵"
   ],
   "quality_flags": [],
-  "stars_total": 405,
+  "stars_total": 407,
   "created_at": "2026-10-26",
-  "pushed_at": "2026-11-17",
+  "pushed_at": "2026-11-18",
   "latest_release": "v1.5.0",
   "first_seen": "2026-10-29",
-  "last_seen": "2026-11-18",
-  "streak_days": 21,
+  "last_seen": "2026-11-19",
+  "streak_days": 22,
   "analysis_updated_at": "2026-11-18T04:58:32+0800",
   "appearances": [
     {
@@ -189,6 +189,13 @@
       "date": "2026-11-18",
       "reason": "release_update",
       "stars_total": 405,
+      "stars_gained": 0,
+      "release": "v1.5.0"
+    },
+    {
+      "date": "2026-11-19",
+      "reason": "lightweight",
+      "stars_total": 407,
       "stars_gained": 0,
       "release": "v1.5.0"
     }

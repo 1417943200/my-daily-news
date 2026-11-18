@@ -21,7 +21,7 @@
   ],
   "license": "MIT",
   "category": "AI 应用",
-  "classify_reason": "Pi coding agent 远程控制",
+  "classify_reason": "远程控制 pi 编码 Agent 的工具",
   "one_liner": "Remote control for your pi coding agent. Pi-Remote mirrors live pi terminal sessions to any browser, so you can watch runs, answer prompts, and send commands from your phone — end-to-end encrypted over a self-hosted relay.",
   "why_worth_it": "",
   "tags": [],
@@ -33,8 +33,8 @@
   "pushed_at": "2026-11-14",
   "latest_release": "v2.1.26",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-18",
-  "streak_days": 16,
+  "last_seen": "2026-11-19",
+  "streak_days": 17,
   "analysis_updated_at": null,
   "appearances": [
     {
@@ -144,6 +144,13 @@
     },
     {
       "date": "2026-11-18",
+      "reason": "lightweight",
+      "stars_total": 333,
+      "stars_gained": 0,
+      "release": "v2.1.26"
+    },
+    {
+      "date": "2026-11-19",
       "reason": "lightweight",
       "stars_total": 333,
       "stars_gained": 0,

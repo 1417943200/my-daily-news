@@ -15,20 +15,20 @@
   ],
   "license": "GPL-3.0",
   "category": "AI 应用",
-  "classify_reason": "AI 攻击面评估工具",
+  "classify_reason": "AI 驱动的外部攻击面评估工具",
   "one_liner": "AI-first external attack surface assessment with continuous discovery, evidence-based vulnerability validation, and developer-agent MCP integration.",
   "why_worth_it": "",
   "tags": [],
   "confidence": "medium",
   "info_gaps": [],
   "quality_flags": [],
-  "stars_total": 742,
+  "stars_total": 743,
   "created_at": "2026-10-24",
-  "pushed_at": "2026-11-17",
+  "pushed_at": "2026-11-18",
   "latest_release": "v1.4.1",
   "first_seen": "2026-10-27",
-  "last_seen": "2026-11-18",
-  "streak_days": 24,
+  "last_seen": "2026-11-19",
+  "streak_days": 25,
   "analysis_updated_at": null,
   "appearances": [
     {
@@ -196,6 +196,13 @@
       "date": "2026-11-18",
       "reason": "lightweight",
       "stars_total": 742,
+      "stars_gained": 0,
+      "release": "v1.4.1"
+    },
+    {
+      "date": "2026-11-19",
+      "reason": "lightweight",
+      "stars_total": 743,
       "stars_gained": 0,
       "release": "v1.4.1"
     }

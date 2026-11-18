@@ -17,7 +17,7 @@
   ],
   "license": "Apache-2.0",
   "category": "AI 应用",
-  "classify_reason": "视频分镜工具",
+  "classify_reason": "DeepSeek Harness 视频分镜工具",
   "one_liner": "把视频压成一张分镜图+时间码文本，让多模态模型低成本“看”视频。",
   "why_worth_it": "解决多模态看视频成本高、信息不全问题，用切点密度布局格子和文本清单，比逐帧抽图省token且保留节奏信息。",
   "tags": [
@@ -34,13 +34,13 @@
     "未说明多语言 ASR 的支持范围和准确率。"
   ],
   "quality_flags": [],
-  "stars_total": 567,
+  "stars_total": 573,
   "created_at": "2026-10-26",
   "pushed_at": "2026-11-16",
   "latest_release": "v0.7.6",
   "first_seen": "2026-10-31",
-  "last_seen": "2026-11-18",
-  "streak_days": 20,
+  "last_seen": "2026-11-19",
+  "streak_days": 21,
   "analysis_updated_at": "2026-11-17T06:08:08+0800",
   "appearances": [
     {
@@ -180,6 +180,13 @@
       "date": "2026-11-18",
       "reason": "lightweight",
       "stars_total": 567,
+      "stars_gained": 0,
+      "release": "v0.7.6"
+    },
+    {
+      "date": "2026-11-19",
+      "reason": "lightweight",
+      "stars_total": 573,
       "stars_gained": 0,
       "release": "v0.7.6"
     }

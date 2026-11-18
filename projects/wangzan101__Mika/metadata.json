@@ -15,32 +15,32 @@
   ],
   "license": "Apache-2.0",
   "category": "AI 应用",
-  "classify_reason": "Android 端侧 AI agent",
-  "one_liner": "Android 端侧 AI 代理，后台屏幕操作应用和网页，一句话完成任务",
-  "why_worth_it": "不用 root，AI 直接看屏操作任意 App/网页，本地优先，适合想做手机自动化的极客评估。",
+  "classify_reason": "Android 端侧 AI Agent，可操作 App 与网页",
+  "one_liner": "Android 端侧 AI Agent，后台屏幕操控任意应用与网页，数据不离机。",
+  "why_worth_it": "解决 Android 自动化需逐 App 集成的痛点，用视觉模型通用操作且不干扰前台，开源本地优先，适合想落地端侧 Agent 的极客。",
   "tags": [
-    "Android",
-    "AI Agent",
+    "Android Agent",
     "本地优先",
-    "无障碍自动化"
+    "Kotlin",
+    "UI自动化"
   ],
   "confidence": "high",
   "info_gaps": [
-    "未提供 benchmark 或任务成功率数据",
-    "未详细说明后台屏幕的技术实现与兼容性限制",
-    "未说明模型默认推荐或各 provider 的延迟/成本对比",
-    "Linux sandbox 的具体隔离机制未展开",
-    "无障碍服务是否需要常驻及电池影响未量化"
+    "无 benchmark 数据：任务成功率、平均耗时、资源占用未提供",
+    "后台屏幕具体实现细节未说明，是否使用无障碍服务/ADB 机制不明确",
+    "未说明在 Google Play 上架情况，仅提供 GitHub APK 下载",
+    "不同模型提供商的性能对比或推荐未提及",
+    "内置知识文件的具体格式和扩展方式未在 README 截断中展开"
   ],
   "quality_flags": [],
-  "stars_total": 8962,
+  "stars_total": 9086,
   "created_at": "2026-10-29",
-  "pushed_at": "2026-11-17",
-  "latest_release": "v0.1.45",
+  "pushed_at": "2026-11-18",
+  "latest_release": "v0.1.47",
   "first_seen": "2026-10-31",
-  "last_seen": "2026-11-18",
-  "streak_days": 20,
-  "analysis_updated_at": "2026-11-17T06:05:45+0800",
+  "last_seen": "2026-11-19",
+  "streak_days": 21,
+  "analysis_updated_at": "2026-11-19T04:35:01+0800",
   "appearances": [
     {
       "date": "2026-10-31",
@@ -181,6 +181,13 @@
       "stars_total": 8962,
       "stars_gained": 0,
       "release": "v0.1.45"
+    },
+    {
+      "date": "2026-11-19",
+      "reason": "release_update",
+      "stars_total": 9086,
+      "stars_gained": 0,
+      "release": "v0.1.47"
     }
   ]
 }

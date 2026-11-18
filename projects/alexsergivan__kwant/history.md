@@ -9,3 +9,4 @@
 - 2026-11-16 | lightweight | ⭐633(+0) | release=mac-v0.9.16
 - 2026-11-17 | release_update | ⭐640(+0) | release=mac-v0.9.19
 - 2026-11-18 | release_update | ⭐691(+0) | release=mac-v0.9.21
+- 2026-11-19 | release_update | ⭐699(+0) | release=mac-v0.9.25

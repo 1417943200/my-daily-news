@@ -1,0 +1,53 @@
+{
+  "full_name": "StormBrawlerSack/legwork-osint-ai-investigator",
+  "url": "https://github.com/StormBrawlerSack/legwork-osint-ai-investigator",
+  "description": "AI OSINT investigator for Windows: ask a question in plain words and get an answer built from public sources, with a source on every sentence.",
+  "language": "JavaScript",
+  "topics": [
+    "ai-agent",
+    "ai-investigator",
+    "citations",
+    "investigation",
+    "llm",
+    "osint",
+    "osint-tool",
+    "research-assistant"
+  ],
+  "license": "MIT",
+  "category": "AI 应用",
+  "classify_reason": "AI OSINT 调查工具",
+  "one_liner": "句句有源、无源不写的 Windows AI OSINT 调查工具",
+  "why_worth_it": "解决 AI 答案不可溯源痛点，面向事实核查/OSINT，句级引用+单源剔除更可信。",
+  "tags": [
+    "OSINT",
+    "AI Agent",
+    "引用溯源",
+    "Windows"
+  ],
+  "confidence": "medium",
+  "info_gaps": [
+    "具体桌面技术栈未披露（是否 Electron/Node/Tauri 等无法确认）",
+    "LLM 提供商、模型名称及 API 接入方式未说明",
+    "公开网页检索方式（搜索引擎 API、爬虫、索引库）未说明",
+    "单源剔除的具体算法或规则未说明",
+    "是否支持非 Windows 平台或移动端未说明"
+  ],
+  "quality_flags": [],
+  "stars_total": 454,
+  "created_at": "2026-11-13",
+  "pushed_at": "2026-11-13",
+  "latest_release": null,
+  "first_seen": "2026-11-19",
+  "last_seen": "2026-11-19",
+  "streak_days": 1,
+  "analysis_updated_at": "2026-11-19T04:29:46+0800",
+  "appearances": [
+    {
+      "date": "2026-11-19",
+      "reason": "new",
+      "stars_total": 454,
+      "stars_gained": 0,
+      "release": null
+    }
+  ]
+}

@@ -1,19 +1,33 @@
-### 前置条件
-- Linux 服务器（或桌面 app 内运行）
-- Docker（安装脚本会询问后安装）
-- Postgres 已在 Compose 中
+## 安装
 
-### 安装
-自托管：`curl -fsSL https://agentes.chat/install | sh`
-会在约 10 分钟内安装 Docker（如缺）、部署到 Tailscale 私有网络并提供 HTTPS。
+**云托管**：注册 https://agentes.chat 直接使用。
 
-### 最小可用
-1. 运行上述命令。
-2. 打开 Web 地址进入 workspace。
-3. 在应用内添加组织的模型 key（支持 Claude/OpenAI/Gemini/DeepSeek/Kimi/Z.ai/MiniMax/Command Code/OpenRouter）。
-4. 创建频道，添加代理，配置角色/模型/预算。
-5. 代理可发消息、使用 MCP 工具、请求审批。
+**自托管 Linux**：
 
-### 桌面/手机
-- 桌面 app（macOS/Windows/Linux）可从任意服务器 `/download` 下载；也可在 app 内“Run agentes.chat on this computer”无需 Docker（Mac/Linux）。
-- 手机 app（iOS/Android，Expo）扫码登录。
+```sh
+curl -fsSL https://agentes.chat/install | sh
+```
+
+脚本会在询问后安装缺失的 Docker，并将服务接入 Tailscale 私有网络，约 10 分钟可用。也可配置公网域名 + Caddy。
+
+**已有 Docker Compose 环境**：
+
+```sh
+docker compose pull && docker compose up -d
+```
+
+迁移会在启动时自动执行。
+
+## 依赖前提
+
+- Linux 服务器；安装脚本可处理 Docker，但仍依赖 Docker/Tailscale 或公网域名反代。
+- PostgreSQL 由 compose 文件一并提供，包含 pgvector。
+- 自托管免费，无需 license key；每个组织需在应用内添加自己的模型 key（Claude、OpenAI、Gemini、DeepSeek、Kimi、Z.ai、MiniMax、Command Code 或 OpenRouter）。
+
+## 最小可用路径
+
+1. 部署后进入 Web 应用，创建/加入组织。
+2. 在组织设置中添加至少一个模型 key。
+3. 创建一个 agent：指定角色、指令、模型、月度预算和所有者。
+4. 在频道里 @提及该 agent，或让 router 自动选择；首次敏感操作会以卡片形式等待审批。
+5. 按需接入 MCP server、连接代理电脑或浏览器。

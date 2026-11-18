@@ -27,7 +27,7 @@
   ],
   "license": "Apache-2.0",
   "category": "AI 应用",
-  "classify_reason": "通用 AI Agent 系统",
+  "classify_reason": "通用 AI Agent 系统，支持沙箱工具操作",
   "one_liner": "宣称可自主执行代码与浏览器控制的AI代理，但README无技术细节",
   "why_worth_it": "对极客而言，本项目README与描述严重不符，下载链接可疑，缺乏可验证技术内容，谨慎判断。",
   "tags": [
@@ -49,13 +49,20 @@
   "pushed_at": "2026-11-15",
   "latest_release": null,
   "first_seen": "2026-11-18",
-  "last_seen": "2026-11-18",
-  "streak_days": 1,
+  "last_seen": "2026-11-19",
+  "streak_days": 2,
   "analysis_updated_at": "2026-11-18T04:52:45+0800",
   "appearances": [
     {
       "date": "2026-11-18",
       "reason": "new",
+      "stars_total": 377,
+      "stars_gained": 0,
+      "release": null
+    },
+    {
+      "date": "2026-11-19",
+      "reason": "lightweight",
       "stars_total": 377,
       "stars_gained": 0,
       "release": null

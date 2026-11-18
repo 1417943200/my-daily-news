@@ -13,20 +13,20 @@
   ],
   "license": "MIT",
   "category": "AI 应用",
-  "classify_reason": "QQ AI 聊天机器人",
+  "classify_reason": "让 DeepSeek Harness AI 进入 QQ 的机器人插件",
   "one_liner": "让 DeepSeek Harness 里的 AI 以「大肥鱼」住进 QQ：会聊天、发表情、发语音、记事、发空间、刷 B 站、唱歌。功能都是模块，能开关、能自己写，还能从模块市场装更多（SnowLuma / OneBot v11）。",
   "why_worth_it": "",
   "tags": [],
   "confidence": "medium",
   "info_gaps": [],
   "quality_flags": [],
-  "stars_total": 679,
+  "stars_total": 686,
   "created_at": "2026-10-24",
-  "pushed_at": "2026-11-17",
+  "pushed_at": "2026-11-18",
   "latest_release": "v1.2.0",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-18",
-  "streak_days": 14,
+  "last_seen": "2026-11-19",
+  "streak_days": 15,
   "analysis_updated_at": null,
   "appearances": [
     {
@@ -124,6 +124,13 @@
       "date": "2026-11-18",
       "reason": "lightweight",
       "stars_total": 679,
+      "stars_gained": 0,
+      "release": "v1.2.0"
+    },
+    {
+      "date": "2026-11-19",
+      "reason": "lightweight",
+      "stars_total": 686,
       "stars_gained": 0,
       "release": "v1.2.0"
     }

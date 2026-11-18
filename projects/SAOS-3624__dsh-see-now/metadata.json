@@ -16,30 +16,31 @@
   ],
   "license": "Apache-2.0",
   "category": "AI 应用",
-  "classify_reason": "AI 屏幕视觉插件",
-  "one_liner": "让AI实时看见屏幕：按变化量筛帧，多帧拼图，静止几乎不花token",
-  "why_worth_it": "解决定时截屏token烧穿或漏帧死结，用变化量筛选和宫格拼图降低视觉上下文成本，适合AI陪看/视频理解。",
+  "classify_reason": "让 AI 实时看屏幕的 DeepSeek Harness 插件",
+  "one_liner": "按变化量筛选帧并拼图，让AI实时看屏几乎不烧token",
+  "why_worth_it": "解决定时截屏重复烧token的痛点，对AI陪看屏幕的极客直接省钱，静止画面几乎免费，设计务实。",
   "tags": [
-    "AI Agent插件",
-    "屏幕捕获",
-    "Token高效",
-    "实时视觉"
+    "屏幕采集",
+    "token优化",
+    "AI agent",
+    "本地优先"
   ],
   "confidence": "high",
   "info_gaps": [
-    "README 未提供与具体同类项目的横向 benchmark；成本数字基于宿主 DeepSeek-V4 patch 口径，其他模型可能不同",
-    "未说明 npm 周下载量、社区规模、Star 趋势；673 Star 为当前快照",
-    "文档示例中的 2026 年时间点无法核实；平台细节主要来自 README 自述，未独立验证"
+    "无官方benchmark，社区实测数据（30秒操作、200张/小时等）未说明具体环境和硬件条件",
+    "未说明多显示器或高DPI下的具体行为（README仅提到Retina窗口偏移问题）",
+    "未显式声明屏幕数据是否完全本地处理（虽从实现看是本地采集，但无隐私声明）",
+    "未给出DSH具体版本兼容范围"
   ],
   "quality_flags": [],
-  "stars_total": 685,
+  "stars_total": 700,
   "created_at": "2026-11-01",
-  "pushed_at": "2026-11-16",
-  "latest_release": "v0.2.4",
+  "pushed_at": "2026-11-18",
+  "latest_release": "v0.2.5",
   "first_seen": "2026-11-05",
-  "last_seen": "2026-11-18",
-  "streak_days": 15,
-  "analysis_updated_at": "2026-11-17T06:08:50+0800",
+  "last_seen": "2026-11-19",
+  "streak_days": 16,
+  "analysis_updated_at": "2026-11-19T04:37:16+0800",
   "appearances": [
     {
       "date": "2026-11-05",
@@ -145,6 +146,13 @@
       "stars_total": 685,
       "stars_gained": 0,
       "release": "v0.2.4"
+    },
+    {
+      "date": "2026-11-19",
+      "reason": "release_update",
+      "stars_total": 700,
+      "stars_gained": 0,
+      "release": "v0.2.5"
     }
   ]
 }

@@ -6,3 +6,4 @@
 - 2026-07-09 | lightweight | ⭐46361(+1480) | release=chrome-devtools-mcp-v1.5.0
 - 2026-11-17 | release_update | ⭐57636(+837) | release=chrome-devtools-mcp-v1.13.0
 - 2026-11-18 | lightweight | ⭐58009(+2593) | release=chrome-devtools-mcp-v1.13.0
+- 2026-11-19 | lightweight | ⭐58200(+2948) | release=chrome-devtools-mcp-v1.13.0

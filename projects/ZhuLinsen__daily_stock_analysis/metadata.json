@@ -14,7 +14,7 @@
   ],
   "license": "MIT",
   "category": "AI 应用",
-  "classify_reason": "LLM 股票分析系统",
+  "classify_reason": "LLM 驱动的多市场股票智能分析系统",
   "one_liner": "LLM驱动多市场股票分析，自动生成决策报告推送主流IM",
   "why_worth_it": "解决手动盯盘与信息过载，零成本聚合多市场行情/新闻，自动推送决策报告；开箱即用，多推送渠道。",
   "tags": [
@@ -32,13 +32,13 @@
     "与竞品（如 vnpy/backtrader/同花顺问财等）的直接功能对比未提供。"
   ],
   "quality_flags": [],
-  "stars_total": 73059,
+  "stars_total": 73321,
   "created_at": "2026-01-10",
-  "pushed_at": "2026-11-17",
+  "pushed_at": "2026-11-18",
   "latest_release": "v3.35.0",
   "first_seen": "2026-06-21",
-  "last_seen": "2026-11-18",
-  "streak_days": 23,
+  "last_seen": "2026-11-19",
+  "streak_days": 24,
   "analysis_updated_at": "2026-11-17T06:02:09+0800",
   "appearances": [
     {
@@ -200,6 +200,13 @@
       "reason": "lightweight",
       "stars_total": 73059,
       "stars_gained": 4355,
+      "release": "v3.35.0"
+    },
+    {
+      "date": "2026-11-19",
+      "reason": "lightweight",
+      "stars_total": 73321,
+      "stars_gained": 3653,
       "release": "v3.35.0"
     }
   ]

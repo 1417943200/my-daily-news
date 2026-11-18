@@ -1,44 +1,38 @@
 ## 它是什么
-
-kwant 是一个开源自托管的多智能体 AI 助手平台，以单个二进制提供桌面应用或服务器。它让多个 AI bot 共享聊天空间，通过 @提及 进行任务交接，并引入“核对/验证”机制：任务卡片只有在 kwant 实际运行检查后才标记为 Verified，而不是仅凭 bot 声称完成。定位为 Grok Bot、Claude Duet、OpenAI dots 等云端 bot 的开源替代，数据与运行环境由用户自己掌控。
+kwant 是一个开源（AGPL-3.0）自托管 AI bot 团队管理器，打包为单个 Rust 二进制，内嵌 React Web UI。可以在本地 Mac/Linux/Windows 或自有服务器运行，连接自己的 Claude/Codex/Grok CLI 或 API key，让多个 bot 在 spaces 中协作。
 
 ## 为什么火
-
-截至报告时 Star 数为 691（仓库创建于 2026-10-22，不到一个月），版本已迭代至 0.9.21，更新非常频繁。对极客的吸引力在于：①自托管、无官方 token，账户与数据在自己机器/服务器上；②把“工作流”概念引入 AI bot：handoff、审批、例行任务、spaces 隔离；③强调可核实性，不是简单黑盒自动回复。注意 Star 数与宣传性更新较多，实际稳定性与生态仍需自行验证。
+GitHub 上 699 star，一个月内从 0.9.0 迭代到 0.9.25，说明作者非常活跃。它切中了对 AI 自动化有控制欲的极客：不像 Grok Bot/Claude Duet 把账号和任务交给云服务，kwant 让你自托管，保留账号与数据主权。此外它强调“验证”而非“相信”：任务只有在 kwant 自己运行检查后才标记 Verified，有二次检查机制，这对自动化可靠性有吸引力。
 
 ## 技术栈
-
-- **后端/核心**：Rust（Tokio、Axum、SQLite），编译为单二进制，React Web UI 嵌入其中。
-- **部署形态**：macOS universal app（Apple silicon + Intel，macOS 11+）、Linux x86_64（.deb、AppImage、自托管服务器脚本/Docker）、Windows beta。
-- **AI 接入**：可使用已有的 Claude、Codex 或 Grok CLI，或自带 API keys；浏览器自动化、MCP、Composio 等工具集成存在。
-- **存储**：SQLite，默认数据目录 `~/.kwnt`（桌面版）。
+- 后端：Rust（Tokio、Axum、SQLite）
+- 前端：React Web 应用，嵌入在同一个二进制中
+- 部署：macOS universal app、Linux .deb/AppImage、服务器二进制或 Docker、Windows beta
+- 集成：Claude/Codex/Grok CLI 或自有 API key；浏览器自动化；MCP API；Composio 应用/工具目录
 
 ## 核心能力
-
-- **多智能体协作**：bot 之间通过 @提及 交接工作，团队持续运行直到任务完成；支持 spaces 隔离工作/生活。
-- **验证与审批**：任务卡片通过“检查”变为 Verified；0.9+ 引入二次检查（另一模型在 clean copy 上重跑）、Inbox 审查、Approve/Send back/Roll back、Failed CI 反馈给 bot、Fix-it 等。
-- **例行任务与调度**：Routines，从侧边栏打开，支持按周/日触发。
-- **浏览器控制**：bot 可操作页面，Watch live、Point 点击页面元素、每个 bot 独立 job page、自动处理登录弹窗。
-- **预算与用量**：每个 bot 可设置月度 token/美元预算，达到 80% 提醒、100% 暂停；有 AI use 用量视图（7/30 天）。
-- **工具生态**：docs 包含 bot-actions、bot-browser、home-assistant、mcp-api、teams-api、payments、saved-passwords 等，集成面较广。
+- 多 bot 团队：一个空间里可创建多个 bot，@mention 交接工作；有 Assistant/Researcher/Writer 等预设。
+- 验证与审批：Inbox 中的 To review 按风险排序，显示 Pass/Fail/Needs you 等结论和证据；高风险管理会触发另一模型的二次检查（在干净副本中重新运行检查）；支持 Approve/Send back/Roll back。
+- 浏览器自动化：bot 可打开独立 job page 登录、操作网页，支持 Point 指向页面元素、处理验证码弹窗、后续版本中团队浏览器页隔离。
+- 多空间与多账号：不同 spaces 分开工作/家庭，各自 bots 和连接；支持 Apps & accounts 连接多个 AI 账号，查看用量与限流。
+- 开发辅助：Dev desk、worktree、PR 卡行内注释、CI 失败回传、Fix-it 消息等。
+- Routines 与调度：例行任务、每周安排、Mission board 等。
+- 自托管与隐私：单二进制，离线可运行（除外部 AI 调用），数据存本地 SQLite。
 
 ## 适用场景
-
-- 个人自动化：管理多账户、重复例行任务、跨平台信息处理。
-- 小团队/开发：代码审查、PR 反馈、worktree 隔离、CI 状态跟踪。
-- 自托管爱好者：需要数据本地存储、无第三方 token、可审计的工作流。
-- 对 AI 操作有审批需求的场景：关键步骤需人工确认或二次检查。
+- 想要个人 AI 助理团队自动化日常任务、网页操作、跨账号管理的极客/开发者。
+- 需要审批工作流的自动化（设计、测试、开发任务）。
+- 反感云服务抓取账号与数据、希望自己掌控的自托管爱好者。
+- 已经使用 Claude/Codex/Grok CLI 的用户，想要一个统一的多 bot 调度层。
 
 ## 同类对比
-
-相对 Grok Bot、Claude Duet、OpenAI dots 等云端闭源产品，kwant 的核心差异在自托管、开源（AGPL-3.0）与验证机制。但 README 未提供与这些产品在功能完成度、模型支持范围、错误率等方面的定量对比；生态和成熟度可能还不如大厂产品。同类开源多智能体项目（如 OpenBot 等）未在 README 中详细比较，无法判断相对优势。
+相对于 Grok Bot、Claude Duet、OpenAI dots 等封闭/云托管机器人，kwant 的优势是：AGPL-3.0 开源、自托管、无官方 token（README 强调没有 token）、数据本地化、透明验证流程。劣势或风险是：需要自己搞定 API/账号和部署，macOS 应用未公证，Windows 版 beta，大量功能还在快速变化中，文档可能跟不上。同类项目中，它更接近“个人多 agent 编排器 + 浏览器自动化”的定位，而不是简单的聊天机器人。
 
 ## 版本动态
-
-最新 Release 为 mac-v0.9.21（2026-11-17），Mac/Linux 桌面与服务器均已提供，Windows 仍为 beta。0.9 系列功能密集：0.9.0 引入 Inbox 审查与二次检查；0.9.2 团队持续运行、0.9.3 bot 独立 job page、0.9.4 失败后自动重试/Blocked 反馈、0.9.5 预算与 Composio 三步接入、0.9.6 Suggest a team、0.9.7 打字状态与引擎标记、0.9.8 预置 @helpers、0.9.9 浏览器 panel 与 AI use、0.9.10 限额显示与 Approve 按钮、0.9.11 Fix-it 与文档引用、0.9.12 Dev mode 前置。如此高频发布说明作者活跃，但也可能意味着功能稳定性需用户自行评估。
+截至 2026-11-18，最新 release 为 v0.9.25（macOS/Linux/Windows）。0.9 系列在一个月内密集推出：0.9.0 引入 Inbox 审核与二次检查，0.9.1-0.9.12 先后加入 handoff 无限制、团队浏览器页面隔离、失败重试、预算、团队建议、打字状态、预设 @helpers、用量图表、PR 卡片路由等。但 README 截断至 0.9.12，0.9.13-0.9.25 的具体变更未在本次材料中展示；从 docs 目录（如 payments、saved-passwords、zombie-hunter、parallel-universe）可窥见功能还在向支付、密码、异常清理等方向扩展。建议关注 Changelog 和 Discussions。
 ---
 
 ## ℹ️ 置信度与信息盲区
 
 - 置信度：**medium**
-- 信息盲区：完整配置流程（添加 AI 账户/API key 具体步骤）未在 README 截断部分展示，需查官方 docs/quickstart；未列出所有支持的 AI 模型/提供商完整清单；未见性能基准、内存/CPU 占用数据；bot 执行代码或文件操作的安全沙盒/隔离机制未详细说明；手机端“添加到主屏幕”的 PWA 功能边界未展开
+- 信息盲区：README 截断至 0.9.12，0.9.13-0.9.25 的具体变更未展示，版本动态可能有遗漏；docs 目录中大量功能（payments、saved-passwords、zombie-hunter、parallel-universe 等）仅见文件名，未在截断 README 中展开；未提供推荐硬件配置或资源占用数据；未列出全部可连接的 AI 账号/服务清单，只提到 Claude/Codex/Grok CLI 或自有 API key；无 benchmark 或性能指标

@@ -16,32 +16,32 @@
   ],
   "license": "AGPL-3.0",
   "category": "AI 应用",
-  "classify_reason": "微信 DeepSeek 聊天机器人",
-  "one_liner": "Windows 本地优先微信陪聊机器人，DeepSeek/Qwen 驱动，单面板控制",
-  "why_worth_it": "解决用真实微信跑本地 AI 群友的需求，UIA 不注入、数据本地；适合 Windows 极客。",
+  "classify_reason": "微信聊天机器人，由 DeepSeek/Qwen 驱动",
+  "one_liner": "本地优先微信 AI 伴侣，DeepSeek/Qwen 驱动陪聊与记忆",
+  "why_worth_it": "面向 Windows 微信个人号的本地优先 LLM 网关，UI 自动化零注入，打包完整运行时，降低自建门槛",
   "tags": [
     "本地优先",
     "微信机器人",
-    "UIAutomation",
-    "DeepSeek"
+    "UI自动化",
+    "多模型"
   ],
   "confidence": "high",
   "info_gaps": [
-    "主页链接 https://github.com/Banan1cee/whale_gril 与仓库名 whale_girl 疑似拼写错误，未验证",
-    "README 未提供 benchmark 或回复延迟/资源占用数据",
-    "未说明 UIA 自动化的具体兼容微信 4.x 子版本边界",
-    "插件市场第三方插件安全声明明确无法保证无恶意，但未提供扫描执行细节",
-    "未说明安装器未签名可能被 SmartScreen 拦截的具体表现"
+    "未提供与 wechaty 等项目的量化对比数据（如稳定性、响应延迟）",
+    "未说明具体支持哪些微信 4.x 小版本号",
+    "未提供插件安全审计的具体标准和流程细节",
+    "未给出资源占用基准或性能指标",
+    "未说明微信官方封号风险评估的具体案例"
   ],
   "quality_flags": [],
-  "stars_total": 719,
+  "stars_total": 746,
   "created_at": "2026-10-26",
-  "pushed_at": "2026-11-17",
-  "latest_release": "v4.1.7",
+  "pushed_at": "2026-11-18",
+  "latest_release": "v4.1.7.1",
   "first_seen": "2026-11-08",
-  "last_seen": "2026-11-18",
-  "streak_days": 12,
-  "analysis_updated_at": "2026-11-17T06:07:41+0800",
+  "last_seen": "2026-11-19",
+  "streak_days": 13,
+  "analysis_updated_at": "2026-11-19T04:36:45+0800",
   "appearances": [
     {
       "date": "2026-11-08",
@@ -126,6 +126,13 @@
       "stars_total": 719,
       "stars_gained": 0,
       "release": "v4.1.7"
+    },
+    {
+      "date": "2026-11-19",
+      "reason": "release_update",
+      "stars_total": 746,
+      "stars_gained": 0,
+      "release": "v4.1.7.1"
     }
   ]
 }

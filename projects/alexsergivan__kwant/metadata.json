@@ -27,32 +27,32 @@
   ],
   "license": "AGPL-3.0",
   "category": "AI 应用",
-  "classify_reason": "自托管 AI bots 团队",
-  "one_liner": "自托管多智能体AI团队，@交接、审批、二次校验单二进制",
-  "why_worth_it": "解决云端Bot数据不可控、协作无验证问题，Rust单二进制易部署，适合自托管自动化。",
+  "classify_reason": "自托管 AI 机器人团队协作工具",
+  "one_liner": "单二进制自托管AI bot团队，支持协作、审批与浏览器自动化。",
+  "why_worth_it": "给不想把账号和自动化交给云服务的极客：多bot协作、二次核查与本地运行，替代Grok/Claude Duet等闭源工具。",
   "tags": [
-    "多智能体",
-    "自托管",
+    "多Agent协作",
+    "自托管AI",
     "Rust",
-    "自动化"
+    "浏览器自动化"
   ],
   "confidence": "medium",
   "info_gaps": [
-    "完整配置流程（添加 AI 账户/API key 具体步骤）未在 README 截断部分展示，需查官方 docs/quickstart",
-    "未列出所有支持的 AI 模型/提供商完整清单",
-    "未见性能基准、内存/CPU 占用数据",
-    "bot 执行代码或文件操作的安全沙盒/隔离机制未详细说明",
-    "手机端“添加到主屏幕”的 PWA 功能边界未展开"
+    "README 截断至 0.9.12，0.9.13-0.9.25 的具体变更未展示，版本动态可能有遗漏",
+    "docs 目录中大量功能（payments、saved-passwords、zombie-hunter、parallel-universe 等）仅见文件名，未在截断 README 中展开",
+    "未提供推荐硬件配置或资源占用数据",
+    "未列出全部可连接的 AI 账号/服务清单，只提到 Claude/Codex/Grok CLI 或自有 API key",
+    "无 benchmark 或性能指标"
   ],
   "quality_flags": [],
-  "stars_total": 691,
+  "stars_total": 699,
   "created_at": "2026-10-22",
-  "pushed_at": "2026-11-17",
-  "latest_release": "mac-v0.9.21",
+  "pushed_at": "2026-11-18",
+  "latest_release": "mac-v0.9.25",
   "first_seen": "2026-11-09",
-  "last_seen": "2026-11-18",
-  "streak_days": 11,
-  "analysis_updated_at": "2026-11-18T04:57:52+0800",
+  "last_seen": "2026-11-19",
+  "streak_days": 12,
+  "analysis_updated_at": "2026-11-19T04:38:22+0800",
   "appearances": [
     {
       "date": "2026-11-09",
@@ -130,6 +130,13 @@
       "stars_total": 691,
       "stars_gained": 0,
       "release": "mac-v0.9.21"
+    },
+    {
+      "date": "2026-11-19",
+      "reason": "release_update",
+      "stars_total": 699,
+      "stars_gained": 0,
+      "release": "mac-v0.9.25"
     }
   ]
 }

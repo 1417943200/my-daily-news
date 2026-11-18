@@ -18,21 +18,31 @@
   ],
   "license": "AGPL-3.0",
   "category": "AI 应用",
-  "classify_reason": "DeepSeek Harness 移动端",
-  "one_liner": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
-  "why_worth_it": "",
-  "tags": [],
-  "confidence": "medium",
-  "info_gaps": [],
+  "classify_reason": "DeepSeek Harness 安卓运行环境与 AI Agent",
+  "one_liner": "把 DeepSeek Harness 装进手机：本机跑 Linux/DSH，还能遥控电脑",
+  "why_worth_it": "给想在手机和电脑间无缝跑 DSH、玩插件和手机操控的极客；Android 免 Root，比 Termux 更省事。",
+  "tags": [
+    "AI Agent",
+    "Flutter",
+    "Android",
+    "远程控制"
+  ],
+  "confidence": "high",
+  "info_gaps": [
+    "未提供具体模型提供方支持列表与计费细节",
+    "无 benchmark 或性能对比数据",
+    "iOS 和鸿蒙版尚无公开安装包，真机验证有限",
+    "匿名使用统计的具体采集范围仅在常见问题中提及，未展开说明"
+  ],
   "quality_flags": [],
-  "stars_total": 25952,
+  "stars_total": 27122,
   "created_at": "2026-10-25",
-  "pushed_at": "2026-11-17",
-  "latest_release": "v1.1.0",
+  "pushed_at": "2026-11-18",
+  "latest_release": "v1.2.0",
   "first_seen": "2026-10-31",
-  "last_seen": "2026-11-18",
-  "streak_days": 20,
-  "analysis_updated_at": null,
+  "last_seen": "2026-11-19",
+  "streak_days": 21,
+  "analysis_updated_at": "2026-11-19T04:33:00+0800",
   "appearances": [
     {
       "date": "2026-10-31",
@@ -173,6 +183,13 @@
       "stars_total": 25952,
       "stars_gained": 0,
       "release": "v1.1.0"
+    },
+    {
+      "date": "2026-11-19",
+      "reason": "release_update",
+      "stars_total": 27122,
+      "stars_gained": 0,
+      "release": "v1.2.0"
     }
   ]
 }

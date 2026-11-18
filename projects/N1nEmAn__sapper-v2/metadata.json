@@ -19,20 +19,20 @@
   ],
   "license": "MIT",
   "category": "AI 应用",
-  "classify_reason": "自主 AI 渗透测试 agent",
+  "classify_reason": "自主 AI 渗透测试工具集",
   "one_liner": "Autonomous pentest legion — AI commander + worker swarm + layered fact-intent graph. 3rd Tencent Intelligent Attack-Defense online champion (634 teams · 8h unattended · 1B tokens beat 4.5B). The Nüwa Test: give AIs Create/Language/History, let a civilization grow.",
   "why_worth_it": "",
   "tags": [],
   "confidence": "medium",
   "info_gaps": [],
   "quality_flags": [],
-  "stars_total": 2311,
+  "stars_total": 2432,
   "created_at": "2026-10-30",
   "pushed_at": "2026-11-11",
   "latest_release": "v18-champion",
   "first_seen": "2026-11-03",
-  "last_seen": "2026-11-18",
-  "streak_days": 17,
+  "last_seen": "2026-11-19",
+  "streak_days": 18,
   "analysis_updated_at": null,
   "appearances": [
     {
@@ -151,6 +151,13 @@
       "date": "2026-11-18",
       "reason": "lightweight",
       "stars_total": 2311,
+      "stars_gained": 0,
+      "release": "v18-champion"
+    },
+    {
+      "date": "2026-11-19",
+      "reason": "lightweight",
+      "stars_total": 2432,
       "stars_gained": 0,
       "release": "v18-champion"
     }

@@ -18,3 +18,4 @@
 - 2026-11-16 | lightweight | ⭐24070(+0) | release=v1.1.0
 - 2026-11-17 | lightweight | ⭐24735(+0) | release=v1.1.0
 - 2026-11-18 | lightweight | ⭐25952(+0) | release=v1.1.0
+- 2026-11-19 | release_update | ⭐27122(+0) | release=v1.2.0

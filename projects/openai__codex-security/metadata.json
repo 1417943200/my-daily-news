@@ -22,21 +22,31 @@
   ],
   "license": "Apache-2.0",
   "category": "AI 应用",
-  "classify_reason": "Codex 安全 CLI/SDK",
-  "one_liner": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
-  "why_worth_it": "",
-  "tags": [],
+  "classify_reason": "OpenAI Codex 安全 CLI 与 SDK",
+  "one_liner": "OpenAI 官方安全 CLI/SDK：扫描、验证、修复代码漏洞",
+  "why_worth_it": "面向 DevSecOps：把 AI 找洞、验证、补丁生成接进 CLI/SDK/CI，打通扫描到修复；适合已有 CI 的团队。",
+  "tags": [
+    "AI安全",
+    "DevSecOps",
+    "CLI/SDK",
+    "TypeScript"
+  ],
   "confidence": "medium",
-  "info_gaps": [],
+  "info_gaps": [
+    "README 未提供漏洞检测准确率、召回率或第三方 benchmark 数据",
+    "未说明各扫描模式的 token/成本上限，仅提到可用 --max-time 和 GitHub Action 示例中约 $5 限制",
+    "未展开本地 findings 存储格式、数据库迁移与兼容性细节",
+    "Codex Security Cloud 的账号可用范围与资格条件未详细说明"
+  ],
   "quality_flags": [],
-  "stars_total": 13939,
+  "stars_total": 14089,
   "created_at": "2026-07-13",
-  "pushed_at": "2026-11-17",
-  "latest_release": "npm-v0.10.0",
+  "pushed_at": "2026-11-18",
+  "latest_release": "npm-v0.10.1",
   "first_seen": "2026-11-12",
-  "last_seen": "2026-11-18",
-  "streak_days": 5,
-  "analysis_updated_at": null,
+  "last_seen": "2026-11-19",
+  "streak_days": 6,
+  "analysis_updated_at": "2026-11-19T04:31:56+0800",
   "appearances": [
     {
       "date": "2026-11-12",
@@ -72,6 +82,13 @@
       "stars_total": 13939,
       "stars_gained": 2352,
       "release": "npm-v0.10.0"
+    },
+    {
+      "date": "2026-11-19",
+      "reason": "release_update",
+      "stars_total": 14089,
+      "stars_gained": 2531,
+      "release": "npm-v0.10.1"
     }
   ]
 }

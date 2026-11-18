@@ -27,32 +27,32 @@
   ],
   "license": "MIT",
   "category": "AI 应用",
-  "classify_reason": "多模型 AI bot 平台",
-  "one_liner": "本地优先多模型 AI 机器人：后台任务、操作电脑、按量付费",
-  "why_worth_it": "给想自托管多模型的人：不是聊天玩具，能执行文件/命令/桌面操作，接微信飞书，按量付费。",
+  "classify_reason": "个人多模型 AI 机器人，本地优先",
+  "one_liner": "本地优先多模型 AI 机器人，可后台干活、操作电脑、接微信飞书。",
+  "why_worth_it": "给想用多模型 agent 又不愿被订阅绑死的人：数据留在本机，按量付费，能实操电脑和接入微信/飞书。",
   "tags": [
     "AI Agent",
     "本地优先",
     "多模型",
-    "自托管"
+    "电脑使用"
   ],
-  "confidence": "high",
+  "confidence": "medium",
   "info_gaps": [
-    "未提供与 Grok Bot / OpenAI dots / Claude Duet 的逐项功能对比数据，只有定位描述。",
-    "技术栈中 Python 与 Node.js / Go 的具体分工未说明，仓库语言标记为 Python 但源码运行要求 Node/Go。",
-    "沙箱、权限隔离和文件操作的安全边界细节未在 README 展开。",
-    "未提供 benchmark、响应性能或资源占用数据。",
-    "各聊天渠道（微信/飞书/Telegram/Slack/Discord）的接入配置步骤未在 README 中详细说明。"
+    "README 未给出完整架构：Electron/Python/Go 的具体职责和进程边界无法仅靠构建说明确认",
+    "未提供 benchmark、任务成功率、延迟或资源占用数据",
+    "未说明微信/飞书接入是否需要额外公网服务、登录方式或合规限制",
+    "未说明内置网关与模型供应商之间的请求加密/缓存细节（仅指向 Modelflare 信任中心）",
+    "官方现成 Bot 的实际效果和生成质量无演示数据"
   ],
   "quality_flags": [],
-  "stars_total": 4426,
+  "stars_total": 4622,
   "created_at": "2026-10-27",
-  "pushed_at": "2026-11-16",
-  "latest_release": "v0.1.41",
+  "pushed_at": "2026-11-18",
+  "latest_release": "v0.1.42",
   "first_seen": "2026-11-03",
-  "last_seen": "2026-11-18",
-  "streak_days": 17,
-  "analysis_updated_at": "2026-11-17T06:04:24+0800",
+  "last_seen": "2026-11-19",
+  "streak_days": 18,
+  "analysis_updated_at": "2026-11-19T04:34:31+0800",
   "appearances": [
     {
       "date": "2026-11-03",
@@ -172,6 +172,13 @@
       "stars_total": 4426,
       "stars_gained": 0,
       "release": "v0.1.41"
+    },
+    {
+      "date": "2026-11-19",
+      "reason": "release_update",
+      "stars_total": 4622,
+      "stars_gained": 0,
+      "release": "v0.1.42"
     }
   ]
 }

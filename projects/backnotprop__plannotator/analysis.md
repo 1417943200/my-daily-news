@@ -1,46 +1,39 @@
 ## 它是什么
-
-Plannotator 是一个本地优先的浏览器审查面板，通过插件、钩子和 slash commands 直接接入 Claude Code、Codex、Gemini CLI、OpenCode 等 AI 编码代理。代理产出计划、Markdown、HTML 或 diff 时，浏览器会打开审查界面；人工注释、评论后可一键把反馈发回代理，作为下一轮输入，不长时间占用 agent 会话。
+Plannotator 是一个本地、基于浏览器的 AI 编码代理审查界面，支持标注计划、规格、Markdown、HTML 等工件，审查本地/远程代码差异和 PR，并将反馈直接发送回代理。它通过插件、hooks 和命令与 Claude Code、Codex、Copilot CLI、Gemini CLI、OpenCode 等集成，也支持个人助理代理。新版 Plannotator Inbox 作为多 agent 的统一收件箱。
 
 ## 为什么火
-
-13k+ Star 且发版频繁（v0.28.x），说明 AI 编码代理用户在人工把关和异步协作上有明显需求。它把多 agent 场景下分散的审查入口收拢到一个本地 Inbox，解决反馈滞后和会话阻塞问题，同时也支持 Git、GitButler、Jujutsu、Perforce 等常见 VCS。
+- 13.4k star（截至数据），快速迭代（v0.28.63 到 v0.29.0 多个功能发布），解决真实痛点：多代理产出物需要人工审查和决策。
+- 极客友好：本地优先、浏览器界面、终端版本（Herdr Annotate/TUI）、支持多种 VCS（Git, GitButler, Jujutsu, Perforce, GitHub, GitLab）。
 
 ## 技术栈
-
-- 项目类型：TypeScript，本地可执行，浏览器 UI + 本地服务
-- 集成方式：插件 / hooks / slash commands；Claude Code 通过插件市场安装，Codex 走 Stop hook，Pi 和 OpenCode 用插件，其他 agent 可通过 MCP 接入
-- VCS 与平台：Git、GitButler、Jujutsu（jj）、Perforce（p4）、GitHub、GitLab
-- 终端：Herdr Annotate 或独立 Plannotator TUI
-- 分享：小内容内嵌链接，大内容加密上传并 7 天过期
-- README 未明确前端框架、本地服务端口和运行时依赖
+- 语言：TypeScript
+- 安装：安装脚本自动检测已安装 agent，配置 hooks/skills/slash 命令
+- 集成方式：插件（Amp）、Claude Code plugin marketplace、Codex hooks/skills、MCP（用于其他 agent 接入 Inbox）
+- 本地代理：支持本地 proxy 打开 live site
 
 ## 核心能力
-
-- 注释任意文档：本地 Markdown 文件或文件夹、URL、HTML 渲染、代理最后一条消息
-- 代码审查：uncommitted diff、GitHub PR、GitLab MR、GitButler workspace、静态 patch file；支持 Guided review 把 diff 分成章节并按重要程度排序
-- Inbox 统一收件箱：代理可留下消息、问题、文件和引导审查，用户异步回复；回复发回提问的 agent 会话
-- Plan mode：通过 agent hooks 自动打开计划审查，不需要手动命令
-- 终端审查：Herdr 插件或 TUI 可在终端审 Markdown 与代理回复，反馈直接作为下一条消息
-- AI 内置：审查时可问 AI，也可发起 AI review 在 diff 上发评论
+- 文档/HTML 标注：标注本地文件、文件夹、URL、渲染 HTML，支持 live site
+- Code Review：审查 uncommitted changes、GitHub PR、GitLab MR、GitButler workspace、patch file；提供 guided review（agent 将 diff 分章节）
+- Inbox：统一收件箱，支持消息、问题、文件、引导式审查，异步回复，支持多 agent
+- AI built in：审查时问 AI 或启动 AI 审查
+- 共享：链接分享，小分享内嵌，大分享加密上传7天过期
+- 终端版本：Herdr Annotate 与 Plannotator TUI
 
 ## 适用场景
-
-- 同时使用多个 AI 编码 agent 的个人开发者，想要一个统一审查入口
-- 需要人工批准计划或 spec 后再让 agent 继续执行的流程
-- 对代码 diff、PR、MR 做带注释的人工 review 并回传 agent
-- 重视本地优先、不希望把工作代码上传到第三方审查服务的团队或个人
+- 使用 AI coding agents 的开发者/团队，需要审查 plans、specs、代码变更，并与 agent 闭环沟通
+- 多 agent 环境（Claude Code + Codex + Pi 等）统一收口审查与反馈
+- 本地优先、隐私敏感的用户（支持 Tailscale 限制本机账户）
+- 代码评审工作流，特别是 GitButler/Jujutsu 等现代 VCS 用户
 
 ## 同类对比
-
-Plannotator 类似一个跨 agent 的 review 中间层：功能上兼顾文档注释、代码审查和异步收件箱。相比单个 agent 自带 review 或 GitHub PR review，它更通用、更本地化，且不阻塞 agent 会话。README 未提供与具体工具的对照数据或 benchmark，选型前建议确认自己的 agent 组合和 VCS 是否在支持列表内。
+README 未直接列出竞品。从定位看，较接近的可能是 GitHub/GitLab 内置 review、JetBrains IDE 审查工具、以及 agent 对话界面；Plannotator 的差异在于：本地浏览器跨 agent、统一收件箱、注释直接回流给 agent、支持多种 VCS 和现代工具（GitButler, Jujutsu, Perforce）。但需注意没有基准数据，且 Workspaces 团队功能仍在 waitlist。
 
 ## 版本动态
-
-最近 Release 为 v0.28.67（2026-11-17）。从 Release 列表看迭代非常密集，持续补齐多 agent 覆盖（Grok Bot、Hermes、OpenClaw、Muse Code 等）、Inbox 体验（批量归档、优先级、tag、Tailscale 账户限制）、跨机器 tag 以及 GitLab 全文件评论等。项目处于快速活跃期。
+- 最新 v0.29.0（2026-11-18），Release notes 展示高频迭代：线程拖拽、标签、批量操作、Tailscale 支持、撤回回复、更小更新包、GitLab 文件级线程等。
+- 说明项目活跃，持续加入跨 agent 支持和移动端适配（iPhone/iPad 滑动手势）。
 ---
 
 ## ℹ️ 置信度与信息盲区
 
 - 置信度：**high**
-- 信息盲区：README 未给出前端框架、本地服务端口、运行时依赖等实现细节；未提供性能、资源占用或 benchmark 数据；分享加密上传的具体服务端点与安全细节未说明；没有与同类工具的直接对比数据；README 被截断，可能缺少高级配置或自托管部署说明
+- 信息盲区：未提供性能指标或资源占用数据；Workspaces（团队共享空间）尚未公开，仍在 waitlist，无定价/细节；未说明对大型 PR/diff 的性能表现；未说明对非 TypeScript 项目的特殊依赖（如是否要求 Node.js 等）；README 未提供与竞品的直接对比或 benchmark

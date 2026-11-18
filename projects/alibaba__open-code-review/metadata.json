@@ -13,32 +13,32 @@
   ],
   "license": "Apache-2.0",
   "category": "AI 应用",
-  "classify_reason": "LLM 代码审查工具",
-  "one_liner": "阿里 AI 代码审查：混合架构，行级精准省 token",
-  "why_worth_it": "确定性流程约束 LLM，解决通用 Agent 漏文件/定位漂移，精度更高、成本约1/9",
+  "classify_reason": "带 LLM Agent 的代码审查工具",
+  "one_liner": "阿里开源 AI 代码评审 CLI：确定性管道 + LLM Agent，行级精准评论",
+  "why_worth_it": "解决通用 Agent 评审的覆盖不全、漂移和高 token 成本；适合 CI 集成、精准优先团队。",
   "tags": [
-    "代码审查",
-    "LLM Agent",
+    "代码评审",
+    "AI Agent",
     "Go",
-    "CLI"
+    "CI/CD"
   ],
   "confidence": "high",
   "info_gaps": [
-    "README 未列出具体支持语言完整清单（benchmark 提到 10 种语言，但未逐个说明）",
-    "未提供与专用代码审查工具（如 CodeRabbit 等）的直接对比，仅对比通用 Claude Code Agent",
-    "内置规则集只举例 NPE/线程安全/XSS/SQL 注入，未给全量规则列表",
-    "未说明不同 provider 的认证/配置细节，需到官网 docs 查看",
-    "Star 数和趋势图来自页面 badge，建议核实统计口径"
+    "README 未列出内置规则集完整语言覆盖范围",
+    "未说明 Go 核心与 npm 包的关系（是否 npm 包装 Go 二进制）",
+    "AACR-Bench 未给出具体 Recall/Precision/F1 数值和对比模型版本",
+    "未列出所有内置 provider 及自定义 provider 配置字段",
+    "examples/ 目录存在但未展示各 CI 配置具体内容"
   ],
   "quality_flags": [],
-  "stars_total": 53644,
+  "stars_total": 54158,
   "created_at": "2026-05-18",
-  "pushed_at": "2026-11-17",
-  "latest_release": "v1.13.11",
+  "pushed_at": "2026-11-18",
+  "latest_release": "v1.13.12",
   "first_seen": "2026-07-24",
-  "last_seen": "2026-11-18",
-  "streak_days": 33,
-  "analysis_updated_at": "2026-11-18T04:53:42+0800",
+  "last_seen": "2026-11-19",
+  "streak_days": 34,
+  "analysis_updated_at": "2026-11-19T04:30:55+0800",
   "appearances": [
     {
       "date": "2026-07-24",
@@ -270,6 +270,13 @@
       "stars_total": 53644,
       "stars_gained": 3056,
       "release": "v1.13.11"
+    },
+    {
+      "date": "2026-11-19",
+      "reason": "release_update",
+      "stars_total": 54158,
+      "stars_gained": 3675,
+      "release": "v1.13.12"
     }
   ]
 }

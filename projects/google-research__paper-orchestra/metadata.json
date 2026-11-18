@@ -9,38 +9,44 @@
   ],
   "license": "Apache-2.0",
   "category": "AI 应用",
-  "classify_reason": "多 agent 论文写作框架",
-  "one_liner": "把实验记录和想法自动写成 LaTeX 论文的多智能体框架",
-  "why_worth_it": "研究者快速产出论文初稿，多智能体编排文献与图表；但数据集未开源需自备。",
+  "classify_reason": "多智能体论文写作框架",
+  "one_liner": "多智能体把研究草稿和实验日志变成可投 LaTeX 论文。",
+  "why_worth_it": "适合想自动化论文初稿、文献综述和图表的研究者；缺点是数据集未开源、效果需自测。",
   "tags": [
-    "多智能体",
+    "Agent框架",
     "论文写作",
     "LaTeX",
-    "LLM"
+    "多智能体"
   ],
   "confidence": "medium",
   "info_gaps": [
-    "数据集未发布，无法复现或评估生成质量",
-    "README 未提供 benchmark、生成质量或人工评估结果",
-    "未列出 requirements.txt 的具体依赖",
-    "未说明是否依赖本地 LaTeX 编译环境",
-    "未提供与同类工具的直接对比"
+    "未提供基准/评估数据（autoraters 仅有目录，未说明具体指标）",
+    "数据集未开源，需等待后续发布",
+    "未说明各 LLM 模型具体版本或 token 成本",
+    "未提供详细架构图或论文正文链接（仅 arXiv 编号）"
   ],
   "quality_flags": [],
-  "stars_total": 2818,
+  "stars_total": 4150,
   "created_at": "2026-05-01",
   "pushed_at": "2026-11-15",
   "latest_release": null,
   "first_seen": "2026-11-18",
-  "last_seen": "2026-11-18",
-  "streak_days": 1,
-  "analysis_updated_at": "2026-11-18T04:50:55+0800",
+  "last_seen": "2026-11-19",
+  "streak_days": 2,
+  "analysis_updated_at": "2026-11-19T04:32:33+0800",
   "appearances": [
     {
       "date": "2026-11-18",
       "reason": "new",
       "stars_total": 2818,
       "stars_gained": 1175,
+      "release": null
+    },
+    {
+      "date": "2026-11-19",
+      "reason": "star_jump",
+      "stars_total": 4150,
+      "stars_gained": 1529,
       "release": null
     }
   ]

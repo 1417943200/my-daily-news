@@ -1,40 +1,47 @@
 ## 它是什么
-agentes.chat 是一个开源自托管的 Slack 替代品，团队和 AI 代理在同一个频道/DM 中协作。代理拥有角色、所有者、预算，模型可选 Claude、ChatGPT/Codex、Gemini、Grok 或任何 OpenRouter 模型，使用 MCP 工具，并拥有自己的计算机和浏览器。自托管免费（AGPL-3.0），也有托管云服务。
+
+开源、自托管的团队聊天工具，定位为 Slack 替代。AI agents 不是侧边栏机器人，而是作为工作区成员进入频道和 DM，有角色、所有者和月度预算，模型调用会被记录。支持 Claude、ChatGPT/Codex、Gemini、Grok、OpenRouter 等，并通过 MCP 连接外部工具。提供 Web、桌面和手机端，默认 Docker Compose + Postgres 部署，AGPL-3.0。
 
 ## 为什么火
-它将 AI 代理作为工作区的一等成员，而非侧边栏机器人，代理能读频道、回答、交接工作；安全性默认内置，敏感操作等人工审批，模型调用按代理预算记录；代理有真实浏览器和电脑可观看/接管；自托管一条命令，仅依赖 Postgres。
+
+它解决团队沟通和 AI 执行割裂的问题：把代理放进真实工作流，代理在公开频道里干活、提问、等待审批，重要操作默认需要人类批准，而不是黑盒自动执行。相比给 Slack 外挂 bot，这个项目把审批、预算、电脑、浏览器、routines、memory 都做进产品里，开箱即用。自托管免费且无 license key，对隐私敏感团队有吸引力。仓库 2026-11-09 创建，约 9 天获得 1713 stars。
 
 ## 技术栈
-服务端 Bun + Hono + Drizzle + PostgreSQL（含 pgvector）；Web 端 React + Vite + TanStack；手机 Expo；桌面 Tauri。Docker Compose + Postgres。AGPL-3.0，setup CLI 为 MIT。
+
+- 服务端：Bun、Hono、Drizzle、PostgreSQL（pgvector）
+- Web：React + Vite + TanStack
+- 手机：Expo（iPhone/Android）
+- 桌面：Tauri（macOS、Windows、Linux）
+- 部署：Docker Compose；安装脚本可接入 Tailscale 私有 HTTPS，或使用 Caddy 公网域名；无 Docker 模式为 Beta
 
 ## 核心能力
-- 频道、线程、DM；公共/私有频道，与代理或人的 DM。
-- 代理：角色、指令、模型、月度预算、所有者审批。
-- 路由器：未提及的消息由代码初筛，小模型 Jev 或简单规则决定哪些代理应答（最多四个）。
-- 审批：合并、部署、回滚等敏感操作等待所有者在聊天中批准。
-- 连接器（MCP）：一次连接 Linear、Sentry、Notion、Stripe 等，通过 Composio 可接 Google Workplace、Slack、Teams 等。
-- 技能：Markdown SKILL.md，从 zip/GitHub/编辑器加载，带版本。
-- 例程：按计划（如每个工作日 9 点）或事件（PR、Sentry issue、新任务）触发，交付到频道/DM/Drive。
-- 记忆：代理从对话中保留决策/事实/偏好，从纠正和拒绝中学习，可提议修改自身指令供人接受。
-- Wiki、Drive、任务板、通知。
-- 代理计算机：可运行命令/代码，连接服务器/VM/笔记本；浏览器 Beta 可观看/接管其操作。
-- Claude Code 和 Codex 集成；Postgres 连接器（Beta，只读 SQL）；代理邮箱（Beta）。
-- 导入：可从 Grok Bot、ChatGPT dots、OpenBot.run、OpenMausBot、Hermes Agent 等迁移。
-- 14 种语言。
+
+- **频道/线程/DM**：公共/私有频道、与人和代理的 DM、线程；未 @提及的消息由 router 决定最多 4 个代理回答。
+- **审批机制**：合并、部署、回滚及连接器标记的敏感操作必须由代理所有者或管理员批准，批准后只执行一次。
+- **MCP 连接器**：官方支持 Linear、Sentry、Notion、Stripe 等一键接入，也可通过 URL 接入任意 MCP server；Composio 扩展 Google Drive、Calendar、Slack、Teams 等。
+- **代理电脑与浏览器**：代理在已连接的电脑上执行命令/代码；浏览器为 Beta，可实时观看或接管登录/验证码。
+- **Claude Code/Codex**：代理可在已连接电脑上使用本机登录的计划运行 Claude Code 或 Codex。
+- **Routines/Memory/Wiki/Drive/Tasks**：定时或事件触发任务、长期记忆学习、带版本的知识库和文件、看板任务。
+- **多语言与迁移**：14 种语言；可从 Grok Bot、ChatGPT dots、OpenBot.run 等导入 agents、skills、channels、routines 和 memory。
 
 ## 适用场景
-- 需要团队聊天与 AI 代理深度集成、敏感操作审批的小型到中型团队。
-- 希望自托管 Slack 替代并自行保留数据的组织。
-- 想让代理执行实际任务（浏览器操作、代码、数据库查询、邮件）的自动化场景。
+
+适合小团队或个人私有化部署团队协作，尤其是需要 AI 实际执行开发、运维、知识整理等工作，同时要求审批留痕、预算可控的场景。也适合想从单机 agent 应用迁移到共享工作区的用户。数据敏感、不希望使用云端 AI 助手的企业可以用自己的模型 key 和 MCP 连接器组合。
 
 ## 同类对比
-与 Slack/Teams + AI 机器人相比，代理是一等工作区成员，拥有预算、审批、电脑/浏览器；与单机代理应用（Grok Bot、ChatGPT dots、OpenBot.run、OpenMausBot）相比，提供多人协作、审批和导入功能；与 Mattermost/Element 相比，内建代理执行能力而非插件。
+
+- **对比 Slack + AI bot**：agentes.chat 把代理视为一等成员，内建审批、预算、电脑/浏览器和记忆，不是外挂机器人。
+- **对比单机 agent 应用**（Grok Bot、ChatGPT dots、OpenBot.run 等）：提供团队共享、多代理协作和导入迁移，且支持自托管。
+- **对比通用 agent 框架**：更偏产品化，开箱即用，但深度扩展主要依赖 MCP 和已有连接器，自定义灵活性可能不如纯框架。
 
 ## 版本动态
-最新 Release desktop-v0.8.11（2026-11-16）修复 Windows/Linux 图标、Linux 兼容模式、长路径启动；代理浏览器崩溃报告与恢复；语音消息；审批设置；任务多受让人；计划使用拆分；Grok Build 单点登录；MCP 请求头；Bitwarden 修复；公司变更为 AGENTESCHAT, LLC。项目创建于 2026-11-09，Star 1618，活跃开发。
+
+- 最新版本 v0.1.6（2026-11-18）：气泡聊天样式中卡片随消息展示；修复手机端侧栏标题、工作行和消息栏视觉问题；operator API 可通过 email 回复成员支持请求，需 reveal token；更新法律条款。
+- 仓库创建 2026-11-09，最近推送 2026-11-18，迭代速度较快。
+- 手机端、桌面端、浏览器、邮箱、导入、无 Docker 部署均为 Beta，说明仍处于快速演进阶段。
 ---
 
 ## ℹ️ 置信度与信息盲区
 
 - 置信度：**high**
-- 信息盲区：未提供基准测试数据（性能、吞吐量、资源占用）；部署资源推荐仅提及 8GB 内存以下有限制，未给不同规模建议；MCP 连接器具体授权流程细节未完全说明；桌面应用 Beta 在 macOS 未公证、Windows 未签名，手机应用商店分发状态未说明；导入功能支持的具体应用版本兼容性未说明
+- 信息盲区：未提供 benchmark 或性能数据，也未明确最小内存/CPU/磁盘资源要求；未说明多租户数据隔离和权限模型的实现细节；手机、桌面、浏览器、邮箱、导入、无 Docker 部署均标记为 Beta，稳定性未经验证；未公开测试覆盖率、CI 通过率或安全审计报告；社区规模、贡献者活跃度及商业托管价格未在 README 中详细说明

@@ -15,7 +15,7 @@
   ],
   "license": "Apache-2.0",
   "category": "AI 应用",
-  "classify_reason": "Chrome DevTools MCP for coding agents",
+  "classify_reason": "面向编码 Agent 的 Chrome 开发者工具 MCP",
   "one_liner": "官方 MCP 让编码代理直接操控、调试并分析实时 Chrome。",
   "why_worth_it": "提供编码代理可靠的浏览器自动化、调试与性能分析；官方出品，比直接用 Puppeteer 更贴合 MCP 生态。",
   "tags": [
@@ -32,13 +32,13 @@
     "使用统计具体字段未在 README 全部列出，仅说明包含成功率、延迟、环境信息"
   ],
   "quality_flags": [],
-  "stars_total": 58009,
+  "stars_total": 58200,
   "created_at": "2025-09-11",
-  "pushed_at": "2026-11-17",
+  "pushed_at": "2026-11-18",
   "latest_release": "chrome-devtools-mcp-v1.13.0",
   "first_seen": "2026-07-03",
-  "last_seen": "2026-11-18",
-  "streak_days": 8,
+  "last_seen": "2026-11-19",
+  "streak_days": 9,
   "analysis_updated_at": "2026-11-17T06:03:38+0800",
   "appearances": [
     {
@@ -95,6 +95,13 @@
       "reason": "lightweight",
       "stars_total": 58009,
       "stars_gained": 2593,
+      "release": "chrome-devtools-mcp-v1.13.0"
+    },
+    {
+      "date": "2026-11-19",
+      "reason": "lightweight",
+      "stars_total": 58200,
+      "stars_gained": 2948,
       "release": "chrome-devtools-mcp-v1.13.0"
     }
   ]

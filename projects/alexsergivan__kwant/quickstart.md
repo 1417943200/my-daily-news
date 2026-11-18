@@ -1,15 +1,14 @@
-### 安装
+## 安装
+- macOS：下载 `kwant_universal.dmg`，拖入 Applications。首次打开因未公证，需到「系统设置 → 隐私与安全性」点击“仍要打开”。
+- Linux：`.deb` 适用于 Ubuntu 22.04+/Debian 12+，`sudo apt install ./kwant_amd64.deb`；或 `AppImage` 加执行权限运行。
+- 服务器：`curl -fsSL https://kwant.si/install.sh | sh`（无 sudo，自动注册为服务并输出登录链接）；或克隆仓库后 `docker compose up -d`（镜像 `ghcr.io/alexsergivan/kwnt:0.9.25`）。
+- Windows（beta）：运行 `kwant_0.9.25_windows_x64_beta_setup.exe`，仅安装给当前用户。
 
-- **macOS**：下载 `kwant_universal.dmg`，拖入 Applications。首次打开因未公证需在 系统设置 → 隐私与安全性 → Open Anyway 允许。
-- **Linux 桌面**：`kwant_amd64.deb`（Ubuntu 22.04+ / Debian 12，`sudo apt install ./kwant_amd64.deb`）或 `kwant_x86_64.AppImage`（其他 GTK 发行版，`chmod +x` 后运行）。
-- **自托管服务器**：一键脚本 `curl -fsSL https://kwant.si/install.sh | sh`（需 glibc 2.35+，无 sudo，作为用户服务运行并打印一次性登录链接）；或 `docker compose up -d`（镜像 `ghcr.io/alexsergivan/kwnt:0.9.21`）。
-- **Windows (beta)**：`kwant_0.9.21_windows_x64_beta_setup.exe` 用户级安装。
+## 最小可用示例
+启动后，一个全新安装会自动创建 `@helpers` 团队（Assistant、Researcher、Writer），`#general` 频道会问“What do you want done?”，直接回复任务即可看到 bot 分工执行。也可以新建 space、@mention 其他 bot 进行 handoff。
 
-### 最小可用示例
-
-1. 启动 kwant（桌面应用或服务器脚本输出的一次性链接）。
-2. 在 Web UI 中连接你的 AI 账户（Claude/Codex/Grok CLI）或填入自己的 API keys。
-3. 创建 space（如工作/生活隔离），添加 bot；新安装预置 @helpers（Assistant、Researcher、Writer）。
-4. 在 #general 输入任务或用 @提及 指定 bot；任务以卡片流转，关键产出需通过验证或审批。
-
-> 依赖前提：macOS 11+ 或 Linux glibc 2.35+；需要能访问所选 AI 服务。完整配置步骤以官方 quickstart 为准：https://kwant.si/docs/quickstart （README 截断未包含全部细节）。
+## 依赖前提
+- macOS 11+（Intel 或 Apple silicon）；Linux x86_64 需要 glibc 2.35+，或 arm64 服务器；Windows 64 位（beta）。
+- 需要自己提供 AI 账号或 API key：可连接 Claude/Codex/Grok CLI，或在设置中填入自己的 API key。
+- 浏览器自动化等功能可能需要额外服务或配置，具体参考 `docs/bot-browser.md`、`docs/connections.md`。
+- 本地数据存放在 `~/.kwnt`（Mac app 也使用同一文件夹）。

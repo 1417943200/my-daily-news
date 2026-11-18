@@ -1,0 +1,58 @@
+{
+  "full_name": "Dodaios/ste80-humanizer",
+  "url": "https://github.com/Dodaios/ste80-humanizer",
+  "description": "STE80 Humanizer: agent skill that removes AI tells and rewrites text 80% of the way to ASD-STE100 (Simplified Technical English), the method Andrej Karpathy shared.",
+  "language": "Python",
+  "topics": [
+    "agent-skills",
+    "ai-writing",
+    "asd-ste100",
+    "claude-code",
+    "claude-skills",
+    "codex",
+    "cursor",
+    "humanize-ai-text",
+    "humanizer",
+    "karpathy",
+    "llm",
+    "plain-language",
+    "simplified-technical-english",
+    "writing"
+  ],
+  "license": "MIT",
+  "category": "AI 应用",
+  "classify_reason": "去除 AI 痕迹的文本改写 Agent Skill",
+  "one_liner": "把 AI 文本改得像人写的：去 AI 套话 + STE80 结构重写",
+  "why_worth_it": "解决 LLM 输出读着累的痛点，给编码 agent 装一个可复用的人类化技能，比单独去 tell 更彻底",
+  "tags": [
+    "Agent Skills",
+    "AI写作",
+    "Claude Code",
+    "ASD-STE100"
+  ],
+  "confidence": "medium",
+  "info_gaps": [
+    "Pass 2 的 15 条 STE80 规则（S1-S15）细节在 README 截断部分未展示，需查看 SKILL.md 或 references/ste80-rules.md",
+    "未提供与其他 humanizer 或普通 prompt 的量化对比数据（README 仅提及 Tests，未展示结果）",
+    "未说明 Python 在此项目中的具体用途（仓库标注 Python，但技能主要靠声明式指令）",
+    "未说明安装 skills CLI 所需的 Node.js 具体版本要求"
+  ],
+  "quality_flags": [],
+  "stars_total": 846,
+  "created_at": "2026-11-09",
+  "pushed_at": "2026-11-18",
+  "latest_release": null,
+  "first_seen": "2026-11-19",
+  "last_seen": "2026-11-19",
+  "streak_days": 1,
+  "analysis_updated_at": "2026-11-19T04:28:48+0800",
+  "appearances": [
+    {
+      "date": "2026-11-19",
+      "reason": "new",
+      "stars_total": 846,
+      "stars_gained": 0,
+      "release": null
+    }
+  ]
+}
